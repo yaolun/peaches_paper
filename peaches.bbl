@@ -5,6 +5,11 @@
 \bibitem[{{Aikawa}(2013)}]{2013ChRv..113.8961A}
 {Aikawa}, Y. 2013, Chemical Reviews, 113, 8961
 
+\bibitem[{{Belloche} {et~al.}(2020){Belloche}, {Maury}, {Maret}, {Anderl},
+  {Bacmann}, {Andr{\'e}}, {Bontemps}, {Cabrit}, {Codella}, {Gaudel}, {Gueth},
+  {Lef{\`e}vre}, {Lefloch}, {Podio}, \& {Testi}}]{2020A&A...635A.198B}
+{Belloche}, A., {Maury}, A.~J., {Maret}, S., {et~al.} 2020, \aap, 635, A198
+
 \bibitem[{{Bottinelli} {et~al.}(2004){Bottinelli}, {Ceccarelli}, {Lefloch},
   {Williams}, {Castets}, {Caux}, {Cazaux}, {Maret}, {Parise}, \&
   {Tielens}}]{2004ApJ...615..354B}
@@ -20,6 +25,11 @@
   \& {M{\"u}ller}}]{2016JMoSp.327...95E}
 {Endres}, C.~P., {Schlemmer}, S., {Schilke}, P., {Stutzki}, J., \&
   {M{\"u}ller}, H. S.~P. 2016, Journal of Molecular Spectroscopy, 327, 95
+
+\bibitem[{{Graninger} {et~al.}(2016){Graninger}, {Wilkins}, \&
+  {{\"O}berg}}]{2016ApJ...833..125G}
+{Graninger}, D.~M., {Wilkins}, O.~H., \& {{\"O}berg}, K.~I. 2016, \apj, 833,
+  125
 
 \bibitem[{{Herbst} \& {van Dishoeck}(2009)}]{2009ARA&A..47..427H}
 {Herbst}, E., \& {van Dishoeck}, E.~F. 2009, \araa, 47, 427
@@ -114,5 +124,10 @@
   {Kristensen}, {J{\o}rgensen}, {Gurwell}, \& {Goodman}}]{2019ApJS..245...21S}
 {Stephens}, I.~W., {Bourke}, T.~L., {Dunham}, M.~M., {et~al.} 2019, \apjs, 245,
   21
+
+\bibitem[{{Tychoniec} {et~al.}(2018){Tychoniec}, {Tobin}, {Karska}, {Chand
+  ler}, {Dunham}, {Harris}, {Kratter}, {Li}, {Looney}, {Melis}, {P{\'e}rez},
+  {Sadavoy}, {Segura-Cox}, \& {van Dishoeck}}]{2018ApJS..238...19T}
+{Tychoniec}, {\L}., {Tobin}, J.~J., {Karska}, A., {et~al.} 2018, \apjs, 238, 19
 
 \end{thebibliography}

@@ -178,23 +178,74 @@ Figure\,\ref{fig:continuum} shows the images of the continuum along with the fit
   \label{fig:continuum}
 \end{figure*}
 
+Three sources, EDJ2009-237, Per-emb-60, and EDJ2009-172, have no spectral line detected; therefore, we exclude them from spectral extraction as well as the line identification and modeling.  \textcolor{red}{These threee sources still need to be included for detection number statistics.}
+
 \subsection{Line Identifications and Modeling}
+\label{sec:modeling}
 Line identification starts with manual identification and verification for a few sources with rich spectra, including Per-emb-12B and B1-bS.  We use \textsc{splatalogue}\footnote{\href{http://www.splatalogue.net/}{http://www.splatalogue.net/}} to identity the molecular species and use \textsc{xclass} \citep{2017A&A...598A...7M} to verify the identification.  The \textsc{xclass} package is a LTE radiative transfer code that uses the molecular data from the Cologne Database of Molecular Spectroscopy (CDMS; \citealt{2001A&A...370L..49M,2005JMoSt.742..215M,2016JMoSp.327...95E}) and the Jet Propulsion Laboratory (JPL; \citealt{1998JQSRT..60..883P}).  An identification needs to satisfy the following criteria.
 \begin{itemize}
   \item The spectra agree with the predicted strengths of the model.
-  \item The spectral lines are not all blended with other emission, such as other molecules and the SiO emission tracing the outflows.  The emission of a few species, such as HDCO \& \tmethanol, \acetaldehyde\ \& \dmethanol, $^{34}$SO \& \ethanol, and \dimethylether\ \& \dmethylcyanide, are partially blended (blending occurs at a few lines but other lines remain isolated).  The fittings of those species are performed together to verify their identification.
+  \item The spectral lines are not all blended with other emission, such as other molecules and the SiO emission tracing the outflows.  The emission of a few species, such as HDCO \&\ \tmethanol, \acetaldehyde\ \&\ \dmethanol, $^{34}$SO \&\ \ethanol, and \dimethylether\ \&\ \dmethylcyanide, are partially blended (blending occurs at a few lines but other lines remain isolated).  The fittings of those species are performed together to verify their identification.
   \item Identified molecules need to be already found toward young stellar objects as summarized in \citet{2018ApJS..239...17M}. 
 \end{itemize}
 Table\,\ref{tbl:line_id} lists the identified species and transitions.  Only identifiable transitions are listed.  The \textsc{xclass} modeling includes all the transitions in our frequency coverage regardless their Einstein-A values and upper energy levels.  
 
-Systematic spectral fitting using \textsc{xclass} is then applied to all sources using a list of species, compiled from those identifications.  The catalogs used in this study are listed in Appendix\,\ref{sec:catalogs}  The fitting function in \textsc{xclass} includes several optimization algorithms that can be used in series to reduce biases.  We configure the algorithm chain that starts with the genetic algorithm followed by the Levenberg-Marquardt $\chi^{2}$ minimization.  The genetic algorithm searches the best-fitting parameters iteratively with generations that evolve like a natural selection, where the better fitting models get less modification over generations.  We setup the genetic algorithm to search for the three best-fitting models after five generations.  Then, the Levenberg-Marquardt $\chi^{2}$ minimization applies to the three best-fitting models for 50 iterations to the best-fitting models.  We assume the COMs are all concentrated at the center, simplified as a 2D thin circular disk.  There are four parameters for the \textsc{xclass} modeling, the size of the emitting molecule ($r_\text{COM}$), the excitation temperature ($T_\text{ex}$), the column density ($N_\text{COM}$), and the line width ($\Delta \nu$).  Due to the limited frequency coverage, many species only have a few lines detected, we fix $r_\text{COM}$ as 0\farcs{5}, similar to our beam size, and optimize the model with five excitation temperatures, 100, 150, 200, 250, and 300 K.  The range of fitted column densities at different temperatures indicates the uncertainty of the column densities.
+Systematic spectral fitting using \textsc{xclass} is then applied to all sources using a list of species, compiled from those identifications.  The catalogs used in this study are listed in Appendix\,\ref{sec:catalogs}  The fitting function in \textsc{xclass} includes several optimization algorithms that can be used in series to reduce biases.  We configure the algorithm chain that starts with the genetic algorithm followed by the Levenberg-Marquardt $\chi^{2}$ minimization.  The genetic algorithm searches the best-fitting parameters iteratively with generations that evolve like a natural selection, where the better fitting models get less modification over generations.  We setup the genetic algorithm to search for the three best-fitting models after five generations.  Then, the Levenberg-Marquardt $\chi^{2}$ minimization applies to the three best-fitting models for 50 iterations to the best-fitting models.  We assume the COMs are all concentrated at the center, simplified as a 2D thin circular disk.  There are four parameters for the \textsc{xclass} modeling, the size of the emitting molecule ($r_\text{COM}$), the excitation temperature ($T_\text{ex}$), the column density ($N_\text{COM}$), and the line width ($\Delta \nu$).  Due to the limited frequency coverage, many species only have a few lines detected, we fix $r_\text{COM}$ as 0\farcs{5}, similar to our beam size, and optimize the model with five excitation temperatures, 100, 150, 200, 250, and 300 K.  We allow the line width varying between 1.2\,\kms\ to 3.5\,\kms\ for better fitting quality, and the range of the column density for each molecule is chosen according to the strength of the emission.  The range of fitted column densities at different temperatures indicates the uncertainty of the column densities.
+
+The uncertainty from the fitting.
 
 \newpage
 \input{line_id}
 
+\section{Continuum Opacity}
+
+
 \section{Detection Statistics}
+We summarize the fraction of sources with detections of molecules in Figure\,\ref{fig:stats}.  The detection statistics include COMs, carbon-chain molecules, and the simple organic molecules, such as CS, \htcn, SO, $^{34}$SO, and SO$_{2}$.  The PEACHES protostars show a great chemical diversity from no molecule detected (\textcolor{red}{B1-bN}) to rich spectra of COMs (e.g. Per-emb-12B).  Detections of COMs and the number of COMs detected show no obvious correlation with the bolometric luminosity and bolometric temperature of the protostars, which are conventional evolutionary indicators.  Low luminosity sources have fewer COMs detected; however, if COMs mostly come from thermally desorption, the region with $T > T_\text{desorption}$ may be smaller for the low luminosity sources, making the emission of COMs fainter and reducing our sensitivity to detect COMs.  We also compare the detection statistics with the mass derived from 9\,mm observations that resolved the sources as a proxy of the central mass \citep{2018ApJS..238...19T}.  The detection statistics show no clear correlation with the central mass; however, the sources with smaller central mass have fewer detections of COMs, \textcolor{red}{which may due to their low luminosity.}  
+
+\begin{figure*}[htbp!]
+  \centering
+  \includegraphics[width=\textwidth]{stats_sorted_by_lbol.pdf}
+  \caption{The detection statistics sorted by their bolometric luminosity.}
+  \label{fig:stats}
+\end{figure*}
+
+\renewcommand{\thefigure}{\arabic{figure} (Cont.)}
+\addtocounter{figure}{-1}
+\begin{figure*}[htbp!]
+  \includegraphics[width=\textwidth]{stats_sorted_by_tbol.pdf}
+  \caption{The same figure as Figure\,\ref{fig:stats} but sorted by their bolometric temperature.}
+\end{figure*}
+\addtocounter{figure}{-1}
+
+\begin{figure*}[htbp!]
+  \includegraphics[width=\textwidth]{stats_sorted_by_Mcont.pdf}
+  \caption{The same figure as Figure\,\ref{fig:stats} but sorted by their mass derived from their 9\,mm observations \citep{2018ApJS..238...19T}.}
+\end{figure*}
+\renewcommand{\thefigure}{\arabic{figure}}
 
 \section{Correlations of COMs}
+The chemical evolution of protostars may leave certain patterns in the abundance of molecules as the dynamical evolution determines the density and temperature structures, regulating chemical reactions.  Thus, the abundance of COMs and their correlations provide critical information to constrain the chemical evolution at embedded protostars.  The fitted column density of COMs indicates the abundance of COMs around protostars.  Typically COMs are locked into the ices on dust grains at outer envelope.  \textcolor{red}{The formation of COMs at diffuse clouds relies on non-thermal process, such as cosmic rays, whose contribution is negligible compared to the central warm region.}  Therefore, we take the column density of COMs as a proxy of the abundance of COMs.  
+
+As described in Section\,\ref{sec:modeling}, we fit the column density and line width with different excitation temperatures, which result in a range of column density as its uncertainty.  The comparison between CCH and \methanol\ shows no correlation between these two molecules (Figure\,\ref{fig:cch_ch3oh}), similar to the conclusion in \citet{2018ApJS..236...52H}.  The single dish survey by \citet{2016ApJ...833..125G} shows a correlation between C$_{4}$H, a more complex carbon-chain molecules, and \methanol.  Outflow activity can promote the formation of CCH, which is more efficiency at warm temperature.  In face, the morphology of CCH often traces the outflow cavities seen from CS.  Therefore, the lack of correlation between CCH and \methanol\ may be affected by outflows.
+
+Figure\,\ref{fig:corner} shows the correlations of several COMs selected from their detection rates.  The column density of \methanol\ best correlates with that of \methylcyanide.  \citet{2020A&A...635A.198B} also found the tight correlation between these two molecules.
+
+
+\begin{figure}[htbp!]
+  \centering
+  \includegraphics[width=0.47\textwidth]{Ncol_ch3oh_cch.pdf}
+  \caption{Correlation of the column densities of CCH and \methanol\ fitted from the PEACHES protostars.  The sources where both molecules are detected are shown in black; the sources where only one molecule is detected are shown in magenta; finally, the sources where both molecules are not detected are shown in black for the corresponding upper limits.}
+  \label{fig:cch_ch3oh}
+\end{figure}
+
+\begin{figure*}[htbp!]
+  \centering
+  \includegraphics[width=\textwidth]{corner_Ncol.pdf}
+  \caption{Corner plot of the correlations of the column densities between \methanol, \methylcyanide, \methylformate, \dimethylether, \acetaldehyde, \ethylcyanide, and $t$-HCOOH.  The color code follows that in Figure\,\ref{fig:ccg_ch3oh}.  The dashed line indicates equality.}
+  \label{fig:corner}
+\end{figure*}
+
 \section{Spatial Extent of COMs}
 \section{Discussion}
 \subsection{Complex Chemistry throughout Star Formation}

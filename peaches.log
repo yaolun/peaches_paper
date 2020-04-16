@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 APR 2020 18:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 APR 2020 03:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -575,7 +575,12 @@ File: all_continuum.pdf Graphic file (type pdf)
  <use all_continuum.pdf>
 Package pdftex.def Info: all_continuum.pdf used on input line 176.
 (pdftex.def)             Requested size: 513.11743pt x 619.06258pt.
- (./line_id.tex [4] [5 <./all_continuum.pdf>] [6] [7] [8]
+
+Overfull \hbox (10.26762pt too wide) in paragraph at lines 181--182
+[]\OT1/cmr/m/n/10 Three sources, EDJ2009-237, Per-emb-60, and EDJ2009-
+ []
+
+(./line_id.tex [4] [5 <./all_continuum.pdf>] [6] [7] [8]
 Underfull \hbox (badness 10000) detected at line 251
 $\OML/cmm/m/it/7 a$
  []
@@ -585,25 +590,82 @@ Underfull \hbox (badness 10000) detected at line 252
 $\OML/cmm/m/it/7 b$
  []
 
-) (./peaches.bbl [9]) [10]
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
+) <stats_sorted_by_lbol.pdf, id=371, 1126.0068pt x 984.23305pt>
+File: stats_sorted_by_lbol.pdf Graphic file (type pdf)
+ <use stats_sorted_by_lbol.pdf>
+Package pdftex.def Info: stats_sorted_by_lbol.pdf used on input line 208.
+(pdftex.def)             Requested size: 513.11743pt x 448.50255pt.
+ <stats_sorted_by_tbol.pdf, id=372, 1013.98827pt x 907.56075pt>
+File: stats_sorted_by_tbol.pdf Graphic file (type pdf)
+ <use stats_sorted_by_tbol.pdf>
+Package pdftex.def Info: stats_sorted_by_tbol.pdf used on input line 216.
+(pdftex.def)             Requested size: 513.11743pt x 459.27701pt.
+ <stats_sorted_by_Mcont.pdf, id=374, 1059.15695pt x 837.87088pt>
+File: stats_sorted_by_Mcont.pdf Graphic file (type pdf)
+ <use stats_sorted_by_Mcont.pdf>
+Package pdftex.def Info: stats_sorted_by_Mcont.pdf used on input line 222.
+(pdftex.def)             Requested size: 513.11743pt x 405.91942pt.
+ [9] <Ncol_ch3oh_cch.pdf, id=394, 988.54947pt x 726.9201pt>
+File: Ncol_ch3oh_cch.pdf Graphic file (type pdf)
+ <use Ncol_ch3oh_cch.pdf>
+Package pdftex.def Info: Ncol_ch3oh_cch.pdf used on input line 237.
+(pdftex.def)             Requested size: 241.16582pt x 177.33719pt.
+ [10 <./stats_sorted_by_lbol.pdf>] <corner_Ncol.pdf, id=458, 858.49406pt x 856.46764pt>
+File: corner_Ncol.pdf Graphic file (type pdf)
+ <use corner_Ncol.pdf>
+Package pdftex.def Info: corner_Ncol.pdf used on input line 244.
+(pdftex.def)             Requested size: 513.11743pt x 511.93732pt.
+
+
+LaTeX Warning: Reference `fig:ccg_ch3oh' on page 11 undefined on input line 245.
+
+
+LaTeX Warning: Reference `fig:ccg_ch3oh' on page 11 undefined on input line 245.
+
+(./peaches.bbl [11pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \begin{thebibliography}{}
+                              <./stats_sorted_by_tbol.pdf>] [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.55 ...son}, \& {Wampfler}}]{2016A&A...595A.117J}
+                                                   <./stats_sorted_by_Mcont.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 55.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 55.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+) [13 <./Ncol_ch3oh_cch.pdf>]
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 305.
+ [14 <./corner_Ncol.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 305.
  (./peaches.aux)
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 254.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 305.
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 10051 strings out of 493014
- 137703 string characters out of 6133351
- 437056 words of memory out of 5000000
- 13388 multiletter control sequences out of 15000+600000
+ 10109 strings out of 493014
+ 138915 string characters out of 6133351
+ 437715 words of memory out of 5000000
+ 13430 multiletter control sequences out of 15000+600000
  19915 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,13n,37p,2621b,521s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on peaches.pdf (10 pages, 1194762 bytes).
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on peaches.pdf (14 pages, 1573984 bytes).
 PDF statistics:
- 464 PDF objects out of 1000 (max. 8388607)
- 299 compressed objects within 3 object streams
- 52 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 753 PDF objects out of 1000 (max. 8388607)
+ 389 compressed objects within 4 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
