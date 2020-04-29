@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 APR 2020 23:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 APR 2020 14:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -580,7 +580,10 @@ Overfull \hbox (10.26762pt too wide) in paragraph at lines 181--182
 []\OT1/cmr/m/n/10 Three sources, EDJ2009-237, Per-emb-60, and EDJ2009-
  []
 
-(/Volumes/SD/Google Drive/research/PEACHES/manuscript/line_id.tex [4] [5 </Volumes/SD/Google Drive/research/PEACHES/manuscript/all_continuum.pdf>] [6] [7] [8]
+[4] [5 </Volumes/SD/Google Drive/research/PEACHES/manuscript/all_continuum.pdf>] (/Volumes/SD/Google Drive/research/PEACHES/manuscript/line_id.tex
+Overfull \vbox (1.22766pt too high) has occurred while \output is active []
+
+ [6] [7] [8]
 Underfull \hbox (badness 10000) detected at line 254
 $\OML/cmm/m/it/7 a$
  []
@@ -590,146 +593,143 @@ Underfull \hbox (badness 10000) detected at line 255
 $\OML/cmm/m/it/7 b$
  []
 
-) <stats_sorted_by_lbol.pdf, id=371, 1126.0068pt x 984.23305pt>
+) <stats_sorted_by_lbol.pdf, id=371, 1158.1268pt x 1018.60236pt>
 File: stats_sorted_by_lbol.pdf Graphic file (type pdf)
  <use stats_sorted_by_lbol.pdf>
 Package pdftex.def Info: stats_sorted_by_lbol.pdf used on input line 208.
-(pdftex.def)             Requested size: 513.11743pt x 448.50255pt.
- <stats_sorted_by_tbol.pdf, id=372, 1013.98827pt x 907.56075pt>
+(pdftex.def)             Requested size: 513.11743pt x 451.31049pt.
+ [9] <stats_sorted_by_tbol.pdf, id=380, 1046.1082pt x 938.82176pt>
 File: stats_sorted_by_tbol.pdf Graphic file (type pdf)
  <use stats_sorted_by_tbol.pdf>
 Package pdftex.def Info: stats_sorted_by_tbol.pdf used on input line 216.
-(pdftex.def)             Requested size: 513.11743pt x 459.27701pt.
- <stats_sorted_by_Mcont.pdf, id=374, 1059.15695pt x 837.87088pt>
+(pdftex.def)             Requested size: 513.11743pt x 460.49942pt.
+ <stats_sorted_by_Mcont.pdf, id=382, 1059.15695pt x 865.87553pt>
 File: stats_sorted_by_Mcont.pdf Graphic file (type pdf)
  <use stats_sorted_by_Mcont.pdf>
 Package pdftex.def Info: stats_sorted_by_Mcont.pdf used on input line 222.
-(pdftex.def)             Requested size: 513.11743pt x 405.91942pt.
- [9] [10 </Volumes/SD/Google Drive/research/PEACHES/manuscript/stats_sorted_by_lbol.pdf>] <Ncol_ch3oh_cch.pdf, id=456, 988.54947pt x 726.9201pt>
+(pdftex.def)             Requested size: 513.11743pt x 419.48671pt.
+ <Ncol_ch3oh_cch.pdf, id=394, 988.54947pt x 726.9201pt>
 File: Ncol_ch3oh_cch.pdf Graphic file (type pdf)
  <use Ncol_ch3oh_cch.pdf>
-Package pdftex.def Info: Ncol_ch3oh_cch.pdf used on input line 239.
+Package pdftex.def Info: Ncol_ch3oh_cch.pdf used on input line 243.
 (pdftex.def)             Requested size: 241.16582pt x 177.33719pt.
- <corner_Ncol.pdf, id=457, 858.49406pt x 856.46764pt>
-File: corner_Ncol.pdf Graphic file (type pdf)
- <use corner_Ncol.pdf>
-Package pdftex.def Info: corner_Ncol.pdf used on input line 246.
-(pdftex.def)             Requested size: 513.11743pt x 511.93732pt.
+ <pearson_r_ch3oh_ch3cn.pdf, id=395, 534.9705pt x 388.91925pt>
+File: pearson_r_ch3oh_ch3cn.pdf Graphic file (type pdf)
+ <use pearson_r_ch3oh_ch3cn.pdf>
+Package pdftex.def Info: pearson_r_ch3oh_ch3cn.pdf used on input line 250.
+(pdftex.def)             Requested size: 241.16582pt x 175.32063pt.
+ <corner_Ncol_correlations.pdf, id=396, 1290.15865pt x 1289.47948pt>
+File: corner_Ncol_correlations.pdf Graphic file (type pdf)
+ <use corner_Ncol_correlations.pdf>
+Package pdftex.def Info: corner_Ncol_correlations.pdf used on input line 257.
+(pdftex.def)             Requested size: 513.11743pt x 512.85095pt.
 
-
-LaTeX Warning: Reference `fig:ccg_ch3oh' on page 11 undefined on input line 247.
-
-
-LaTeX Warning: Reference `fig:ccg_ch3oh' on page 11 undefined on input line 247.
-
-[11pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.272   \item D
-               ouble-peaked CS line </Volumes/SD/Google Drive/research/PEACHES/manuscript/stats_sorted_by_tbol.pdf>]
-Overfull \hbox (14.12276pt too wide) in paragraph at lines 280--281
+Overfull \hbox (14.12276pt too wide) in paragraph at lines 291--292
 []\OT1/cmr/m/n/10 The best-fitting model over-es-ti-mates the [],
+ []
+
+[10] [11 </Volumes/SD/Google Drive/research/PEACHES/manuscript/stats_sorted_by_lbol.pdf>]
+Underfull \hbox (badness 3271) in paragraph at lines 321--322
+[]\OT1/cmr/m/n/10 Weak in-di-ca-tion of the uniden-ti-fied line at
+ []
+
+
+Overfull \hbox (12.29099pt too wide) in paragraph at lines 327--328
+\OT1/cmr/m/n/10 246254[], 246344[], 246389[], 246434[],
+ []
+
+
+Overfull \hbox (12.29099pt too wide) in paragraph at lines 327--328
+\OT1/cmr/m/n/10 246525[], 246838[], 258268[], 258271[],
+ []
+
+
+Overfull \hbox (12.29099pt too wide) in paragraph at lines 333--334
+\OT1/cmr/m/n/10 246314[], 246322[], 246389[], 246434[],
+ []
+
+
+Overfull \hbox (12.29099pt too wide) in paragraph at lines 333--334
+\OT1/cmr/m/n/10 246525[], 246696[], 246838[], 246873[],
+ []
+
+
+Underfull \hbox (badness 6001) in paragraph at lines 333--334
+\OT1/cmr/m/n/10 247082[], 258268[], 258271[], and
  []
 
 [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.299   \item T
-               he \methylformate\ line at $\sim$259343\mhz\ may be optically... </Volumes/SD/Google Drive/research/PEACHES/manuscript/stats_sorted_by_Mcont.pdf>]
+l.338   \item S
+               trong absorption features detected across the spectra, CCH, S... </Volumes/SD/Google Drive/research/PEACHES/manuscript/stats_sorted_by_tbol.pdf>]
+Overfull \hbox (12.29099pt too wide) in paragraph at lines 350--351
+\OT1/cmr/m/n/10 246331[], 246344[], 246434[], 246525[],
+ []
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 299.
+
+Overfull \hbox (12.29099pt too wide) in paragraph at lines 350--351
+\OT1/cmr/m/n/10 246838[], 246974[], 247086[], 257268[],
+ []
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 299.
+Overfull \hbox (12.29099pt too wide) in paragraph at lines 350--351
+\OT1/cmr/m/n/10 257271[], 259323[], 259331[], 262098[],
+ []
+
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.358   \item U
+               nidentified lines at 244232\mhz, 244248\mhz, 246207\mhz, 2462... </Volumes/SD/Google Drive/research/PEACHES/manuscript/stats_sorted_by_Mcont.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 358.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 358.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 
-Underfull \hbox (badness 3271) in paragraph at lines 310--311
-[]\OT1/cmr/m/n/10 Weak in-di-ca-tion of the uniden-ti-fied line at
- []
-
-
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 316--317
-\OT1/cmr/m/n/10 246254[], 246344[], 246389[], 246434[],
- []
-
-
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 316--317
-\OT1/cmr/m/n/10 246525[], 246838[], 258268[], 258271[],
- []
-
-
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 322--323
-\OT1/cmr/m/n/10 246314[], 246322[], 246389[], 246434[],
- []
-
-
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 322--323
-\OT1/cmr/m/n/10 246525[], 246696[], 246838[], 246873[],
- []
-
-
-Underfull \hbox (badness 6001) in paragraph at lines 322--323
-\OT1/cmr/m/n/10 247082[], 258268[], 258271[], and
- []
-
-
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 339--340
-\OT1/cmr/m/n/10 246331[], 246344[], 246434[], 246525[],
- []
-
-
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 339--340
-\OT1/cmr/m/n/10 246838[], 246974[], 247086[], 257268[],
- []
-
-
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 339--340
-\OT1/cmr/m/n/10 257271[], 259323[], 259331[], 262098[],
- []
-
-
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 347--348
+Overfull \hbox (12.29099pt too wide) in paragraph at lines 358--359
 \OT1/cmr/m/n/10 246207[], 246254[], 246388[], 246435[],
  []
 
 
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 347--348
+Overfull \hbox (12.29099pt too wide) in paragraph at lines 358--359
 \OT1/cmr/m/n/10 246525[], 246538[], 246838[], 246973[],
  []
 
-[13 </Volumes/SD/Google Drive/research/PEACHES/manuscript/Ncol_ch3oh_cch.pdf>] [14 </Volumes/SD/Google Drive/research/PEACHES/manuscript/corner_Ncol.pdf>]
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 416--417
+[14 </Volumes/SD/Google Drive/research/PEACHES/manuscript/Ncol_ch3oh_cch.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/pearson_r_ch3oh_ch3cn.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/pearson_r_ch3oh_ch3cn.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [15 </Volumes/SD/Google Drive/research/PEACHES/manuscript/corner_Ncol_correlations.pdf>]
+Overfull \hbox (12.29099pt too wide) in paragraph at lines 427--428
 \OT1/cmr/m/n/10 246143[], 246192[], 246525[], 246674[],
  []
 
-(/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.bbl [15]) [16]
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 486.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 486.
+(/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.bbl [16]) [17]
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 497.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 497.
  (/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.aux)
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 486.
-
-
-LaTeX Warning: There were undefined references.
-
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 497.
  ) 
 Here is how much of TeX's memory you used:
- 10144 strings out of 493014
- 140123 string characters out of 6133351
- 439074 words of memory out of 5000000
- 13431 multiletter control sequences out of 15000+600000
+ 10155 strings out of 493014
+ 140409 string characters out of 6133351
+ 439288 words of memory out of 5000000
+ 13435 multiletter control sequences out of 15000+600000
  19915 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,13n,37p,2625b,521s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.pdf" (16 pages, 1597611 bytes).
+ 36i,13n,37p,2625b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.pdf" (17 pages, 1642317 bytes).
 PDF statistics:
- 805 PDF objects out of 1000 (max. 8388607)
- 437 compressed objects within 5 object streams
- 97 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 874 PDF objects out of 1000 (max. 8388607)
+ 456 compressed objects within 5 object streams
+ 103 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
