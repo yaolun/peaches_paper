@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 APR 2020 14:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 MAY 2020 15:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -613,16 +613,16 @@ File: Ncol_ch3oh_cch.pdf Graphic file (type pdf)
  <use Ncol_ch3oh_cch.pdf>
 Package pdftex.def Info: Ncol_ch3oh_cch.pdf used on input line 243.
 (pdftex.def)             Requested size: 241.16582pt x 177.33719pt.
- <pearson_r_ch3oh_ch3cn.pdf, id=395, 534.9705pt x 388.91925pt>
+ <pearson_r_ch3oh_ch3cn.pdf, id=395, 534.9705pt x 389.90419pt>
 File: pearson_r_ch3oh_ch3cn.pdf Graphic file (type pdf)
  <use pearson_r_ch3oh_ch3cn.pdf>
 Package pdftex.def Info: pearson_r_ch3oh_ch3cn.pdf used on input line 250.
-(pdftex.def)             Requested size: 241.16582pt x 175.32063pt.
- <corner_Ncol_correlations.pdf, id=396, 1290.15865pt x 1289.47948pt>
+(pdftex.def)             Requested size: 241.16582pt x 175.76463pt.
+ <corner_Ncol_correlations.pdf, id=396, 1290.51201pt x 1289.61916pt>
 File: corner_Ncol_correlations.pdf Graphic file (type pdf)
  <use corner_Ncol_correlations.pdf>
 Package pdftex.def Info: corner_Ncol_correlations.pdf used on input line 257.
-(pdftex.def)             Requested size: 513.11743pt x 512.85095pt.
+(pdftex.def)             Requested size: 513.11743pt x 512.74908pt.
 
 Overfull \hbox (14.12276pt too wide) in paragraph at lines 291--292
 []\OT1/cmr/m/n/10 The best-fitting model over-es-ti-mates the [],
@@ -726,10 +726,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  36i,13n,37p,2625b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.pdf" (17 pages, 1642317 bytes).
+Output written on "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.pdf" (17 pages, 1634601 bytes).
 PDF statistics:
- 874 PDF objects out of 1000 (max. 8388607)
- 456 compressed objects within 5 object streams
+ 870 PDF objects out of 1000 (max. 8388607)
+ 452 compressed objects within 5 object streams
  103 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

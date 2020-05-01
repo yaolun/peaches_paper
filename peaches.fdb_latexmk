@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex peaches"] 1588141395 "peaches.aux" "peaches.bbl" "peaches" 1588141675
+["bibtex peaches"] 1588141395 "peaches.aux" "peaches.bbl" "peaches" 1588319763
   "/Users/yaolun/Library/texmf/bibtex/bst/aasjournal.bst" 1480370945 34629 df53665c0ff74284d8ef9009f625ba73 ""
   "fixed.bib" 1555706314 1677 2ff97bb787c482a2f8c2bcba5b0bc61a ""
-  "peaches.aux" 1588141674 11233 d961f6b1e73ea651d76952a83f7056c4 ""
+  "peaches.aux" 1588319736 11233 d961f6b1e73ea651d76952a83f7056c4 ""
   "peaches.bcf" 0 -1 0 ""
   "research.bib" 1587066144 301846 b5ce14a5e5ee06ba0a4a03df671fa339 ""
   (generated)
-  "peaches.bbl"
   "peaches.blg"
-["pdflatex"] 1588141673 "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.tex" "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.pdf" "peaches" 1588141675
+  "peaches.bbl"
+["pdflatex"] 1588319734 "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.tex" "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.pdf" "peaches" 1588319763
   "/Users/yaolun/Library/texmf/tex/latex/array.sty" 1414790475 13073 a6e28ede26c83d406e124b12f368174f ""
   "/Users/yaolun/Library/texmf/tex/latex/bm.sty" 1414790475 11750 368cac70e513c0886fa591ef7d7afab7 ""
   "/Users/yaolun/Library/texmf/tex/latex/booktabs.sty" 1460430573 6557 d6853889294fa12971722b6cf6ead043 ""
@@ -21,8 +21,8 @@
   "/Users/yaolun/Library/texmf/tex/latex/revtex/revtex4-1.cls" 1281391190 199798 166dddb5ba2b6c918ce38d92ad67794f ""
   "/Users/yaolun/Library/texmf/tex/latex/ulem.sty" 1460430492 23756 854c01b779030ff5b2aad88ba7a119f2 ""
   "/Volumes/SD/Google" 1583241459 322912 6524ca6632c4abcaeef3bd893d435b52 ""
-  "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.aux" 1588141674 11233 d961f6b1e73ea651d76952a83f7056c4 ""
-  "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.tex" 1588141672 33293 861e964902e5cc273a1d269230f6f156 ""
+  "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.aux" 1588319736 11233 d961f6b1e73ea651d76952a83f7056c4 ""
+  "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.tex" 1588319763 33293 861e964902e5cc273a1d269230f6f156 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/helvetic/phvr.tfm" 1136768653 2504 ba6584b616b92101c768b6c4ffb32dd0 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
@@ -149,12 +149,12 @@
   "Ncol_ch3oh_cch.pdf" 1587063286 21185 001ada4b45c3e0f170d2b16af4fa2768 ""
   "aastex62.cls" 1553842467 203680 8802f48dafe13dc8e28bf44a9f6b2be6 ""
   "all_continuum.pdf" 1586330931 922077 bd12e52c336bb006f2ec91ef736b5074 ""
-  "corner_Ncol_correlations.pdf" 1588141328 299823 445b44fd43258786e163a1a48a037464 ""
+  "corner_Ncol_correlations.pdf" 1588319359 290007 f56824dd33d32c5be2120500d1417547 ""
   "line_id.tex" 1588001661 19806 ee9e80225afbfcd7fbdc3f5682363658 ""
-  "peaches.aux" 1588141674 11233 d961f6b1e73ea651d76952a83f7056c4 ""
+  "peaches.aux" 1588319736 11233 d961f6b1e73ea651d76952a83f7056c4 ""
   "peaches.bbl" 1588141395 6349 c1be206d87f43847f872c73081f5dd2c "bibtex peaches"
-  "peaches.tex" 1588141672 33293 861e964902e5cc273a1d269230f6f156 ""
-  "pearson_r_ch3oh_ch3cn.pdf" 1588078766 14081 6f19ceb51c78862161c655a5188cee24 ""
+  "peaches.tex" 1588319763 33293 861e964902e5cc273a1d269230f6f156 ""
+  "pearson_r_ch3oh_ch3cn.pdf" 1588319368 14524 5b3e556539f90455f8f1dfbef4a7f7eb ""
   "sources.tex" 1587024931 8054 56322e87aa4f25c965698aa4d1c76839 ""
   "sources_internal.tex" 1587024938 8949 dfa1a72208717e9787c4868fd361c432 ""
   "stats_sorted_by_Mcont.pdf" 1588086471 30423 48cd76a59bfdbc61d55b55a408851725 ""
@@ -164,5 +164,5 @@
   "peaches.aux"
   "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.pdf"
   "peaches.pdf"
-  "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.log"
   "peaches.log"
+  "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.log"
