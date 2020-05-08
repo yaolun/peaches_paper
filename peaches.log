@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 MAY 2020 12:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 MAY 2020 13:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -809,43 +809,48 @@ File: pearson_r_ch3oh_ch3cn.pdf Graphic file (type pdf)
  <use pearson_r_ch3oh_ch3cn.pdf>
 Package pdftex.def Info: pearson_r_ch3oh_ch3cn.pdf used on input line 370.
 (pdftex.def)             Requested size: 241.16582pt x 175.76463pt.
- <corner_Ncol_correlations.pdf, id=424, 1290.51201pt x 1289.61916pt>
+ <corner_Ncol_correlations.pdf, id=424, 712.35196pt x 712.19475pt>
 File: corner_Ncol_correlations.pdf Graphic file (type pdf)
  <use corner_Ncol_correlations.pdf>
 Package pdftex.def Info: corner_Ncol_correlations.pdf used on input line 377.
-(pdftex.def)             Requested size: 513.11743pt x 512.74908pt.
+(pdftex.def)             Requested size: 513.11743pt x 513.02977pt.
+ <corner_Ncol_correlations_minor.pdf, id=427, 1723.69165pt x 1723.27788pt>
+File: corner_Ncol_correlations_minor.pdf Graphic file (type pdf)
+ <use corner_Ncol_correlations_minor.pdf>
+Package pdftex.def Info: corner_Ncol_correlations_minor.pdf used on input line 384.
+(pdftex.def)             Requested size: 513.11743pt x 512.99051pt.
 
-Overfull \hbox (14.12276pt too wide) in paragraph at lines 411--412
+Overfull \hbox (14.12276pt too wide) in paragraph at lines 418--419
 []\OT1/cmr/m/n/10 The best-fitting model over-es-ti-mates the [],
  []
 
 [10] [11 </Volumes/SD/Google Drive/research/PEACHES/manuscript/stats_sorted_by_lbol.pdf>]
-Underfull \hbox (badness 3271) in paragraph at lines 441--442
+Underfull \hbox (badness 3271) in paragraph at lines 448--449
 []\OT1/cmr/m/n/10 Weak in-di-ca-tion of the uniden-ti-fied line at
  []
 
 
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 447--448
+Overfull \hbox (12.29099pt too wide) in paragraph at lines 454--455
 \OT1/cmr/m/n/10 246254[], 246344[], 246389[], 246434[],
  []
 
 
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 447--448
+Overfull \hbox (12.29099pt too wide) in paragraph at lines 454--455
 \OT1/cmr/m/n/10 246525[], 246838[], 258268[], 258271[],
  []
 
 
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 453--454
+Overfull \hbox (12.29099pt too wide) in paragraph at lines 460--461
 \OT1/cmr/m/n/10 246314[], 246322[], 246389[], 246434[],
  []
 
 
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 453--454
+Overfull \hbox (12.29099pt too wide) in paragraph at lines 460--461
 \OT1/cmr/m/n/10 246525[], 246696[], 246838[], 246873[],
  []
 
 
-Underfull \hbox (badness 6001) in paragraph at lines 453--454
+Underfull \hbox (badness 6001) in paragraph at lines 460--461
 \OT1/cmr/m/n/10 247082[], 258268[], 258271[], and
  []
 
@@ -853,19 +858,19 @@ Underfull \hbox (badness 6001) in paragraph at lines 453--454
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.458   \item S
+l.465   \item S
                trong absorption features detected across the spectra, CCH, S... </Volumes/SD/Google Drive/research/PEACHES/manuscript/stats_sorted_by_tbol.pdf>]
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 470--471
+Overfull \hbox (12.29099pt too wide) in paragraph at lines 477--478
 \OT1/cmr/m/n/10 246331[], 246344[], 246434[], 246525[],
  []
 
 
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 470--471
+Overfull \hbox (12.29099pt too wide) in paragraph at lines 477--478
 \OT1/cmr/m/n/10 246838[], 246974[], 247086[], 257268[],
  []
 
 
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 470--471
+Overfull \hbox (12.29099pt too wide) in paragraph at lines 477--478
 \OT1/cmr/m/n/10 257271[], 259323[], 259331[], 262098[],
  []
 
@@ -873,7 +878,7 @@ Overfull \hbox (12.29099pt too wide) in paragraph at lines 470--471
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.478   \item U
+l.485   \item U
                nidentified lines at 244232\mhz, 244248\mhz, 246207\mhz, 2462... </Volumes/SD/Google Drive/research/PEACHES/manuscript/stats_sorted_by_Mcont.pdf>] [14 </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID01_2.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID01_2_rot_temps.pdf
 
 pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID01_2_rot_temps.pdf): PDF inclusion: multiple pdfs with page group included in a single page
@@ -891,7 +896,7 @@ pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscr
 pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID03_rot_temps.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 478.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 485.
 
 [15 </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID03_2.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID03_2_rot_temps.pdf
 
@@ -910,7 +915,7 @@ pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscr
 pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set2_ID00_rot_temps.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 478.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 485.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
@@ -932,7 +937,7 @@ pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscr
 pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set2_ID03_rot_temps.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 478.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 485.
 
 [17 </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set2_ID05.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set2_ID05_rot_temps.pdf
 
@@ -951,7 +956,7 @@ pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscr
 pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set2_ID12_rot_temps.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 478.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 485.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
@@ -967,21 +972,21 @@ pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscr
 pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID01_rot_temps.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 478.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 485.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 478.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 485.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 478--479
+Overfull \hbox (12.29099pt too wide) in paragraph at lines 485--486
 \OT1/cmr/m/n/10 246207[], 246254[], 246388[], 246435[],
  []
 
 
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 478--479
+Overfull \hbox (12.29099pt too wide) in paragraph at lines 485--486
 \OT1/cmr/m/n/10 246525[], 246538[], 246838[], 246973[],
  []
 
@@ -989,33 +994,33 @@ Overfull \hbox (12.29099pt too wide) in paragraph at lines 478--479
 
 pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/pearson_r_ch3oh_ch3cn.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >] [20 </Volumes/SD/Google Drive/research/PEACHES/manuscript/corner_Ncol_correlations.pdf>]
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 547--548
+Overfull \hbox (12.29099pt too wide) in paragraph at lines 554--555
 \OT1/cmr/m/n/10 246143[], 246192[], 246525[], 246674[],
  []
 
-(/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.bbl [21]) [22]
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 617.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 617.
+[21 </Volumes/SD/Google Drive/research/PEACHES/manuscript/corner_Ncol_correlations_minor.pdf>] (/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.bbl) [22]
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 624.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 624.
  (/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.aux)
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 617.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 624.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10316 strings out of 493014
- 143689 string characters out of 6133351
- 439359 words of memory out of 5000000
- 13548 multiletter control sequences out of 15000+600000
+ 10324 strings out of 493014
+ 143909 string characters out of 6133351
+ 442720 words of memory out of 5000000
+ 13554 multiletter control sequences out of 15000+600000
  19915 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,13n,37p,2625b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,13n,37p,2625b,521s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.pdf" (22 pages, 2172882 bytes).
+Output written on "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.pdf" (22 pages, 2467340 bytes).
 PDF statistics:
- 2082 PDF objects out of 2487 (max. 8388607)
- 744 compressed objects within 8 object streams
- 123 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2130 PDF objects out of 2487 (max. 8388607)
+ 756 compressed objects within 8 object streams
+ 124 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
