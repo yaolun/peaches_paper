@@ -54,6 +54,7 @@
 \newcommand{\lsmm}{\mbox{$L_{\rm smm}$}}
 \newcommand{\lbol}{\mbox{$L_{\rm bol}$}}
 \newcommand{\tbol}{\mbox{$T_{\rm bol}$}}
+\newcommand{\tb}{\mbox{$T_{\rm b}$}}
 \newcommand{\ee}[1]{\mbox{${} \times 10^{#1}$}}% scientific number format
 \newcommand{\eten}[1]{\mbox{$10^{#1}$}}% power of ten
 \newcommand{\jj}[2]{\mbox{$J = #1\rightarrow#2$}}
@@ -164,17 +165,17 @@ Set3 has the continuum window ranging from 245800\mhz\ to 246730\mhz, while the 
 \input{sources}
 \input{sources_internal}
 
-\section{Results}
-The ALMA image cubes are post-processed to extract 1D spectra for identifying the emission of complex molecules and more in-depth analyses.  Because the complex molecules only sublime at the temperature greater than $\sim$100\,K, we focus on the spectra toward the continuum sources.  Four steps of post-processing reduces the image cubes to 1D spectra, which are summarized below.
+\section{Spectra Extraction}
+The ALMA image cubes are post-processed to extract 1D spectra for identifying the emission of complex molecules and further analyses.  COMs typically desorb from dust grains at $T \gtrsim 100$\,K, which coincidentally corresponds to $\sim 100$\,au for typical embedded protostars (e.g., \citealt{2020ApJ...891...61Y}).  Given the spatial resolution of $\sim$0\farcs{5} ($\sim$150\,au), we focus on the spectra toward the continuum sources to search for the COMs in the inner envelope.  Four steps of post-processing reduces the image cubes to 1D spectra, which are summarized below.
 
 \begin{itemize}
-  \item Continuum fitting: We use the CASA task \texttt{imfit} to iteratively fit for continuum sources down to 5$\sigma$ of the residual image within the central 70\%\ of the primary beam size (20\arcsec).  For Set3-ID09, the fitting uses a threshold of 4$\sigma$ and extends the mask to the entire primary beam as a continuum source is detected toward the edge of the primary beam where the noise is elevated.
+  \item Continuum fitting: We use the CASA task \texttt{imfit} to iteratively fit for continuum sources down to 5$\sigma$ of the residual image within the central 70\%\ of the primary beam size (20\arcsec).  For the field Set3\_ID09, the fitting uses a threshold of 4$\sigma$ and extends the mask to the entire primary beam as a continuum source is detected toward the edge of the primary beam where the noise is elevated.
   \item Extracting spectra:  We use the CASA task \texttt{specflux} to extract the mean flux density within the ellipse which has the same major and minor axes as well as the position angle as the fitted continuum sources.
-  \item Baseline calibration:  The continuum has been removed before the imaging process; however, the extracted spectra sometimes still show imperfect baselines.  The spectra show significant differences from one to another such as rich emission lines, lack of emission, and broad emission features.  Thus, we manually select the frequency ranges for baseline calibration for each spectral window and each field.
-  \item Velocity correction:  Finally, the frequency of the extracted spectra are corrected according to the source velocities.  We collect the source velocities from the literature as well as from the strong emission lines in our spectra.  Table\,\ref{tbl:source_list} lists the adopted source velocities and the corresponding references.
+  \item Baseline calibration:  The continuum has been removed before the imaging process; however, the extracted spectra sometimes still show imperfect baselines due to rich emission lines, lack of emission, and broad emission features.  Thus, we manually select the frequency ranges for baseline calibration for each spectral window and each field.
+  \item Velocity correction:  Finally, the frequency of the extracted spectra are corrected according to the source velocities.  We collect the source velocities from the literature as well as from the strong emission lines in our spectra, such as SO and CS.  Table\,\ref{tbl:source_list} lists the adopted source velocities and the corresponding references.
 \end{itemize}
 
-Figure\,\ref{fig:continuum} shows the images of the continuum along with the fitted shapes, while the properties of the continuum sources are listed in Table\,\ref{tbl:source_list}.  Our observations detect 50 continuum sources.    The continuum emission appears as compact circular or elliptical shape with no sub-structure.  Some sources show extended continuum emission resembling the shape of outflow cavities.
+Figure\,\ref{fig:continuum} shows the continuum emission along with the fitted shapes, while the properties of the continuum sources are also listed in Table\,\ref{tbl:source_list}.  Our observations detect 50 continuum sources.    The continuum emission appears as compact circular or elliptical shape with no sub-structure.  Some sources show extended continuum emission resembling the shape of outflow cavities, such as Per-emb 22 A and B.  Three sources, EDJ2009-237, Per-emb 60, and EDJ2009-172, have no spectral line detected and no reliable measurement of source velocity in literature; therefore, we exclude them from spectral extraction as well as the line identification and modeling.  However, these three sources still contribute to the denominator for calculating the detection statistics.
 
 \begin{figure*}[htbp!]
   \centering
@@ -183,36 +184,34 @@ Figure\,\ref{fig:continuum} shows the images of the continuum along with the fit
   \label{fig:continuum}
 \end{figure*}
 
-Three sources, EDJ2009-237, Per-emb-60, and EDJ2009-172, have no spectral line detected; therefore, we exclude them from spectral extraction as well as the line identification and modeling.  \textcolor{red}{These threee sources still need to be included for detection number statistics.}
-
-\subsection{Line Identifications and Modeling}
+\subsection{Line Identification and Modeling}
 \label{sec:modeling}
 Line identification starts with manual identification and verification for a few sources with rich spectra, including Per-emb-12B and B1-bS.  We use \textsc{splatalogue}\footnote{\href{http://www.splatalogue.net/}{http://www.splatalogue.net/}} to identity the molecular species and use \textsc{xclass} \citep{2017A&A...598A...7M} to verify the identification.  The \textsc{xclass} package is a LTE radiative transfer code that uses the molecular data from the Cologne Database of Molecular Spectroscopy (CDMS; \citealt{2001A&A...370L..49M,2005JMoSt.742..215M,2016JMoSp.327...95E}) and the Jet Propulsion Laboratory (JPL; \citealt{1998JQSRT..60..883P}).  An identification needs to satisfy the following criteria.
 \begin{itemize}
   \item The spectra agree with the predicted strengths of the model.
-  \item The spectral lines are not all blended with other emission, such as other molecules and the SiO emission tracing the outflows.  The emission of a few species, such as HDCO \&\ \tmethanol, \acetaldehyde\ \&\ \dmethanol, $^{34}$SO \&\ \ethanol, and \dimethylether\ \&\ \dmethylcyanide, are partially blended (blending occurs at a few lines but other lines remain isolated).  The fittings of those species are performed together to verify their identification.
-  \item Identified molecules need to be already found toward young stellar objects as summarized in \citet{2018ApJS..239...17M}. 
+  \item The spectral lines are not all blended with other emission, such as other molecules and the SiO emission tracing the outflows.  The emission of a few species, such as HDCO \&\ \tmethanol, \methanol\ \&\ \methylformate, \acetaldehyde\ \&\ \dmethanol, $^{34}$SO \&\ \ethanol, and \dimethylether\ \&\ \dmethylcyanide, are partially blended (blending occurs at a few lines but other lines remain isolated).  The fittings of those species are performed together to verify their identification.
+  \item Identified molecules need to be already found toward young stellar objects as summarized in \citet{2018ApJS..239...17M}.
 \end{itemize}
-Table\,\ref{tbl:line_id} lists the identified species and transitions.  Only identifiable transitions are listed.  The \textsc{xclass} modeling includes all the transitions in our frequency coverage regardless their Einstein-A values and upper energy levels.  
+Table\,\ref{tbl:line_id} lists the identified species and transitions that are detected in at least one of the PEACHES protostars.  Only identifiable transitions are listed.  The \textsc{xclass} modeling include all the transitions in our frequency coverage for each molecule regardless their Einstein-A values and upper energy levels.  
 
-Systematic spectral fitting using \textsc{xclass} is then applied to all sources using a list of species, compiled from the identifications.  Appendix\,\ref{sec:catalogs} lists The catalogs used in this study.  The fitting function in \textsc{xclass} includes several optimization algorithms that can be used in series to reduce biases.  We configure the algorithm chain that starts with the genetic algorithm followed by the Levenberg-Marquardt $\chi^{2}$ minimization.  The genetic algorithm searches the best-fitting parameters iteratively with generations that evolve like a natural selection, where the better fitting models get less modification over generations.  We setup the genetic algorithm to search for the top two best-fitting models with 30 generations.  Then, the Levenberg-Marquardt $\chi^{2}$ minimization applies to the two best-fitting models for 20 iterations to find the best-fitting models.  The genetic algorithm aims to find local minimums and the Levenberg-Marquardt minimization further finds the best-fitting models in the local minimums.  The two best-fitting models found by the genetic algorithm often very similar, suggesting that there is only one minimum.  To address the rare cases of two separated local minimums, we pick the model with the lower $\chi^{2}$ values from the two best-fitting models constrained by the Levenberg-Marquardt minimization.  
+Systematic spectral fitting using \textsc{xclass} is applied to all sources using a list of species, compiled from the identifications.  Appendix\,\ref{sec:catalogs} lists the catalogs used in this study.  The fitting function in \textsc{xclass} includes several optimization algorithms that can be used in series to reduce biases.  We configure the algorithm chain that starts with the genetic algorithm followed by the Levenberg-Marquardt $\chi^{2}$ minimization.  The genetic algorithm searches the best-fitting parameters iteratively with generations that evolve like a natural selection, where the better fitting models get less modification over generations.  We setup the genetic algorithm to search for the top two best-fitting models with 30 generations.  Then, the Levenberg-Marquardt $\chi^{2}$ minimization applies to the two best-fitting models for 20 iterations to find the best-fitting models.  The genetic algorithm aims to find local minimums and the Levenberg-Marquardt minimization further finds the best-fitting models in the local minimums.  The two best-fitting models found by the genetic algorithm often very similar, suggesting that there is only one minimum.  To address the rare cases of two separated local minimums, we pick the model with the lower $\chi^{2}$ values from the two best-fitting models constrained by the Levenberg-Marquardt minimization.  
 
-There are four parameters for the \textsc{xclass} modeling, the size of the emitting molecule ($r_\text{COM}$), the excitation temperature ($T_\text{ex}$), the column density ($N_\text{COM}$), and the line width ($\Delta \nu$).  We assume the COMs are all concentrated at the center, simplified as a 2D thin circular disk.  We fix $r_\text{COM}$ as 0\farcs{5}, similar to our beam size, and optimize the model with five excitation temperatures, 100, 150, 200, 250, and 300 K.  We allow the line width varying between 1.2\kms\ to 3.5\kms\ for better fitting quality, and the allowed range of the column density for each molecule is chosen according to the strength of the emission.  If a molecule is detected, the mean column densities will be the best-fitting column density, while the range of the column densities indicates the upper and lower uncertainty.  If a molecule is non-detection, the synthetic spectra for all lines are scaled to match the peaks of the each line fitted by a Gaussian profile.  Then, we take the minimum of the corresponding column densities as the upper limit.
+There are five parameters in the \textsc{xclass} modeling, the size of the emitting molecule ($r_\text{COM}$), the excitation temperature ($T_\text{ex}$), the column density ($N_\text{COM}$), the line width ($\Delta \nu$), and velocity offset ($v_\text{off}$).  We assume the COMs are all concentrated at the center, simplified as a 2D thin circular disk.  We fix $r_\text{COM}$ as 0\farcs{5}, similar to our beam size, and optimize the model with five excitation temperatures, 100, 150, 200, 250, and 300 K.  We allow the line width varying between 1.2\kms\ to 3.5\kms\ for better fitting quality but assume no velocity offset from the source velocity, and the allowed range of the column density for each molecule is chosen according to the strength of the emission.  From the fitting results of five $T_\text{ex}$, if a molecule is detected, the mean column densities will be the best-fitting column density, while the range of the column densities indicates the upper and lower uncertainties.  If a molecule is non-detection, the synthetic spectra for all lines are scaled to match the peaks of the each line fitted by a Gaussian profile.  Then, we take the minimum of the corresponding column densities as the upper limit.
 
-\newpage
-\input{line_id}
-
-\section{Continuum Opacity}
+% \section{Continuum Opacity}
 
 \section{Detection Statistics}
-We summarize the fraction of sources with detections of molecules in Figure\,\ref{fig:stats}.  The detection statistics include COMs, carbon-chain molecules, and the simple organic molecules, such as CS, \htcn, SO, $^{34}$SO, and SO$_{2}$.  The PEACHES protostars show a great chemical diversity from no molecule detected (\textcolor{red}{B1-bN}) to rich spectra of COMs (e.g. Per-emb-12B).  Detections of COMs and the number of COMs detected show no obvious correlation with the bolometric luminosity and bolometric temperature of the protostars, which are conventional evolutionary indicators.  Low luminosity sources have fewer COMs detected; however, if COMs mostly come from thermally desorption, the region with $T > T_\text{desorption}$ may be smaller for the low luminosity sources, making the emission of COMs fainter and reducing our sensitivity to detect COMs.  We also compare the detection statistics with the mass derived from 9\,mm observations that resolved the sources as a proxy of the central mass \citep{2018ApJS..238...19T}.  The detection statistics show no clear correlation with the central mass; however, the sources with smaller central mass have fewer detections of COMs, \textcolor{red}{which may due to their low luminosity.}  
+We summarize the detection statistics in Figure\,\ref{fig:stats}, which includes COMs, the carbon-chain molecules, and the simple organic molecules, such as CS, \htcn, SO, $^{34}$SO, and SO$_{2}$.  In the following results of detection fraction, we include the three sources that are excluded from modeling due to no reliable source velocity, making a total of 50 sources.  The PEACHES protostars show a great chemical diversity from no molecule detected (e.g., B1-bN and L1455 IRS 2) to rich spectra of COMs (e.g. Per-emb 13).  Most of the PEACEHS protostars have simple organics, such as SO, CS, \htcn, and HDCO, and $\sim 60$\%\ of sources have SO$_{2}$ and $^{34}$SO.  Emission of CCH can be easily identified from the spectra.  However, the CCH toward the continuum sources often shows irregular line profiles together with velocity offsets and absorption (Figure\,\ref{fig:all_cch}).  In fact, warm environments, such as the outflow cavity wall, easily enhance the abundance of CCH because of elevated abundance of C$^{+}$.  Thus, CCH emission is extended along with the outflow cavities, making the 1D spectra unrepresentative.
+
+Thirty-four percent of sources have no COMs detected (no emission nor absorption), including Per-emb 8, B1-bN, IRAS 4B$\prime$, Per-emb 36, Per-emb 33 B/C, Per-emb 50, Per-emb 14, Per-emb 28, Per-emb 41, Per-emb 37, Per-emb 11 B, Per-emb 16, Per-emb 55, EDJ2009-235, Per-emb 15, L1455 IRS 2, and Per-emb 54, in the order of decreasing continuum temperatures.  Methanol (\methanol) is detected in 28 sources (56\%); methyl formate (\methylformate) is detected in 15 sources (30\%); and N-bearing COMs are detected in 20 sources (40\%).  Comparing to the COMs in the CALYPSO survey \citep{2020A&A...635A.198B}, the fraction of sources that have methanol, $\sim$50\%, is similar to that for the PEACHES protostars.  Also, 30\%\ of the CALYPSO sources have at least three COMs, while 28\%\ of the PEACHES protostars have at least three COMs.  
+
+The sources with rich spectra COMs tend to have bright continuum emission.  However, the brightest source in continuum, Per-emb 12 A has many molecules detected in absorption due to the high continuum opacity blocking the emission of COMs \citep{2019ApJ...872..196S}.  The number of detected COMs show no obvious correlation with the bolometric luminosity and bolometric temperature of the protostars (Figure\,\ref{fig:stats}), which are conventional evolutionary indicators.  Low luminosity sources have fewer COMs detected; however, if COMs mostly come from thermal desorption, the region with $T > T_\text{desorption}$ may be smaller for the low luminosity sources, making the emission of COMs fainter and reducing our sensitivity to detect COMs.  To test the detection statistics with physical properties of protostars, we collect the mass derived from 9\,mm observations that resolved the sources as a proxy of the central mass \citep{2018ApJS..238...19T}.  The detection statistics with the continuum mass show only tentative correlation with the central mass with smaller central mass have fewer detections of COMs.
 
 Several sources have their SiO emission with a broad line width, significantly contaminating the emission of \ethylcyanide\ and \acetaldehyde.  In the later quantitative discussion, we exclude the spectral windows contaminated by the SiO emission.  For assigning the detections, we can distinguish the emission of \ethylcyanide\ and \acetaldehyde\ from the broad SiO emission in a few sources, such as \acetaldehyde\ in Per-emb 26.
 
 \begin{figure*}[htbp!]
-  \centering
-  \includegraphics[width=\textwidth]{stats_sorted_by_lbol.pdf}
-  \caption{The detection statistics sorted by their bolometric luminosity.}
+  \includegraphics[width=\textwidth]{stats_sorted_by_Tcont.pdf}
+  \caption{The same figure as Figure\,\ref{fig:stats} but sorted by the continuum temperatures listed in Table\,\ref{tbl:source_list}.}
   \label{fig:stats}
 \end{figure*}
 
@@ -225,19 +224,20 @@ Several sources have their SiO emission with a broad line width, significantly c
 
 \addtocounter{figure}{-1}
 \begin{figure*}[htbp!]
-  \includegraphics[width=\textwidth]{stats_sorted_by_Mcont.pdf}
-  \caption{The same figure as Figure\,\ref{fig:stats} but sorted by their mass derived from their 9\,mm observations \citep{2018ApJS..238...19T}.}
+  \centering
+  \includegraphics[width=\textwidth]{stats_sorted_by_lbol.pdf}
+  \caption{The detection statistics sorted by their bolometric luminosity.}
 \end{figure*}
 
 \addtocounter{figure}{-1}
 \begin{figure*}[htbp!]
-  \includegraphics[width=\textwidth]{stats_sorted_by_Tcont.pdf}
-  \caption{The same figure as Figure\,\ref{fig:stats} but sorted by the continuum temperatures listed in Table\,\ref{tbl:source_list}.}
+  \includegraphics[width=\textwidth]{stats_sorted_by_Mcont.pdf}
+  \caption{The same figure as Figure\,\ref{fig:stats} but sorted by their mass derived from their 9\,mm observations \citep{2018ApJS..238...19T}.}
 \end{figure*}
 \renewcommand{\thefigure}{\arabic{figure}}
 
 \section{Correlations of COMs}
-The chemical evolution of protostars may leave certain patterns in the abundance of molecules as the dynamical evolution determines the density and temperature structures, regulating chemical reactions.  Thus, the abundance of COMs and their correlations provide critical information to constrain the chemical evolution at embedded protostars.  The fitted column density of COMs indicates the abundance of COMs around protostars.  Typically COMs are locked into the ices on dust grains at outer envelope. Therefore, we take the column density of COMs as a proxy of the abundance of COMs.  
+The chemical evolution of protostars may leave certain patterns in the abundance of molecules as the dynamical evolution determines the density and temperature structures, which regulate chemical reactions.  Thus, the abundance of COMs and their correlations provide critical information to constrain the chemical evolution at embedded protostars.  The fitted column density of COMs indicates the abundance of COMs around protostars.  Typically COMs are locked into the ices on dust grains at outer envelope. Therefore, we take the column density of COMs as a proxy of the abundance of COMs.  
 
 As described in Section\,\ref{sec:modeling}, we fit the column density and line width with different excitation temperatures, resulting in a range of column density as its uncertainty.  The comparison between CCH and \methanol\ shows no correlation between these two molecules (Figure\,\ref{fig:cch_ch3oh}), similar to the conclusion in \citet{2018ApJS..236...52H}.  The single dish survey by \citet{2016ApJ...833..125G} shows a correlation between C$_{4}$H, a more complex carbon-chain molecules, and \methanol.  Outflow activity can promote the formation of CCH, which is more efficiency at warm temperature.  In face, the morphology of CCH often traces the outflow cavities seen from CS.  Therefore, the lack of correlation between CCH and \methanol\ may be affected by outflows.
 
@@ -245,9 +245,9 @@ Figure\,\ref{fig:corner} shows the correlations of several COMs selected from th
 
 \begin{figure}[htbp!]
   \centering
-  \includegraphics[width=0.47\textwidth]{Ncol_ch3oh_cch.pdf}
-  \caption{Correlation of the column densities of CCH and \methanol\ fitted from the PEACHES protostars.  The sources where both molecules are detected are shown in black; the sources where only one molecule is detected are shown in magenta; finally, the sources where both molecules are not detected are shown in black for the corresponding upper limits.}
-  \label{fig:cch_ch3oh}
+  \includegraphics[width=0.47\textwidth]{Ncol_ch3oh_ch3cn.pdf}
+  \caption{Correlation of the fitted column densities of \methanol\ and \methylcyanide\ from the PEACHES protostars.  The sources where both molecules are detected are shown in black; the sources where only one molecule is detected are shown in magenta; finally, the sources where both molecules are not detected are shown in black for the corresponding upper limits.}
+  \label{fig:ch3oh_ch3cn}
 \end{figure}
 
 \begin{figure}[htbp!]
@@ -260,56 +260,52 @@ Figure\,\ref{fig:corner} shows the correlations of several COMs selected from th
 \begin{figure*}[htbp!]
   \centering
   \includegraphics[width=\textwidth]{corner_Ncol_correlations.pdf}
-  \caption{Corner plot of the correlations of the column densities between \methanol, \methylcyanide, \methylformate, and \dimethylether.  The color code follows that in Figure\,\ref{fig:cch_ch3oh}.  The dashed line indicates equality.  The legends indicate the Pearson's $r$ for the detection-only sample ($r_{d}$) and the logarithmic ratio of the two molecules (N$_{y}$/N$_{x}$).}
+  \caption{Corner plot of the correlations of the column densities between \methanol, \methylcyanide, \methylformate, and \dimethylether.  The color code follows that in Figure\,\ref{fig:ch3oh_ch3cn}.  The dashed line indicates equality.  The legends indicate the Pearson's $r$ for the detection-only sample ($r_{d}$) and the logarithmic ratio of the two molecules (N$_{y}$/N$_{x}$).  The four most detected COMs are shown in this figure, while other COMs are shown in Figure\,\ref{fig:corner_minor}.}
   \label{fig:corner}
 \end{figure*}
 
-\renewcommand{\thefigure}{\arabic{figure} (Cont.)}
-\addtocounter{figure}{-1}
-\begin{figure*}[htbp!]
-  \centering
-  \includegraphics[width=\textwidth]{corner_Ncol_correlations_norm_Tcont.pdf}
-  \caption{Corner plot of the correlations of the column densities normalized by the continuum brightness temperatures.}
-  \label{fig:corner_tcont}
-\end{figure*}
+% \begin{figure*}[htbp!]
+%   \centering
+%   \includegraphics[width=\textwidth]{corner_Ncol_correlations_norm_Tcont.pdf}
+%   \caption{Corner plot of the correlations of the column densities normalized by the continuum brightness temperatures.  The four most detected COMs are shown in this figure, while other COMs are shown in Figure\,\ref{fig:corner_minor}.}
+%   \label{fig:corner_tcont}
+% \end{figure*}
 
-\addtocounter{figure}{-1}
-\begin{figure*}[htbp!]
-  \centering
-  \includegraphics[width=\textwidth]{corner_Ncol_correlations_norm_Lbol.pdf}
-  \caption{Corner plot of the correlations of the column densities normalized by the bolometric luminosities.  A few close multiple sources, including Per-emb 12 A \&\ B, Per-emb 35 A \&\ B, and Per-emb 11 A \&\ C, are excluded due to their poorly determined SEDs.}
-  \label{fig:corner_lbol}
-\end{figure*}
+% \addtocounter{figure}{-1}
+% \begin{figure*}[htbp!]
+%   \centering
+%   \includegraphics[width=\textwidth]{corner_Ncol_correlations_norm_Lbol.pdf}
+%   \caption{Corner plot of the correlations of the column densities normalized by the bolometric luminosities.  A few close multiple sources, including Per-emb 12 A \&\ B, Per-emb 35 A \&\ B, and Per-emb 11 A \&\ C, are excluded due to their poorly determined SEDs.}
+%   \label{fig:corner_lbol}
+% \end{figure*}
 
-\addtocounter{figure}{-1}
-\begin{figure*}[htbp!]
-  \centering
-  \includegraphics[width=\textwidth]{corner_Ncol_correlations_norm_Tbol.pdf}
-  \caption{Corner plot of the correlations of the column densities are normalized by the bolometric temperatures.  A few close multiple sources, including Per-emb 12 A \&\ B, Per-emb 35 A \&\ B, and Per-emb 11 A \&\ C, are excluded due to their poorly determined SEDs.}
-  \label{fig:corner_tbol}
-\end{figure*}
+% \addtocounter{figure}{-1}
+% \begin{figure*}[htbp!]
+%   \centering
+%   \includegraphics[width=\textwidth]{corner_Ncol_correlations_norm_Tbol.pdf}
+%   \caption{Corner plot of the correlations of the column densities are normalized by the bolometric temperatures.  A few close multiple sources, including Per-emb 12 A \&\ B, Per-emb 35 A \&\ B, and Per-emb 11 A \&\ C, are excluded due to their poorly determined SEDs.}
+%   \label{fig:corner_tbol}
+% \end{figure*}
 
-\addtocounter{figure}{-1}
-\begin{figure*}[htbp!]
-  \centering
-  \includegraphics[width=\textwidth]{corner_Ncol_correlations_norm_Tcont+Lbol.pdf}
-  \caption{Corner plot of the correlations of the column densities are normalized by the continuum temperature and the bolometric luminosities.  A few close multiple sources, including Per-emb 12 A \&\ B, Per-emb 35 A \&\ B, and Per-emb 11 A \&\ C, are excluded due to their poorly determined SEDs.}
-  \label{fig:corner_tbol}
-\end{figure*}
+% \addtocounter{figure}{-1}
+% \begin{figure*}[htbp!]
+%   \centering
+%   \includegraphics[width=\textwidth]{corner_Ncol_correlations_norm_Tcont+Lbol.pdf}
+%   \caption{Corner plot of the correlations of the column densities are normalized by the continuum temperature and the bolometric luminosities.  A few close multiple sources, including Per-emb 12 A \&\ B, Per-emb 35 A \&\ B, and Per-emb 11 A \&\ C, are excluded due to their poorly determined SEDs.}
+%   \label{fig:corner_tbol}
+% \end{figure*}
 
-\addtocounter{figure}{-1}
 \begin{figure*}[htbp!]
   \centering
-  \includegraphics[width=\textwidth]{corner_Ncol_correlations_norm_Tcont+Tbol.pdf}
-  \caption{Corner plot of the correlations of the column densities are normalized by the continuum temperatures and the bolometric temperatures.  A few close multiple sources, including Per-emb 12 A \&\ B, Per-emb 35 A \&\ B, and Per-emb 11 A \&\ C, are excluded due to their poorly determined SEDs.}
-  \label{fig:corner_tbol}
+  \includegraphics[width=\textwidth]{corner_Ncol_correlations_combined_norm.pdf}
+  \caption{Corner plot of the correlations of the normalized column densities.  The blue, magenta, and black symbols indicate the column densities normalized by the continuum brightness temperature (\tb), while the color scheme follows that in Figure\,\ref{fig:ch3oh_ch3cn}.  The orange symbols show the column densities normalized by \tb\ and the bolometric luminosity ($\lbol$), while the cyan symbols show that normalized by \tb\ and the bolometric temperature (\tbol).  We only show the column densities if both molecules are detected for the ones normalized by \tb\tbol\ and \tb\lbol.  A few close multiple sources, including Per-emb 12 A \&\ B, Per-emb 35 A \&\ B, and Per-emb 11 A \&\ C, are excluded for the normalization of \tbol\ and \lbol\ due to their poorly determined SEDs.}
+  \label{fig:corner_combined}
 \end{figure*}
-\renewcommand{\thefigure}{\arabic{figure}}
 
 \begin{figure*}[htbp!]
   \centering
   \includegraphics[width=\textwidth]{corner_Ncol_correlations_minor.pdf}
-  \caption{Corner plot of the correlations of the column densities between \methanol, \methylcyanide, \acetaldehyde, \ethanol, \methylformatev, \acetone, \ethylcyanide, $t$-HCOOH, and \formamide.  The legends are similar to Figure\,\ref{fig:corner}}
+  \caption{Corner plot of the correlations of the column densities between \methanol, \methylcyanide, \acetaldehyde, \ethanol, \methylformatev, \acetone, \ethylcyanide, $t$-HCOOH, and \formamide.  The legends are similar to Figure\,\ref{fig:ch3oh_ch3cn}}
   \label{fig:corner_minor}
 \end{figure*}
 
@@ -382,7 +378,7 @@ The PEACHES spectra cover four methanol lines, while the spectra of each source 
   \caption{Ratios of molecules as a function of $T_\text{cont}$.}
   \label{fig:ratio_tcont}
 \end{figure*}
-\subsection{Comparison to the CALYPSO Survey}
+\subsection{Comparison to Other Surveys}
 \subsection{Complex Chemistry throughout Star Formation}
 
 % \subsection{Source Velocities}
@@ -435,8 +431,19 @@ Y.-L. Yang acknowledges the supports the JSPS Postdoctoral Fellowship from Japan
 \section{Catalogs for Molecular Data}
 \label{sec:catalogs}
 
+\section{Identified Species and Transitions}
+Table\,\ref{tbl:line_id} lists the species and their transitions identified from the PEACHES spectra.
+\input{line_id}
+
 \section{The Spectra of CCH}
 The CCH spectra toward the continuum emission have irregular line profiles.  Some spectra have strong self-absorption, while some spectra only show the blue-shifted emission.  Due to the absorption and irregular line profile, the \textsc{xclass} fitting routine often fails to faithfully reproduce the observed CCH spectra.  CCH can easily form in the outflow cavity wall due to the abundant CH$_{4}$ sublimated from dust grains as well as C$^+$ ionized by the UV radiation.  Thus, the CCH spectra can have broad line width and multiple components.  Furthermore, the morphology of the CCH emission traces the outflows, making our extraction from the continuum emission non-ideal for representing the nature of the CCH emission.  Figure\,\ref{fig:all_cch} and Y show the spectra and the moment 0 map of CCH, respectively.
+
+\begin{figure}[htbp!]
+  \centering
+  \includegraphics[width=0.47\textwidth]{Ncol_ch3oh_cch.pdf}
+  \caption{Correlation of the column densities of CCH and \methanol\ fitted from the PEACHES protostars.  The sources where both molecules are detected are shown in black; the sources where only one molecule is detected are shown in magenta; finally, the sources where both molecules are not detected are shown in black for the corresponding upper limits.}
+  \label{fig:cch_ch3oh}
+\end{figure}
 
 \begin{figure*}[htbp!]
   \centering
@@ -445,6 +452,7 @@ The CCH spectra toward the continuum emission have irregular line profiles.  Som
   \label{fig:all_cch}
 \end{figure*}
 
+\section{Notes on the COMs Modeling}
 \input{source_note}
 
 \bibliography{research,fixed}
