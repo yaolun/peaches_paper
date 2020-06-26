@@ -336,27 +336,6 @@ Compact emission of COMs suggests ...
   \label{fig:detection_summary_Tb}
 \end{figure*}
 
-% \renewcommand{\thefigure}{\arabic{figure} (Cont.)}
-% \addtocounter{figure}{-1}
-% \begin{figure*}[htbp!]
-%   \includegraphics[width=\textwidth]{stats_sorted_by_tbol.pdf}
-%   \caption{The same figure as Figure\,\ref{fig:stats} but sorted by their bolometric temperature.}
-% \end{figure*}
-
-% \addtocounter{figure}{-1}
-% \begin{figure*}[htbp!]
-%   \centering
-%   \includegraphics[width=\textwidth]{stats_sorted_by_lbol.pdf}
-%   \caption{The detection statistics sorted by their bolometric luminosity.}
-% \end{figure*}
-
-% \addtocounter{figure}{-1}
-% \begin{figure*}[htbp!]
-%   \includegraphics[width=\textwidth]{stats_sorted_by_Mcont.pdf}
-%   \caption{The same figure as Figure\,\ref{fig:stats} but sorted by their mass derived from their 9\,mm observations \citep{2018ApJS..238...19T}.}
-% \end{figure*}
-% \renewcommand{\thefigure}{\arabic{figure}}
-
 \section{Column Densities}
 \subsection{Excitation Temperatures}
 The PEACHES spectra cover four methanol lines, while the spectra of each source include three of them due to the frequency shift in the wide spectral window.  The three methanol lines have upper energy ranging from $\sim$50\,K to $\sim$500\,K, which allows us to estimate the rotational temperature of methanol if all three lines are detected.  To construct the methanol rotational diagram, we fit the methanol emission with a Gaussian profile and bootstrap the measurements for fitting the rotational temperature.  Figure\,\ref{fig:rot_dia_example} shows the rotational diagram of Per-emb 22 B along with the sampled rotational temperature.  The derived rotational temperature of methanol ranges from 120\,K to 240\,K with an exception of Per-emb 18, which has a rotational temperature of 395.7\,K for methanol (Table\,\ref{tbl:methanol_rot_temps}).
@@ -391,9 +370,13 @@ The PEACHES spectra cover four methanol lines, while the spectra of each source 
   \enddata
 \end{deluxetable}
 
-[put the derived values from HCOOCH3 for several sources. and say consistency with several other works.]
+\textcolor{red}{YLY: need to redo the MCMC fitting.  The fitting shown here is ~6 months old.}  For the sources with significant emission of \methylformate, the column density and the excitation temperature of \methylformate\ can be constrained with MCMC.  Table\,\ref{tbl:mf_temp} lists the sources where the MCMC fitting is feasible and the derived properties of \methylformate.  The best-fitting temperatures range from 100-300\,K with a few outliers at $\sim$1000\,K.  The spectra with the high excitation temperature show non-Gaussian line profiles, making the fitting inaccurate.  Therefore, we exclude those sources in Table\,\ref{tbl:mf_temp}.
+
+\input{mf_temp_jsps}
+
+\textcolor{pink}{[put the derived values from HCOOCH3 for several sources. and say consistency with several other works.]
 [Put the discussions in 6.1.1. in your section number, and say consistency with HCOOCH3].
-[say the assumption/justification of T for sources without multiple line detections(i.e. sources, which is difficult to derive T).  It could partly be overlapped with the section 3.2 (3.1 in your numbering)]
+[say the assumption/justification of T for sources without multiple line detections(i.e. sources, which is difficult to derive T).  It could partly be overlapped with the section 3.2 (3.1 in your numbering)]}
 
 \subsection{Correlations of COMs}
 The chemical evolution of protostars may leave certain patterns in the abundance of molecules as the dynamical evolution determines the density and temperature structures, which regulate chemical reactions.  Thus, the abundance of COMs and their correlations provide critical information to constrain the chemical evolution at embedded protostars.
@@ -403,15 +386,16 @@ To quantify the goodness of correlation, we calculate the Pearson's correlation 
 
 Figure\,\ref{fig:corner} shows the correlations of several COMs selected from their detection rates.  The column density of \methanol\ best correlates with that of \methylcyanide.  \citet{2020A&A...635A.198B} also found the tight correlation between these two molecules from the CALYPSO survey, which has a selective sample.  The column densities of \dimethylether\ and \methylformate\ also show a tight correlation.  \methanol\ also correlates with more complex species (i.e. so called daughter species, \methylformate\ and \dimethylether) with a lower correlation coefficient than that between \methanol\ and \methylcyanide.  The correlations between \methylcyanide\ and more complex species also show the same behavior.  The decreasing strength of correlation with between the simple COMs and more complex COMs supports the hypothesis that \methanol\ and \methylcyanide\ are first generation species and \methylformate\ and \dimethylether\ are the second generation (\refnote).
 
+While the column density shows 
 
 
-To confirm this correlation, we have also prepared normalized correlation plots.  [explain the method, and meaning of the normalization] Similar values of the correlation coefficient are obtained.
+{\color{pink}To confirm this correlation, we have also prepared normalized correlation plots.  [explain the method, and meaning of the normalization] Similar values of the correlation coefficient are obtained.
 
 Averaged abundance ratios are also summarized in the plot.
 
 For other COMs detected in this survey, the correlation plots are shown in Figure XX.  
 
-The number of detected sources are not enough to discuss the difference in correlation coefficient (less than 10 points??).  However, marginal correlations could be seen.  Abundance ratios are discussed in section XX. [please add the ratios.]
+The number of detected sources are not enough to discuss the difference in correlation coefficient (less than 10 points??).  However, marginal correlations could be seen.  Abundance ratios are discussed in section XX. [please add the ratios.]}
 
 % The comparison between \cch\ and \methanol\ shows no correlation between these two molecules (Figure\,\ref{fig:cch_ch3oh}), similar to the conclusion in \citet{2018ApJS..236...52H}.  The single dish survey by \citet{2016ApJ...833..125G} shows a correlation between C$_{4}$H, a more complex carbon-chain molecules, and \methanol.  Outflow activity can promote the formation of \cch, which is more efficiency at warm temperature \citep[e.g., ][]{2018ApJ...864...76Z,2019ApJ...873L..21I}.  In face, the morphology of \cch\ often traces the outflow cavities seen from CS.  Therefore, the lack of correlation between \cch\ and \methanol\ may be affected by the inner cavity wall of outflows, because our spectra are taken toward the continuum peak.  Observations with a larger $\theta_\text{MRS}$ will minimize the effect of missing flux in interferometry for a faithful comparison of the \cch\ abundance on the inner envelope.
 
@@ -464,15 +448,17 @@ The number of detected sources are not enough to discuss the difference in corre
 \end{figure*}
 
 \subsection{Chemical Difference among Hot Corinos}
-Among hot corino sources, no tight correlations are seen as well (FigureXX). [explain the plots]  On the other hand, when we take relative abundance to CH3OH, marginal trend could be seen in correlation between Tcont.  [explain what you presented in the talk.  more complex species may require higher density?  ]  
+{\color{pink}Among hot corino sources, no tight correlations are seen as well (FigureXX). [explain the plots]  On the other hand, when we take relative abundance to CH3OH, marginal trend could be seen in correlation between Tcont.  [explain what you presented in the talk.  more complex species may require higher density?  ]}  
 
 \subsection{O-bearing and N-bearing COMs}
-- perfect correlation between CH3OH and CH3CN -> both could be 1st generation species.  No significant difference between o-bearing and N-bearing abundances among the YSOs in perseus. (at least, elemental abundance could be almost the same since our samples are in the same cloud complex.)
-- [please mention about abundance ratios C2H5CN, NH3CHO vs CH3OCH3 and CH3OCHO. and refer several papers discussind O- and N difference.  such as in  Orion KL and/or IRAS16293???] O- and N- difference might be enhanced in more complex species (?).
+{\color{pink}- perfect correlation between CH3OH and CH3CN -> both could be 1st generation species.  No significant difference between o-bearing and N-bearing abundances among the YSOs in perseus. (at least, elemental abundance could be almost the same since our samples are in the same cloud complex.)
+
+- [please mention about abundance ratios C2H5CN, NH3CHO vs CH3OCH3 and CH3OCHO. and refer several papers discussed the O- and N difference.  such as in Orion KL and/or IRAS16293???] O- and N- difference might be enhanced in more complex species (?).}
 
 \subsection{Origin of the \methanol/\methylcyanide\ Correlation}
-- CH3OH formation is well known(surface hydrogenation)
-- explain hypothesis and possible expectations of CH3CN formation[see my e-mails]
+{\color{pink}- CH3OH formation is well known(surface hydrogenation)
+
+- explain hypothesis and possible expectations of CH3CN formation[see my e-mails]}
 
 % \subsection{Source Velocities}
 % From the \sosigma\ lines at 258255.8259\,MHz and 261843.7210\,MHz along with the CS \jj{5}{4} line, the averaged source velocities of Per-emb-37 and EDJ2009-172 are 7.437$\pm$0.056\kms\ and 7.748$\pm$0.212\kms, respectively.  The same two \sosigma\ lines also suggest a source velocity of 6.575$\pm$0.060\kms\ for Per-emb-36.
