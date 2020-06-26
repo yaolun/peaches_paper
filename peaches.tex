@@ -44,12 +44,16 @@
 
 % units and variables shortcut
 \newcommand{\mdot}{\mbox{$\dot M$}}
-\newcommand{\lsun}{\mbox{L$_\odot$}}
-\newcommand{\msun}{\mbox{M$_\odot$}}
-\newcommand{\rsun}{\mbox{R$_\odot$}}
-\newcommand{\msunyr}{\mbox{M$_\odot$ yr$^{-1}$}}
+\newcommand{\lsun}{\mbox{\,L$_\odot$}}
+\newcommand{\msun}{\mbox{\,M$_\odot$}}
+\newcommand{\mearth}{\mbox{\,M$_\oplus$}}
+\newcommand{\rsun}{\mbox{\,R$_\odot$}}
+\newcommand{\msunyr}{\mbox{\,M$_\odot$ yr$^{-1}$}}
 \newcommand{\kms}{\mbox{\,km\,s$^{-1}$}}
+\newcommand{\ghz}{\mbox{\,GHz}}
 \newcommand{\mhz}{\mbox{\,MHz}}
+\newcommand{\khz}{\mbox{\,kHz}}
+\newcommand{\jy}{\mbox{\,Jy}}
 \newcommand{\kkms}{\mbox{\,K\,km\,s$^{-1}$}}
 \newcommand{\lsmm}{\mbox{$L_{\rm smm}$}}
 \newcommand{\lbol}{\mbox{$L_{\rm bol}$}}
@@ -108,6 +112,7 @@
 \newcommand{\glycolaldehyde}{\mbox{CH$_{2}$OHCHO}}
 \newcommand{\formamide}{\mbox{NH$_{2}$CHO}}
 \newcommand{\tcooh}{\mbox{$t$-HCOOH}}
+\newcommand{\cch}{\mbox{C$_2$H}}
 
 % other shortcuts
 \newcommand{\refnote}{\textcolor{red}{reference}}
@@ -119,7 +124,7 @@
 \bibliographystyle{aasjournal}
 \begin{document}
 
-\title{The Complex Organic Molecules of Embedded Protostars at Perseus}
+\title{Perseus ALMA Chemistry Survey (PEACHES). I. The Complex Organic Molecules of Embedded Protostars}
 
 \author{Yao-Lun Yang}
 \affiliation{Department of Astronomy, University of Virginia, Charlottesvile, VA 22904-4235, USA}
@@ -147,41 +152,133 @@
 % - Law+, Bergner+, Oberg+
 % - Jorgensen+, de la Villarmois+
 
-Planet formation may start during the embedded phase of star formation.  In the scenario where planets form from the embedded disks, resulting in substructures, the chemistry of embedded disks may play a significant role for the chemical composition of the forming planets.  In the recent years, observations discover the emission of carbon-chain molecules and complex organic molecules (COMs) toward the center of several embedded protostars, indicating that embedded protostars have developed a complex chemistry at the disk-forming region.  If the forming planets inherit the chemistry of embedded disks, the abundance of complex organic molecules may implicate future developments of organics on the planets. 
+Planet formation may start during the embedded phase of star formation.  In the scenario where planets form from the embedded disks, resulting in substructures, the chemistry of embedded disks may play a significant role for the chemical composition of the forming planets.  In the recent years, observations discover the emission of unsaturated complex organic molecules such as carbon-chain molecules \citep[e.g., ][]{2013ChRv..113.8981S,2014Natur.507...78S,2018ApJ...863...88L} and the saturated complex organic molecules (COMs, \citealt[e.g., ][]{2003ApJ...593L..51C,2007A&A...463..601B,2020arXiv200607071J}) toward the center of several protostellar cores, indicating that embedded protostars have developed a complex chemistry at the disk-forming region.  The saturated organic molecules have single covalent bonds for all atoms, making them rich in hydrogen, while the unsaturated organic molecules contain double or triple bonds between carbon atoms, making them poor in hydrogen.  If the forming planets inherit the chemistry of embedded disks, the abundance of complex organic molecules may implicate future developments of organics on the planets. 
 
-Heavier or more complex molecules, such as cyclic-C$_{3}$H$_{2}$, SO, and complex organic molecules (COMs), are in the gas phase at the inner protostellar envelope ($T\gtrsim100$\,K), exclusively tracing the properties of the inner envelope where a disk may be forming \citep{2013ChRv..113.8961A,2014Natur.507...78S}.  The kinematics of a rotating infalling envelope has been analyzed with the observations of heavier or more complex molecules, such as \methanol\ and \dmethanol\ for HH\,212 \citep{2017ApJ...843...27L}, CS for IRAS\,04365$+$2535 \citep{2016ApJ...820L..34S} and L483 \citep{2017ApJ...837..174O}, cyclic-C$_{3}$H$_{2}$ for L1527 \citep{2014Natur.507...78S}, OCS for IRAS\,16293$-$2422\,A \citep{2016ApJ...824...88O}, and methanol and HCOOH for B335 \citep{2019ApJ...873L..21I}.
+Heavier or more complex molecules, such as cyclic-C$_{3}$H$_{2}$, SO, and complex organic molecules (COMs), are in the gas phase at the inner protostellar envelope ($T\gtrsim100$\,K), which coincidentally corresponds to $\sim$ 100\,au for typical low-mass protostars \citep{2020ApJ...891...61Y}.  Thus, COMs exclusively trace the properties of the inner envelope where a disk may be forming \citep{2013ChRv..113.8961A,2014Natur.507...78S}.  The kinematics of a rotating infalling envelope has been analyzed with the observations of heavier or more complex molecules, such as \methanol\ and \dmethanol\ for HH\,212 \citep{2017ApJ...843...27L}, CS for IRAS\,04365$+$2535 \citep{2016ApJ...820L..34S} and L483 \citep{2017ApJ...837..174O}, cyclic-C$_{3}$H$_{2}$ for L1527 \citep{2014Natur.507...78S}, OCS for IRAS\,16293$-$2422\,A \citep{2016ApJ...824...88O}, and methanol and HCOOH for B335 \citep{2019ApJ...873L..21I}.
 
-In the review by \citet{2009ARA&A..47..427H}, complex molecules are defined as carbon-bearing molecules that contain six atoms or more.  Saturated complex molecules are rich in hydrogen atoms, often called complex organic molecules (COMs), while the unsaturated complex molecules are lack of hydrogen atoms, mostly in the form of long carbon-chain molecules.  While recent observations show several embedded protostars with rich spectra of complex molecules, the occurrence of complex molecules at embedded protostars and its relationship to the star formation process remain poorly understand.  Several protostars are rich in COMs but show little emission of long carbon-chain molecules, such as IRAS 16293$-$2422 \citep{2016A&A...595A.117J}, NGC 1333 IRAS 4A \citep{2004ApJ...615..354B}, B335 \citep{2016ApJ...830L..37I,2019ApJ...873L..21I}, and BHR\,71 (Yang et al. 2020 accepted); some protostars are rich in long carbon-chain molecules but not in COMs, such as L1527 \citep{2010ApJ...722.1633S} and IRAS 15398$-$3359 \citep{2009ApJ...697..769S}.  While the bimodal chemical appearance hints a bimodal evolutionary path, the chemical evolution at the embedded protostars remain ill-constrained as a few protostars show the emission of both COMs and long carbon-chain molecules at different scales, such as L483 \citep{2017ApJ...837..174O}. 
+While recent observations show several embedded protostars with rich spectra of complex molecules, the occurrence of complex molecules at embedded protostars and its relationship to the star formation process remain poorly understood.  Several protostars are rich in COMs but show little emission of long carbon-chain molecules, such as IRAS 16293$-$2422 \citep{2016A&A...595A.117J}, NGC 1333 IRAS 4A \citep{2004ApJ...615..354B,2019ApJ...872..196S}, and B335 \citep{2016ApJ...830L..37I,2019ApJ...873L..21I}; some protostars are rich in long carbon-chain molecules but not in COMs, such as L1527 \citep{2010ApJ...722.1633S} and IRAS 15398$-$3359 \citep{2009ApJ...697..769S}.  While the bimodal chemical appearance hints a bimodal evolutionary path, the chemical pathways of complex molecules at the embedded protostars remain ill-constrained as a few protostars show the emission of both COMs and long carbon-chain molecules at different scales, such as L483 \citep{2017ApJ...837..174O}.  Recent surveys show lack of correlations between COMs and long carbon-chain molecules, suggesting that observational biases may contribute to the apparent bimodal chemistry \citep{2016ApJ...833..125G,2018ApJS..236...52H} (\refnote).
 
-The Perseus ALMA Chemistry Survey (PEACHES) aims to provide the statistics on the occurrence of complex molecules at embedded protostars.  This program unbiasedly observes 51 embedded protostars with ALMA around 260\,GHz, covering the emission of simple molecules such as CS and H$^{13}$CN as well as the emission of complex molecules including \methanol\ and \methylformate.  
+Perseus molecular cloud is one of the most active nearby star-forming region, which extends $\sim$10\,pc on the sky.  Infrared and submillimeter surveys reveal more than 400 young stellar objects as well as $\sim$100 dense cores, which contains $\sim$50 Class 0 and I protostars (\citealt{2005A&A...440..151H,2008ApJ...683..822J,2013AJ....145...94D}; hereafter the embedded protostars).  The Perseus molecular cloud contains star-forming regions in a wide range of environments.  The majority of protostars in Perseus are associated with two clusters, NGC\,1333 and IC\,348.  NGC\,1333 has significant outflow activity (\refnote) and a younger age than that of IC\,348.  The embedded protostars associated with IC\,348 lie at the southwest of IC\,348 near a prominent outflow, HH\,211 (\refnote).  Most of other embedded protostars at Perseus are related to L1448, L1455, Bernard 1 (B1), and Bernard 5 (B5).  L1448 has active outflows that may regulate the ongoing star formation \citep{2010MNRAS.408.1516C}; \textcolor{red}{The protostars in L1455 are slightly more evolved than that in other regions; (\refnote)} B1 exhibits rich spectra of deuterated species (\refnote).  Thus, the Perseus molecular cloud provides the ideal test bed for chemistry in embedded protostars by surveying the protostars within each region and across the entire cloud.
+
+\citet{2018ApJS..236...52H} presented a pilot survey of the chemistry in the Perseus embedded protostars with Nobeyama 45m telescope, which survey all Class 0/I protostars \citep{2007A&A...468.1009H} that have the bolometric luminosity (\lbol) greater than 1\,\lsun\ (0.7\,\lsun for protostars in B1 and B5) and the envelope mass greater than 1\,\msun.  This pilot survey probes the molecules such as C$_2$H, c-C$_3$H$_2$, and \methanol\ and find the majority of the sources are neither only rich in \methanol\ or carbon-chain molecules.  They also suggest a possible correlation between the location of sources within the clouds and the chemistry.  Other surveys with single-dish telescopes also characterize the COMs abundance at embedded protostars and test the chemical models \citep[e.g., ][]{2017ApJ...841..120B}.  Due to the large beam, chemistry survey with single-dish telescopes often more sensitive to COMs in cool temperature (10--20\,K), which may not be directly associated with the COMs thermally desorbed from icy grains.  Interferometry is crucial for probing the warm COMs at embedded protostars.  With 26 embedded protostars from several star-forming regions, \citet{2020A&A...635A.198B} find \methanol\ in about half fo the sample as well as other more complex COMs.  They also investigate the potential origin of COMs and reveal apparent chemical difference among multiple systems.  Despite of the growing sample of COMs detections in embedded protostars, the statistics of COMs occurrence and abundance remain unconstrained due to the biases from the source selection and the limited resolution.  To unbiasedly survey the chemistry, we conducted the Perseus ALMA Chemistry Survey (PEACHES) that probes the complex chemistry toward Perseuse embedded protostars.  The source selection follows the same criteria as \citet{2018ApJS..236...52H} with a few pointing modifications using the results from the VLA Nascent Disk and Multiplicity Survey (VANDAM) of Perseus protostars \citep{2016ApJ...818...73T}.
+
+Section\,\ref{sec:observations} describes the details of our ALMA observations.  Section XXX
 
 \section{Observations}
+\label{sec:observations}
 % Observation details
-Set3 has the continuum window ranging from 245800\mhz\ to 246730\mhz, while the Set1 and Set1 have the continuum window ranging from 246200\mhz\ to 247130\mhz.
-% imaging parameters
+The PEACHES observations were conducted in two ALMA projects (2016.1.01501.S and 2017.1.01462.S; PI: N. Sakai), surveying 37 fields toward the Perseus molecular cloud.  Table\,\ref{tbl:obs_projects} lists the details about the ALMA projects used in this study.  ALMA correlator was configured to have 13 spectral windows (spw) at Band 6, which have 12 narrow spws with 480 channels and a wide spw with 980 channels.  The narrow spws were tuned to observe specific molecular species, such as SiO, CS, \methanol\ and \methylcyanide, with a spectral resolution of 122\khz\ ($\sim$0.15\kms), while the wide spw aimed to observe the continuum with a resolution of 0.976\mhz\ ($\sim$0.4\kms).  The frequency setup for the two ALMA projects are largely identical except for the wide continuum window (spw04), which shifts by $\sim$620\mhz.  Table\,\ref{tbl:spw} lists the frequency ranges for each spw.
 
-% a map of PEACHES sources
+We use CASA \citep{2007ASPC..376..127M} for standard calibration and imaging of the continuum and spectral lines with \texttt{tclean}.  Because of the rich spectra, we manually flag the lines for the continuum imaging.  The spectra of spw10 and spw11 are combined for the imaging because the broad SiO emission.  The spectra is cleaned down to 0.022\jy, except for the spw04, which is cleaned down to 0.008\jy\ due to its lower spectral resolution.  The line imaging used the ``multiscale'' deconvolver with a robust parameter of 0.5, because the targeted emission traces different spatial scales (e.g. SiO for outflows and COMs for the inner envelope/disk).
+
+The synthesized beam is about 0\farcs{6}$\times$0\farcs{4} (Table\,\ref{tbl:source_list}).  The Perseus molecular cloud is not at a single distance.  Many studies assume a distance of 235\,pc for Perseus based on the maser observations toward NGC 1333 SVS 13 \citep{2008PASJ...60...37H}.  Recently, \citet{2018ApJ...865...73O} derive a distance of 321$\pm$10\,pc for IC 348 using VLBA and a distance of 293$\pm$22\,pc for NGC 1333 using \textit{Gaia} parallaxes.  \citet{2020A&A...633A..51Z} combine the \textit{Gaia} parallaxes and photometric data with a Bayesian framework to revise the distances toward different sightlines of Perseus, resulting in distances ranging from 234\,pc to 331\,pc.  In this study, we assume a distance of 300\,pc for the entire Perseus cloud.  Thus, the synthesized beam is about 180\,au$\times$120\,au.
+
+\begin{deluxetable*}{ccccc}
+  \tabletypesize{\scriptsize}
+  \tablecaption{ALMA Projects for PEACHES \label{tbl:obs_projects}}
+  \tablewidth{\textwidth}
+  \tablehead{\colhead{Project code} & \colhead{Observation time} & \colhead{Amplitude calibrator} & \colhead{Bandpass calibrator} & \colhead{Phase calibrator}}
+  \startdata
+  % east
+  % 2015.1.01093.S & 2016-08-25 & J0510$+$1800 & J0238$+$1636 & J0336$+$3218 \\
+  % 2015.1.01093.S & 2017-07-10 & J0238$+$1636 & J0237$+$2848 & J0336$+$3218 \\
+  % northwest and southeast
+  2016.1.01501.S & 2016-11-16, 19, 26, 29, 30 & J0238$+$1636 & J0237$+$2848 & J0336$+$3218 \\
+  2017.1.01462.S & 2018-09-10, 12 & J0237$+$2848 & J0237$+$2848 & J0336$+$3218 \\
+  \enddata
+\end{deluxetable*}
+
+\begin{deluxetable*}{c|cc|cc}
+  \tabletypesize{\scriptsize}
+  \tablecaption{Frequency Setup \label{tbl:spw}}
+  \tablewidth{\textwidth}
+  \tablecolumns{5}
+  \tablehead{\colhead{Spectral window} & \multicolumn{2}{c}{2016.1.01501.S} & \multicolumn{2}{c}{2017.1.01462.S}\\
+  \colhead{} & \colhead{frequemcy range} & \colhead{channel width} & \colhead{frequency range} & \colhead{channel width}} 
+  \startdata
+  spw00 & 243.483--243.542\ghz\ & 122.070\khz\ & 243.502--243.561\ghz\ & 122.070\khz\ \\
+  spw01 & 243.878--243.937\ghz\ & 122.070\khz\ & 243.897--243.956\ghz\ & 122.070\khz\ \\
+  spw02 & 244.200--244.259\ghz\ & 122.070\khz\ & 244.219--244.278\ghz\ & 122.070\khz\ \\
+  spw03 & 244.898--244.957\ghz\ & 122.070\khz\ & 244.917--244.975\ghz\ & 122.070\khz\ \\
+  spw04 & 246.186--247.124\ghz\ & 976.562\khz\ & 245.805--246.743\ghz\ & 976.562\khz\ \\
+  spw05 & 257.489--257.548\ghz\ & 122.070\khz\ & 257.509--257.568\ghz\ & 122.070\khz\ \\
+  spw06 & 258.218--258.276\ghz\ & 122.070\khz\ & 258.238--258.296\ghz\ & 122.070\khz\ \\
+  spw07 & 259.288--259.347\ghz\ & 122.070\khz\ & 259.308--259.366\ghz\ & 122.070\khz\ \\
+  spw08 & 258.974--259.032\ghz\ & 122.070\khz\ & 258.993--259.052\ghz\ & 122.070\khz\ \\
+  spw09 & 262.046--262.104\ghz\ & 122.070\khz\ & 262.066--262.124\ghz\ & 122.070\khz\ \\
+  spw10\_spw11\tablenotemark{a} & 260.442--260.551\ghz\ & 122.070\khz\ & 260.462--260.571\ghz\ & 122.070\khz\ \\
+  spw12 & 261.787--261.845\ghz\ & 122.070\khz\ & 261.807--261.865\ghz\ & 122.070\khz\ \\
+  \enddata
+  \tablenotetext{a}{The spectra of spw10 and spw11 are combined to measure the baseline due to the broad SiO emission.}
+\end{deluxetable*}
 
 \input{sources}
-\input{sources_internal}
+% \input{sources_internal}
 
-\section{Spectra Extraction}
-The ALMA image cubes are post-processed to extract 1D spectra for identifying the emission of complex molecules and further analyses.  COMs typically desorb from dust grains at $T \gtrsim 100$\,K, which coincidentally corresponds to $\sim 100$\,au for typical embedded protostars (e.g., \citealt{2020ApJ...891...61Y}).  Given the spatial resolution of $\sim$0\farcs{5} ($\sim$150\,au), we focus on the spectra toward the continuum sources to search for the COMs in the inner envelope.  Four steps of post-processing reduces the image cubes to 1D spectra, which are summarized below.
+\section{Analyses}
+
+\subsection{Identification of Young Stellar Object}
+\label{sec:continuum}
+In the 37 field of view, 51 continuum peaks are identified.  We use the CASA task \texttt{imfit} to iteratively fit for continuum sources down to 5$\sigma$ of the residual image within the central 70\%\ of the primary beam size (20\arcsec).  For the field centered on Per-emb 16, the fitting uses a threshold of 4$\sigma$ and extends the mask to the entire primary beam as a continuum source, Per-emb 28, is detected toward the edge of the primary beam where the noise is elevated.  The continuum of the multiple systems are manually fitted to the individual continuum peak.  Two protostars, L1448 IRS 2E and SVS 3, become non-detection in our observations due to their low brightness.  SVS 13C locates at the edge of the primary beam, resulting in a noisy continuum.  Thus, we exclude SVS 13C from this study, making a total of 50 protostars.  \textcolor{red}{L1448 IRS 2E has CS emission.}
+
+% distant galaxy does not appear in the current continuum image, but may be there after better calibration (e.g. self-calibration).  VLA 20
+
+% EDJ2009-237: Set2_ID13_3; Per-emb 60: Set2_ID14; EDJ2009-172: Set2_ID15
+
+Figure\,\ref{fig:continuum} shows the continuum emission along with the fitted shapes, while Table\,\ref{tbl:source_list} lists the properties of the continuum sources.  The continuum emission peak appears as a compact circular or elliptical shape.  Some sources show extended continuum emission resembling the shape of outflow cavities, such as Per-emb 22 A and B.  Three sources, EDJ2009-237, Per-emb 60, and EDJ2009-172, show no spectral line and no reliable measurement of source velocity in literature; therefore, we exclude them from spectral extraction as well as the line identification and modeling.  However, these three sources still contribute to the total number of sources for calculating the detection statistics.
+
+The observations resolve or marginally resolve 90\% (45 of 50) of the continuum sources.  Our sample includes single sources as well as resolved and unresolved multiple systems.  According to the VANDAM survey \citep{2016ApJ...818...73T}, our sample contains eleven binary systems and one triple system.  Two of eleven binary systems are resolved and the triple system appears as a single source and an unresolved binary.  In total, 20\%\ of the sources are unresolved binary. 
+
+\citet{2020arXiv200602812T} derive the central dust mass of Perseus protostars using the 9 mm VLA observations (VANDAM; see Table\,\ref{tbl:source_list}).  Dust emission from the center of a protostar may be marginally optically thick at millimeter wavelengths \citep{2020ApJ...889..172K}, making the derived dust mass lower limits.  Seven sources in our sample have the averaged continuum brightness temperature exceeding 10\,K (Table\,\ref{tbl:source_list}).  NGC 1333\,IRAS\,4A1 has a $T_\text{b}$ of 21.9\,K, the brightest among our sample.  In fact, continuum opacity limits the detectability of COMs toward 4A1, where COMs appear as absorption at ALMA Band 7 \citep{2019ApJ...872..196S} and emission at centimeter wavelengths \citep{2020ApJ...896L...3D}.  Toward the other six sources, Per-emb 33 A, NGC 1333 IRAS 4A2, NGC 1333 IRAS 4B1, Per-emb 5, B1-b S, and Per-emb 11 A, our observations detect several molecular lines from the central region, suggesting that the continuum opacity has less impact compared to that for IRAS 4A1.  Previous observations also suggest less impact from the continuum opacity for NGC 1333 IRAS 4B1 \citep{2020A&A...635A.198B} and B1-b S \citep{2018A&A...620A..80M}.  Most of the sources show averaged brightness temperatures lower than 10\,K, suggesting that the continuum sources remain unresolved and have a negligible effect to the COMs emission.  We take the $T_\text{b}$ as a tracer of the averaged dust column densities.  Constraining the actual column densities requires higher resolution observations.
+
+% On the other hand, most of the sources show brightness temperature lower than 10 K, which is the typical kinetic temperature of the gas in starless cloud.  At the sources resolved or marginally resolved by the beam, optical thickness could be negligible for the estimation of column density of COMs, which has similar or larger size distribution around the protostar.  For non resolved sources, we here treat them just as averaged column densities.  To reveal actual column densities, higher resolution observations are required. 
+
+\subsection{Spectral Extraction}
+The ALMA image cubes are post-processed to extract 1D spectra for identifying the emission of complex molecules and further analyses.  COMs typically desorb from dust grains at $T \gtrsim 100$\,K, which coincidentally corresponds to $\sim 100$\,au for typical embedded protostars (e.g., \citealt{2020ApJ...891...61Y}).  Given the spatial resolution of $\sim$0\farcs{5} ($\sim$150\,au), we focus on the spectra toward the continuum sources to search for the COMs in the inner envelope.  In most of the cases, COMs emission concentrates around the protostars at $\lesssim$300\,au scale.  Figure\,\ref{fig:coms_map_sample} shows representative sample of the COMs emission, \textcolor{red}{the full sample is shown in Appendix.}  Three steps of post-processing reduces the image cubes to 1D spectra, which are summarized below.
 
 \begin{itemize}
-  \item Continuum fitting: We use the CASA task \texttt{imfit} to iteratively fit for continuum sources down to 5$\sigma$ of the residual image within the central 70\%\ of the primary beam size (20\arcsec).  For the field Set3\_ID09, the fitting uses a threshold of 4$\sigma$ and extends the mask to the entire primary beam as a continuum source is detected toward the edge of the primary beam where the noise is elevated.
+  % \item Continuum fitting: We use the CASA task \texttt{imfit} to iteratively fit for continuum sources down to 5$\sigma$ of the residual image within the central 70\%\ of the primary beam size (20\arcsec).  For the field Set3\_ID09, the fitting uses a threshold of 4$\sigma$ and extends the mask to the entire primary beam as a continuum source is detected toward the edge of the primary beam where the noise is elevated.
   \item Extracting spectra:  We use the CASA task \texttt{specflux} to extract the mean flux density within the ellipse which has the same major and minor axes as well as the position angle as the fitted continuum sources.
-  \item Baseline calibration:  The continuum has been removed before the imaging process; however, the extracted spectra sometimes still show imperfect baselines due to rich emission lines, lack of emission, and broad emission features.  Thus, we manually select the frequency ranges for baseline calibration for each spectral window and each field.
+  \item Baseline calibration:  The continuum has been removed before the imaging process; however, the extracted spectra sometimes still show imperfect baselines due to rich emission lines, lack of emission, and broad features.  Thus, we manually select the frequency ranges for baseline calibration for each spectral window and each field.
   \item Velocity correction:  Finally, the frequency of the extracted spectra are corrected according to the source velocities.  We collect the source velocities from the literature as well as from the strong emission lines in our spectra, such as SO and CS.  Table\,\ref{tbl:source_list} lists the adopted source velocities and the corresponding references.
 \end{itemize}
-
-Figure\,\ref{fig:continuum} shows the continuum emission along with the fitted shapes, while the properties of the continuum sources are also listed in Table\,\ref{tbl:source_list}.  Our observations detect 50 continuum sources.    The continuum emission appears as compact circular or elliptical shape with no sub-structure.  Some sources show extended continuum emission resembling the shape of outflow cavities, such as Per-emb 22 A and B.  Three sources, EDJ2009-237, Per-emb 60, and EDJ2009-172, have no spectral line detected and no reliable measurement of source velocity in literature; therefore, we exclude them from spectral extraction as well as the line identification and modeling.  However, these three sources still contribute to the denominator for calculating the detection statistics.
 
 \begin{figure*}[htbp!]
   \centering
   \includegraphics[width=\textwidth]{all_continuum.pdf}
   \caption{The continuum images of all PEACHES protostars.  Non-detections toward L1448 IRS\,2E and NGC 1333 SVS 3 are not shown.  The dashed ellipses illustrate the size of fitted continuum, which is the region for extracting 1D spectra.}
   \label{fig:continuum}
+\end{figure*}
+
+\begin{figure*}[htbp!]
+  \centering
+  \includegraphics[width=0.24\textwidth]{Set1_ID02_CH3OH_243915.pdf}
+  \includegraphics[width=0.24\textwidth]{Set1_ID02_CH3CN_257527.pdf}
+  \includegraphics[width=0.24\textwidth]{Set1_ID02_CH3OCHO_259342.pdf}
+  \includegraphics[width=0.24\textwidth]{Set1_ID02_CH3OCH3_259311.pdf}
+
+  \includegraphics[width=0.24\textwidth]{Set2_ID00_CH3OH_243915.pdf}
+  \includegraphics[width=0.24\textwidth]{Set2_ID00_CH3CN_257527.pdf}
+  \includegraphics[width=0.24\textwidth]{Set2_ID00_CH3OCHO_259342.pdf}
+  \includegraphics[width=0.24\textwidth]{Set2_ID00_CH3OCH3_259311.pdf}
+
+  \includegraphics[width=0.24\textwidth]{Set3_ID00_CH3OH_243915.pdf}
+  \includegraphics[width=0.24\textwidth]{Set3_ID00_CH3CN_257527.pdf}
+  \includegraphics[width=0.24\textwidth]{Set3_ID00_CH3OCHO_259342.pdf}
+  \includegraphics[width=0.24\textwidth]{Set3_ID00_CH3OCH3_259311.pdf}
+
+  \includegraphics[width=0.24\textwidth]{Set3_ID01_CH3OH_243915.pdf}
+  \includegraphics[width=0.24\textwidth]{Set3_ID01_CH3CN_257527.pdf}
+  \includegraphics[width=0.24\textwidth]{Set3_ID01_CH3OCHO_259342.pdf}
+  \includegraphics[width=0.24\textwidth]{Set3_ID01_CH3OCH3_259311.pdf}
+
+  \includegraphics[width=0.24\textwidth]{Set3_ID07_CH3OH_243915.pdf}
+  \includegraphics[width=0.24\textwidth]{Set3_ID07_CH3CN_257527.pdf}
+  \includegraphics[width=0.24\textwidth]{Set3_ID07_CH3OCHO_259342.pdf}
+  \includegraphics[width=0.24\textwidth]{Set3_ID07_CH3OCH3_259311.pdf}
+
+  \caption{The intensity maps of most detected COMs, \methanol, \methylcyanide, \methylformate, and \dimethylether\ (from left to right).  Each row shows the emission from Per-emb 26, Per-emb 44, B1-b S, B1-c, and Per-emb 11 A (top to bottom).  The intensity is calculated by integrating over 3\kms\ around the line centroid, while the lowest contour shows the 3$\sigma$ value.  The grayscale images illustrate the continuum emission.}
+  \label{fig:coms_map_sample}
 \end{figure*}
 
 \subsection{Line Identification and Modeling}
@@ -194,123 +291,74 @@ Line identification starts with manual identification and verification for a few
 \end{itemize}
 Table\,\ref{tbl:line_id} lists the identified species and transitions that are detected in at least one of the PEACHES protostars.  Only identifiable transitions are listed.  The \textsc{xclass} modeling include all the transitions in our frequency coverage for each molecule regardless their Einstein-A values and upper energy levels.  
 
+As shown in Figure\,\ref{fig:coms_map_sample}, COMs emission centers around the protostars at $\sim 100-200$\,au.  At the similar region, the gas density is around $\sim 10^{8}$\cc\ \citep[B1-b S: ][]{2017A&A...606A..35G}, similar to the critical density of the COM emission detected in our observations.  For example, the \methanol\ line at 243915\mhz\ has a critical density of 1.4\ee{8}\cc\ \citep{2005A&A...432..369S,2010MNRAS.406...95R}.  Thus, the assumption of LTE holds for modeling the COM emission.  \textcolor{red}{YLY: B1-b S is one of the most dense protostars.  My guess is that the COMs is close to LTE but not in LTE.  We also test the LTE assumption on \methanol\ with the large velocity gradient (LVG) model using RADEX (\refnote).  The column density difference is only X\%.}
+
 Systematic spectral fitting using \textsc{xclass} is applied to all sources using a list of species, compiled from the identifications.  Appendix\,\ref{sec:catalogs} lists the catalogs used in this study.  The fitting function in \textsc{xclass} includes several optimization algorithms that can be used in series to reduce biases.  We configure the algorithm chain that starts with the genetic algorithm followed by the Levenberg-Marquardt $\chi^{2}$ minimization.  The genetic algorithm searches the best-fitting parameters iteratively with generations that evolve like a natural selection, where the better fitting models get less modification over generations.  We setup the genetic algorithm to search for the top two best-fitting models with 30 generations.  Then, the Levenberg-Marquardt $\chi^{2}$ minimization applies to the two best-fitting models for 20 iterations to find the best-fitting models.  The genetic algorithm aims to find local minimums and the Levenberg-Marquardt minimization further finds the best-fitting models in the local minimums.  The two best-fitting models found by the genetic algorithm often very similar, suggesting that there is only one minimum.  To address the rare cases of two separated local minimums, we pick the model with the lower $\chi^{2}$ values from the two best-fitting models constrained by the Levenberg-Marquardt minimization.  
 
 There are five parameters in the \textsc{xclass} modeling, the size of the emitting molecule ($r_\text{COM}$), the excitation temperature ($T_\text{ex}$), the column density ($N_\text{COM}$), the line width ($\Delta \nu$), and velocity offset ($v_\text{off}$).  We assume the COMs are all concentrated at the center, simplified as a 2D thin circular disk.  We fix $r_\text{COM}$ as 0\farcs{5}, similar to our beam size, and optimize the model with five excitation temperatures, 100, 150, 200, 250, and 300 K.  We allow the line width varying between 1.2\kms\ to 3.5\kms\ for better fitting quality but assume no velocity offset from the source velocity, and the allowed range of the column density for each molecule is chosen according to the strength of the emission.  From the fitting results of five $T_\text{ex}$, if a molecule is detected, the mean column densities will be the best-fitting column density, while the range of the column densities indicates the upper and lower uncertainties.  If a molecule is non-detection, the synthetic spectra for all lines are scaled to match the peaks of the each line fitted by a Gaussian profile.  Then, we take the minimum of the corresponding column densities as the upper limit.
 
-% \section{Continuum Opacity}
+\section{Results}
+\subsection{Detection Statistics}
+We summarize the detection statistics in Figure\,\ref{fig:stats}, which includes COMs, the carbon-chain molecules, and the simple organic molecules, such as CS, \htcn, SO, $^{34}$SO, and SO$_{2}$.  In the following results of detection fraction, we include the three sources that are excluded from modeling due to no reliable source velocity, making a total of 50 sources.  The COMs discussed here are the derived from the spectra taken toward the continuum peak (Section\,\ref{sec:continuum}).  We focus on the chemistry of COMs in the disk-forming regions in this study, therefore, excluding detection of molecules outside the continuum peak.  A comparison of chemical composition in protostellar envelopes (100--1000\,au) requires observations with larger maximum recoverable scale ($\theta_\text{MRS}$).
 
-\section{Detection Statistics}
-We summarize the detection statistics in Figure\,\ref{fig:stats}, which includes COMs, the carbon-chain molecules, and the simple organic molecules, such as CS, \htcn, SO, $^{34}$SO, and SO$_{2}$.  In the following results of detection fraction, we include the three sources that are excluded from modeling due to no reliable source velocity, making a total of 50 sources.  The PEACHES protostars show a great chemical diversity from no molecule detected (e.g., B1-bN and L1455 IRS 2) to rich spectra of COMs (e.g. Per-emb 13).  Most of the PEACEHS protostars have simple organics, such as SO, CS, \htcn, and HDCO, and $\sim 60$\%\ of sources have SO$_{2}$ and $^{34}$SO.  Emission of CCH can be easily identified from the spectra.  However, the CCH toward the continuum sources often shows irregular line profiles together with velocity offsets and absorption (Figure\,\ref{fig:all_cch}).  In fact, warm environments, such as the outflow cavity wall, easily enhance the abundance of CCH because of elevated abundance of C$^{+}$.  Thus, CCH emission is extended along with the outflow cavities, making the 1D spectra unrepresentative.
-
-Thirty-four percent of sources have no COMs detected (no emission nor absorption), including Per-emb 8, B1-bN, IRAS 4B$\prime$, Per-emb 36, Per-emb 33 B/C, Per-emb 50, Per-emb 14, Per-emb 28, Per-emb 41, Per-emb 37, Per-emb 11 B, Per-emb 16, Per-emb 55, EDJ2009-235, Per-emb 15, L1455 IRS 2, and Per-emb 54, in the order of decreasing continuum temperatures.  Methanol (\methanol) is detected in 28 sources (56\%); methyl formate (\methylformate) is detected in 15 sources (30\%); and N-bearing COMs are detected in 20 sources (40\%).  Comparing to the COMs in the CALYPSO survey \citep{2020A&A...635A.198B}, the fraction of sources that have methanol, $\sim$50\%, is similar to that for the PEACHES protostars.  Also, 30\%\ of the CALYPSO sources have at least three COMs, while 28\%\ of the PEACHES protostars have at least three COMs.  
-
-The sources with rich spectra COMs tend to have bright continuum emission.  However, the brightest source in continuum, Per-emb 12 A has many molecules detected in absorption due to the high continuum opacity blocking the emission of COMs \citep{2019ApJ...872..196S}.  The number of detected COMs show no obvious correlation with the bolometric luminosity and bolometric temperature of the protostars (Figure\,\ref{fig:stats}), which are conventional evolutionary indicators.  Low luminosity sources have fewer COMs detected; however, if COMs mostly come from thermal desorption, the region with $T > T_\text{desorption}$ may be smaller for the low luminosity sources, making the emission of COMs fainter and reducing our sensitivity to detect COMs.  To test the detection statistics with physical properties of protostars, we collect the mass derived from 9\,mm observations that resolved the sources as a proxy of the central mass \citep{2018ApJS..238...19T}.  The detection statistics with the continuum mass show only tentative correlation with the central mass with smaller central mass have fewer detections of COMs.
+The PEACHES protostars show a great chemical diversity from no molecule detected (e.g., B1-bN and L1455 IRS 2) to rich spectra of COMs (e.g. Per-emb 13).  Most of the PEACHES protostars have simple organics, such as SO, CS, \htcn, and HDCO, and $\sim 60$\%\ of sources have SO$_{2}$ and $^{34}$SO.  Emission of \cch\ can be easily identified from the spectra.  However, the \cch\ toward the continuum sources often shows irregular line profiles together with velocity offsets and absorption (Figure\,\ref{fig:all_cch}).  In fact, warm environments, such as the outflow cavity wall, easily enhance the abundance of \cch\ because of elevated abundance of C$^{+}$ \citep[e.g., ][]{2018ApJ...864...76Z,2019ApJ...873L..21I}.  Thus, \cch\ emission is extended along with the outflow cavities, making the 1D spectra toward the continuum source unrepresentative.  Observations with a larger $\theta_\text{MRS}$ will provide a complete representation of the \cch\ abundance on the inner envelope.
 
 Several sources have their SiO emission with a broad line width, significantly contaminating the emission of \ethylcyanide\ and \acetaldehyde.  In the later quantitative discussion, we exclude the spectral windows contaminated by the SiO emission.  For assigning the detections, we can distinguish the emission of \ethylcyanide\ and \acetaldehyde\ from the broad SiO emission in a few sources, such as \acetaldehyde\ in Per-emb 26.
 
+Figure\,\ref{fig:detection_summary} shows the number of COMs detected toward the PEACHES sample.  Twenty-one (45\%) sources have no COMs detected.  \methanol\ is detected in 28 sources (56\%); \methylformate\ is detected in 15 sources (32\%); and N-bearing COMs are detected in 20 sources (40\%).  Comparing to the COMs in the CALYPSO survey \citep{2020A&A...635A.198B}, the fraction of sources that have methanol, $\sim$50\%, is similar to that for the PEACHES protostars.  Also, 30\%\ of the CALYPSO sources have at least three COMs, while 28\%\ of the PEACHES protostars have at least three COMs.  
+
+We compare the number of detected COMs with the bolometric luminosity (\lbol), the bolometric temperature (\tbol), and the dust mass estimated by \citet{2020arXiv200602812T} using observations at 9\,mm ($M_\text{central}$).  The number of COMs shows no obvious trend with \lbol, \tbol, and $M_\text{central}$.  For \lbol, the sources with at least three COMs all have \lbol\ $\gtrsim$ 3\msun, except for B1-b S.  However, the sources without any COMs also have a similar \lbol.  If COMs mostly come from thermal desorption, the region with $T > T_\text{desorption}$ may be smaller for the low luminosity sources, making the emission of COMs fainter and reducing our sensitivity to detect COMs.
+The COM-rich sources have \tbol$\sim 50$\,K, while the COM-poor sources have a greater scatter of \tbol, ranging from 14.7\,K to 1100\,K.  The protostars with high $M_\text{central}$ ($>$666.5\mearth) have detections of COMs.  However, the protostars with low $M_\text{central}$ can have either many COMs or no COM.
+
+The sources with high continuum brightness temperature (\tb) tend to have rich spectra COMs (Figure\,\ref{fig:detection_summary_Tb}), while the sources with no detection of COM have their \tb$\lesssim$10\,K.  The brightest source in continuum, Per-emb 12 A has many molecules detected in absorption due to the high continuum opacity blocking the emission of COMs \citep{2019ApJ...872..196S,2020ApJ...896L...3D}.  The continuum brightness temperature traces the gas column density, tracing the amount of embedding gas around the protostars.  
+Thus, the tendency between many COMs and the high \tb\ hints the scenarios where the denser envelope either increases the detectability of COMs or enhance the complexity of molecules.
+
+% hot corino fraction and new hot corinos
+Compact emission of COMs suggests ...
+
 \begin{figure*}[htbp!]
-  \includegraphics[width=\textwidth]{stats_sorted_by_Tcont.pdf}
-  \caption{The same figure as Figure\,\ref{fig:stats} but sorted by the continuum temperatures listed in Table\,\ref{tbl:source_list}.}
+  \includegraphics[width=\textwidth]{stats.pdf}
+  \caption{Summary of molecular detections.  The sources are sorted by increasing R.A. from left to right.  The detections are color-coded by the types of species: S-bearing molecules in green, carbon-chain molecules in blue, O-bearing COMs in red excluding N-bearing molecules, N-bearing COMs in magenta, other simple organics in gray.  The boxes with solid colors indicate emission and the empty boxes indicate absorption.  The hatched boxes indicate both emission and absorption are seen.}
   \label{fig:stats}
 \end{figure*}
 
-\renewcommand{\thefigure}{\arabic{figure} (Cont.)}
-\addtocounter{figure}{-1}
-\begin{figure*}[htbp!]
-  \includegraphics[width=\textwidth]{stats_sorted_by_tbol.pdf}
-  \caption{The same figure as Figure\,\ref{fig:stats} but sorted by their bolometric temperature.}
-\end{figure*}
-
-\addtocounter{figure}{-1}
 \begin{figure*}[htbp!]
   \centering
-  \includegraphics[width=\textwidth]{stats_sorted_by_lbol.pdf}
-  \caption{The detection statistics sorted by their bolometric luminosity.}
+  \includegraphics[width=\textwidth]{detection_summary_all.pdf}
+  \caption{The number of COMs detected toward the PEACHES sources compared with the bolometric luminosity (purple), the bolometric temperature (brown), and the central dust mass (pink, \citet{2020arXiv200602812T}).  The sources are sorted by the total number of COMs with the number of O-bearing COMs, N-bearing COMs, and all COMs labeled as orange boxes, green triangles, and blue circles, respectively.  The mass of unresolved systems is estimated as the sum of each protostar.  The bolometric luminosities and the bolometric temperatures are taken from \citet{2016ApJ...818...73T} and \citet{2016A&A...592A..56M}.}
+  \label{fig:detection_summary}
 \end{figure*}
-
-\addtocounter{figure}{-1}
-\begin{figure*}[htbp!]
-  \includegraphics[width=\textwidth]{stats_sorted_by_Mcont.pdf}
-  \caption{The same figure as Figure\,\ref{fig:stats} but sorted by their mass derived from their 9\,mm observations \citep{2018ApJS..238...19T}.}
-\end{figure*}
-\renewcommand{\thefigure}{\arabic{figure}}
-
-\section{Correlations of COMs}
-The chemical evolution of protostars may leave certain patterns in the abundance of molecules as the dynamical evolution determines the density and temperature structures, which regulate chemical reactions.  Thus, the abundance of COMs and their correlations provide critical information to constrain the chemical evolution at embedded protostars.  The fitted column density of COMs indicates the abundance of COMs around protostars.  Typically COMs are locked into the ices on dust grains at outer envelope. Therefore, we take the column density of COMs as a proxy of the abundance of COMs.  
-
-As described in Section\,\ref{sec:modeling}, we fit the column density and line width with different excitation temperatures, resulting in a range of column density as its uncertainty.  The comparison between CCH and \methanol\ shows no correlation between these two molecules (Figure\,\ref{fig:cch_ch3oh}), similar to the conclusion in \citet{2018ApJS..236...52H}.  The single dish survey by \citet{2016ApJ...833..125G} shows a correlation between C$_{4}$H, a more complex carbon-chain molecules, and \methanol.  Outflow activity can promote the formation of CCH, which is more efficiency at warm temperature.  In face, the morphology of CCH often traces the outflow cavities seen from CS.  Therefore, the lack of correlation between CCH and \methanol\ may be affected by outflows.
-
-Figure\,\ref{fig:corner} shows the correlations of several COMs selected from their detection rates.  The column density of \methanol\ best correlates with that of \methylcyanide.  \citet{2020A&A...635A.198B} also found the tight correlation between these two molecules from the CALYPSO survey, which has a selective sample.  The column densities of \dimethylether\ and \methylformate\ also show a tight correlation.  To quantify the goodness of correlation, we calculate the Pearson's correlation coefficient ($r$), which tests the linearity of two variables.  A simple calculation of the Pearson's correlation coefficient would ignore the uncertainties of the column density.  Thus, we use the bootstrapping method to sample the fitted column densities to calculate Pearson's $r$, by assuming a normal distribution centers on the best-fitted values with the uncertainty as the width of the normal distribution.  If we include the upper limits as normal distributions center on zero, the correlation coefficient becomes significantly lower due to the cluster of samples around zero column density (Figure\,\ref{fig:pearson_distribution}).  With the detection-only sample, the mean Pearson's $r_{d}$ is 0.91, as expected for a tight correlation, with a Gaussian-like distribution skewed toward lower values.  After including the upper limits, the mean Pearson's $r$ decreases to 0.59 with larger uncertainty (the 68\%\ credible interval increases by 160\%).  Thus, the bootstrapped correlation coefficient only considers the detections.
-
-\begin{figure}[htbp!]
-  \centering
-  \includegraphics[width=0.47\textwidth]{Ncol_ch3oh_ch3cn.pdf}
-  \caption{Correlation of the fitted column densities of \methanol\ and \methylcyanide\ from the PEACHES protostars.  The sources where both molecules are detected are shown in black; the sources where only one molecule is detected are shown in magenta; finally, the sources where both molecules are not detected are shown in black for the corresponding upper limits.}
-  \label{fig:ch3oh_ch3cn}
-\end{figure}
-
-\begin{figure}[htbp!]
-  \centering
-  \includegraphics[width=0.47\textwidth]{pearson_r_ch3oh_ch3cn.pdf}
-  \caption{Distributions of Pearson's correlation coefficient from 10000 resamples drawn from detections $+$ non-detections and only detections.  The legend indicates the mean values of Pearson's $r$ along with the range of the 95\%\ credible interval as the associated uncertainties.}
-  \label{fig:pearson_distribution}
-\end{figure}
 
 \begin{figure*}[htbp!]
   \centering
-  \includegraphics[width=\textwidth]{corner_Ncol_correlations.pdf}
-  \caption{Corner plot of the correlations of the column densities between \methanol, \methylcyanide, \methylformate, and \dimethylether.  The color code follows that in Figure\,\ref{fig:ch3oh_ch3cn}.  The dashed line indicates equality.  The legends indicate the Pearson's $r$ for the detection-only sample ($r_{d}$) and the logarithmic ratio of the two molecules (N$_{y}$/N$_{x}$).  The four most detected COMs are shown in this figure, while other COMs are shown in Figure\,\ref{fig:corner_minor}.}
-  \label{fig:corner}
+  \includegraphics[width=\textwidth]{detection_summary_Tb.pdf}
+  \caption{The number of COMs detected toward the PEACHES sources compared with the continuum brightness temperature.  The legends for the protostars are the same as Figure\,\ref{fig:detection_summary}.  The brightness temperatures are indicated in green.}
+  \label{fig:detection_summary_Tb}
 \end{figure*}
 
+% \renewcommand{\thefigure}{\arabic{figure} (Cont.)}
+% \addtocounter{figure}{-1}
 % \begin{figure*}[htbp!]
-%   \centering
-%   \includegraphics[width=\textwidth]{corner_Ncol_correlations_norm_Tcont.pdf}
-%   \caption{Corner plot of the correlations of the column densities normalized by the continuum brightness temperatures.  The four most detected COMs are shown in this figure, while other COMs are shown in Figure\,\ref{fig:corner_minor}.}
-%   \label{fig:corner_tcont}
+%   \includegraphics[width=\textwidth]{stats_sorted_by_tbol.pdf}
+%   \caption{The same figure as Figure\,\ref{fig:stats} but sorted by their bolometric temperature.}
 % \end{figure*}
 
 % \addtocounter{figure}{-1}
 % \begin{figure*}[htbp!]
 %   \centering
-%   \includegraphics[width=\textwidth]{corner_Ncol_correlations_norm_Lbol.pdf}
-%   \caption{Corner plot of the correlations of the column densities normalized by the bolometric luminosities.  A few close multiple sources, including Per-emb 12 A \&\ B, Per-emb 35 A \&\ B, and Per-emb 11 A \&\ C, are excluded due to their poorly determined SEDs.}
-%   \label{fig:corner_lbol}
+%   \includegraphics[width=\textwidth]{stats_sorted_by_lbol.pdf}
+%   \caption{The detection statistics sorted by their bolometric luminosity.}
 % \end{figure*}
 
 % \addtocounter{figure}{-1}
 % \begin{figure*}[htbp!]
-%   \centering
-%   \includegraphics[width=\textwidth]{corner_Ncol_correlations_norm_Tbol.pdf}
-%   \caption{Corner plot of the correlations of the column densities are normalized by the bolometric temperatures.  A few close multiple sources, including Per-emb 12 A \&\ B, Per-emb 35 A \&\ B, and Per-emb 11 A \&\ C, are excluded due to their poorly determined SEDs.}
-%   \label{fig:corner_tbol}
+%   \includegraphics[width=\textwidth]{stats_sorted_by_Mcont.pdf}
+%   \caption{The same figure as Figure\,\ref{fig:stats} but sorted by their mass derived from their 9\,mm observations \citep{2018ApJS..238...19T}.}
 % \end{figure*}
+% \renewcommand{\thefigure}{\arabic{figure}}
 
-% \addtocounter{figure}{-1}
-% \begin{figure*}[htbp!]
-%   \centering
-%   \includegraphics[width=\textwidth]{corner_Ncol_correlations_norm_Tcont+Lbol.pdf}
-%   \caption{Corner plot of the correlations of the column densities are normalized by the continuum temperature and the bolometric luminosities.  A few close multiple sources, including Per-emb 12 A \&\ B, Per-emb 35 A \&\ B, and Per-emb 11 A \&\ C, are excluded due to their poorly determined SEDs.}
-%   \label{fig:corner_tbol}
-% \end{figure*}
-
-\begin{figure*}[htbp!]
-  \centering
-  \includegraphics[width=\textwidth]{corner_Ncol_correlations_combined_norm.pdf}
-  \caption{Corner plot of the correlations of the normalized column densities.  The blue, magenta, and black symbols indicate the column densities normalized by the continuum brightness temperature (\tb), while the color scheme follows that in Figure\,\ref{fig:ch3oh_ch3cn}.  The orange symbols show the column densities normalized by \tb\ and the bolometric luminosity ($\lbol$), while the cyan symbols show that normalized by \tb\ and the bolometric temperature (\tbol).  We only show the column densities if both molecules are detected for the ones normalized by \tb\tbol\ and \tb\lbol.  A few close multiple sources, including Per-emb 12 A \&\ B, Per-emb 35 A \&\ B, and Per-emb 11 A \&\ C, are excluded for the normalization of \tbol\ and \lbol\ due to their poorly determined SEDs.}
-  \label{fig:corner_combined}
-\end{figure*}
-
-\begin{figure*}[htbp!]
-  \centering
-  \includegraphics[width=\textwidth]{corner_Ncol_correlations_minor.pdf}
-  \caption{Corner plot of the correlations of the column densities between \methanol, \methylcyanide, \acetaldehyde, \ethanol, \methylformatev, \acetone, \ethylcyanide, $t$-HCOOH, and \formamide.  The legends are similar to Figure\,\ref{fig:ch3oh_ch3cn}}
-  \label{fig:corner_minor}
-\end{figure*}
-
+\section{Column Densities}
 \subsection{Excitation Temperatures}
-\subsubsection{\methanol}
 The PEACHES spectra cover four methanol lines, while the spectra of each source include three of them due to the frequency shift in the wide spectral window.  The three methanol lines have upper energy ranging from $\sim$50\,K to $\sim$500\,K, which allows us to estimate the rotational temperature of methanol if all three lines are detected.  To construct the methanol rotational diagram, we fit the methanol emission with a Gaussian profile and bootstrap the measurements for fitting the rotational temperature.  Figure\,\ref{fig:rot_dia_example} shows the rotational diagram of Per-emb 22 B along with the sampled rotational temperature.  The derived rotational temperature of methanol ranges from 120\,K to 240\,K with an exception of Per-emb 18, which has a rotational temperature of 395.7\,K for methanol (Table\,\ref{tbl:methanol_rot_temps}).
 
 \begin{figure*}[htbp!]
@@ -343,43 +391,88 @@ The PEACHES spectra cover four methanol lines, while the spectra of each source 
   \enddata
 \end{deluxetable}
 
-% \subsubsection{\methylformate}
+[put the derived values from HCOOCH3 for several sources. and say consistency with several other works.]
+[Put the discussions in 6.1.1. in your section number, and say consistency with HCOOCH3].
+[say the assumption/justification of T for sources without multiple line detections(i.e. sources, which is difficult to derive T).  It could partly be overlapped with the section 3.2 (3.1 in your numbering)]
 
-\section{Spatial Extent of COMs}
+\subsection{Correlations of COMs}
+The chemical evolution of protostars may leave certain patterns in the abundance of molecules as the dynamical evolution determines the density and temperature structures, which regulate chemical reactions.  Thus, the abundance of COMs and their correlations provide critical information to constrain the chemical evolution at embedded protostars.
+
+As described in Section\,\ref{sec:modeling}, we fit the column density and line width with different excitation temperatures, resulting in a range of column density as its uncertainty.  
+To quantify the goodness of correlation, we calculate the Pearson's correlation coefficient ($r$), which tests the linearity of two variables.  A simple calculation of the Pearson's correlation coefficient would ignore the uncertainties of the column density.  Thus, we use the bootstrapping method to sample the fitted column densities to calculate Pearson's $r$, by assuming a normal distribution centers on the best-fitted values with the uncertainty as the width of the normal distribution.  If we include the upper limits as normal distributions center on zero, the correlation coefficient becomes significantly lower due to the cluster of samples around zero column density (Figure\,\ref{fig:pearson_distribution}).  With the detection-only sample, the mean Pearson's $r_{d}$ is 0.91, as expected for a tight correlation, with a Gaussian-like distribution skewed toward lower values.  After including the upper limits, the mean Pearson's $r$ decreases to 0.59 with larger uncertainty (the 68\%\ credible interval increases by 160\%).  Thus, the bootstrapped correlation coefficient only considers the detections.
+
+Figure\,\ref{fig:corner} shows the correlations of several COMs selected from their detection rates.  The column density of \methanol\ best correlates with that of \methylcyanide.  \citet{2020A&A...635A.198B} also found the tight correlation between these two molecules from the CALYPSO survey, which has a selective sample.  The column densities of \dimethylether\ and \methylformate\ also show a tight correlation.  \methanol\ also correlates with more complex species (i.e. so called daughter species, \methylformate\ and \dimethylether) with a lower correlation coefficient than that between \methanol\ and \methylcyanide.  The correlations between \methylcyanide\ and more complex species also show the same behavior.  The decreasing strength of correlation with between the simple COMs and more complex COMs supports the hypothesis that \methanol\ and \methylcyanide\ are first generation species and \methylformate\ and \dimethylether\ are the second generation (\refnote).
+
+
+
+To confirm this correlation, we have also prepared normalized correlation plots.  [explain the method, and meaning of the normalization] Similar values of the correlation coefficient are obtained.
+
+Averaged abundance ratios are also summarized in the plot.
+
+For other COMs detected in this survey, the correlation plots are shown in Figure XX.  
+
+The number of detected sources are not enough to discuss the difference in correlation coefficient (less than 10 points??).  However, marginal correlations could be seen.  Abundance ratios are discussed in section XX. [please add the ratios.]
+
+% The comparison between \cch\ and \methanol\ shows no correlation between these two molecules (Figure\,\ref{fig:cch_ch3oh}), similar to the conclusion in \citet{2018ApJS..236...52H}.  The single dish survey by \citet{2016ApJ...833..125G} shows a correlation between C$_{4}$H, a more complex carbon-chain molecules, and \methanol.  Outflow activity can promote the formation of \cch, which is more efficiency at warm temperature \citep[e.g., ][]{2018ApJ...864...76Z,2019ApJ...873L..21I}.  In face, the morphology of \cch\ often traces the outflow cavities seen from CS.  Therefore, the lack of correlation between \cch\ and \methanol\ may be affected by the inner cavity wall of outflows, because our spectra are taken toward the continuum peak.  Observations with a larger $\theta_\text{MRS}$ will minimize the effect of missing flux in interferometry for a faithful comparison of the \cch\ abundance on the inner envelope.
+
+\begin{figure}[htbp!]
+  \centering
+  \includegraphics[width=0.47\textwidth]{Ncol_ch3oh_ch3cn.pdf}
+  \caption{Correlation of the fitted column densities of \methanol\ and \methylcyanide\ from the PEACHES protostars.  The sources where both molecules are detected are shown in black; the sources where only one molecule is detected are shown in magenta; finally, the sources where both molecules are not detected are shown in black for the corresponding upper limits.}
+  \label{fig:ch3oh_ch3cn}
+\end{figure}
+
+\begin{figure}[htbp!]
+  \centering
+  \includegraphics[width=0.47\textwidth]{pearson_r_ch3oh_ch3cn.pdf}
+  \caption{Distributions of Pearson's correlation coefficient from 10000 resamples drawn from detections $+$ non-detections and only detections.  The legend indicates the mean values of Pearson's $r$ along with the range of the 95\%\ credible interval as the associated uncertainties.}
+  \label{fig:pearson_distribution}
+\end{figure}
+
+\begin{figure*}[htbp!]
+  \centering
+  \includegraphics[width=\textwidth]{corner_Ncol_correlations.pdf}
+  \caption{Corner plot of the correlations of the column densities between \methanol, \methylcyanide, \methylformate, and \dimethylether.  The color code follows that in Figure\,\ref{fig:ch3oh_ch3cn}.  The dashed line indicates equality.  The legends indicate the Pearson's $r$ for the detection-only sample ($r_{d}$) and the logarithmic ratio of the two molecules (N$_{y}$/N$_{x}$).  The four most detected COMs are shown in this figure, while other COMs are shown in Figure\,\ref{fig:major_minor}.}
+  \label{fig:corner}
+\end{figure*}
+
+\begin{figure*}[htbp!]
+  \centering
+  \includegraphics[width=\textwidth]{corner_Ncol_correlations_combined_norm.pdf}
+  \caption{Corner plot of the correlations of the normalized column densities.  The blue, magenta, and black symbols indicate the column densities normalized by the continuum brightness temperature (\tb), while the color scheme follows that in Figure\,\ref{fig:ch3oh_ch3cn}.  The orange symbols show the column densities normalized by \tb\ and the bolometric luminosity (\lbol), while the cyan symbols show that normalized by \tb\ and the bolometric temperature (\tbol).  We only show the column densities if both molecules are detected for the ones normalized by \tb\tbol\ and \tb\lbol.  A few close multiple sources, including Per-emb 12 A \&\ B, Per-emb 35 A \&\ B, and Per-emb 11 A \&\ C, are excluded for the normalization of \tbol\ and \lbol\ due to their poorly determined SEDs.}
+  \label{fig:corner_combined}
+\end{figure*}
+
+\begin{figure*}[htbp!]
+  \centering
+  \includegraphics[height=9in]{Ncol_major_minor.pdf}
+  \caption{Corner plot of the correlations of the column densities between the more abundance COMs, \methanol, \methylcyanide, \methylformate, and \dimethylether, and the less abundance COMs \acetaldehyde, \ethanol, \methylformatev, \acetone, \ethylcyanide, $t$-HCOOH, and \formamide.  The legends are similar to Figure\,\ref{fig:ch3oh_ch3cn}.}
+  \label{fig:major_minor}
+\end{figure*}
+
 \section{Discussion}
 
-\subsection{Chemical Diversity in PEACHES}
+\subsection{Hot Corinos}
 \begin{figure*}[htbp!]
   \centering
-  \includegraphics[width=0.47\textwidth]{ratio_ch3cn_ch3oh_lbol.pdf}
-  \includegraphics[width=0.47\textwidth]{ratio_ch3ocho_ch3oh_lbol.pdf}
-  \includegraphics[width=0.47\textwidth]{ratio_ch3och3_ch3oh_lbol.pdf}
-  \includegraphics[width=0.47\textwidth]{ratio_ch3och3_ch3ocho_lbol.pdf}
-  \caption{Ratios of molecules as a function of \lbol.}
-  \label{fig:ratio_lbol}
+  \includegraphics[width=0.47\textwidth]{ratio_ch3cn_ch3oh.pdf}
+  \includegraphics[width=0.47\textwidth]{ratio_ch3och3_ch3ocho.pdf}
+  \includegraphics[width=0.47\textwidth]{ratio_ch3ocho_ch3oh.pdf}
+  \includegraphics[width=0.47\textwidth]{ratio_ch3och3_ch3oh.pdf}
+  \caption{Ratios of well-detected molecules, \methanol, \methylcyanide, \methylformate, and \dimethylether, as functions of \lbol\ (blue), \tbol\ (black), and \tb\ (red).}
+  \label{fig:ratios}
 \end{figure*}
 
-\begin{figure*}[htbp!]
-  \centering
-  \includegraphics[width=0.47\textwidth]{ratio_ch3cn_ch3oh_tbol.pdf}
-  \includegraphics[width=0.47\textwidth]{ratio_ch3ocho_ch3oh_tbol.pdf}
-  \includegraphics[width=0.47\textwidth]{ratio_ch3och3_ch3oh_tbol.pdf}
-  \includegraphics[width=0.47\textwidth]{ratio_ch3och3_ch3ocho_tbol.pdf}
-  \caption{Ratios of molecules as a function of \tbol.}
-  \label{fig:ratio_tbol}
-\end{figure*}
+\subsection{Chemical Difference among Hot Corinos}
+Among hot corino sources, no tight correlations are seen as well (FigureXX). [explain the plots]  On the other hand, when we take relative abundance to CH3OH, marginal trend could be seen in correlation between Tcont.  [explain what you presented in the talk.  more complex species may require higher density?  ]  
 
-\begin{figure*}[htbp!]
-  \centering
-  \includegraphics[width=0.47\textwidth]{ratio_ch3cn_ch3oh_tcont.pdf}
-  \includegraphics[width=0.47\textwidth]{ratio_ch3ocho_ch3oh_tcont.pdf}
-  \includegraphics[width=0.47\textwidth]{ratio_ch3och3_ch3oh_tcont.pdf}
-  \includegraphics[width=0.47\textwidth]{ratio_ch3och3_ch3ocho_tcont.pdf}
-  \caption{Ratios of molecules as a function of $T_\text{cont}$.}
-  \label{fig:ratio_tcont}
-\end{figure*}
-\subsection{Comparison to Other Surveys}
-\subsection{Complex Chemistry throughout Star Formation}
+\subsection{O-bearing and N-bearing COMs}
+- perfect correlation between CH3OH and CH3CN -> both could be 1st generation species.  No significant difference between o-bearing and N-bearing abundances among the YSOs in perseus. (at least, elemental abundance could be almost the same since our samples are in the same cloud complex.)
+- [please mention about abundance ratios C2H5CN, NH3CHO vs CH3OCH3 and CH3OCHO. and refer several papers discussind O- and N difference.  such as in  Orion KL and/or IRAS16293???] O- and N- difference might be enhanced in more complex species (?).
+
+\subsection{Origin of the \methanol/\methylcyanide\ Correlation}
+- CH3OH formation is well known(surface hydrogenation)
+- explain hypothesis and possible expectations of CH3CN formation[see my e-mails]
 
 % \subsection{Source Velocities}
 % From the \sosigma\ lines at 258255.8259\,MHz and 261843.7210\,MHz along with the CS \jj{5}{4} line, the averaged source velocities of Per-emb-37 and EDJ2009-172 are 7.437$\pm$0.056\kms\ and 7.748$\pm$0.212\kms, respectively.  The same two \sosigma\ lines also suggest a source velocity of 6.575$\pm$0.060\kms\ for Per-emb-36.
@@ -399,7 +492,7 @@ The PEACHES spectra cover four methanol lines, while the spectra of each source 
 %   \end{tabular}
 % \end{table*}
 
-\subsection{1D Spectra}
+% \subsection{1D Spectra}
 
 % \input{line_fitting}
 
@@ -420,6 +513,8 @@ The PEACHES spectra cover four methanol lines, while the spectra of each source 
 % \subsection{The Correlations of Column Densities}
 % \input{mf_temp}
 
+\section{Conclusion}
+
 \acknowledgements
 Y.-L. Yang acknowledges the supports the JSPS Postdoctoral Fellowship from Japan Society for the Promotion of Science.  This paper makes use of the following ALMA data: ADS/JAO.ALMA\#2016.0.00391.S. ALMA is a partnership of ESO (representing its member states), NSF (USA) and NINS (Japan), together with NRC (Canada), MOST and ASIAA (Taiwan), and KASI (Republic of Korea), in cooperation with the Republic of Chile. The Joint ALMA Observatory is operated by ESO, AUI/NRAO and NAOJ.  The National Radio Astronomy Observatory is a facility of the National Science Foundation operated under cooperative agreement by Associated Universities, Inc.
 
@@ -431,24 +526,29 @@ Y.-L. Yang acknowledges the supports the JSPS Postdoctoral Fellowship from Japan
 \section{Catalogs for Molecular Data}
 \label{sec:catalogs}
 
+\newpage
 \section{Identified Species and Transitions}
 Table\,\ref{tbl:line_id} lists the species and their transitions identified from the PEACHES spectra.
-\input{line_id}
+\newpage
+% \input{line_id}
 
-\section{The Spectra of CCH}
-The CCH spectra toward the continuum emission have irregular line profiles.  Some spectra have strong self-absorption, while some spectra only show the blue-shifted emission.  Due to the absorption and irregular line profile, the \textsc{xclass} fitting routine often fails to faithfully reproduce the observed CCH spectra.  CCH can easily form in the outflow cavity wall due to the abundant CH$_{4}$ sublimated from dust grains as well as C$^+$ ionized by the UV radiation.  Thus, the CCH spectra can have broad line width and multiple components.  Furthermore, the morphology of the CCH emission traces the outflows, making our extraction from the continuum emission non-ideal for representing the nature of the CCH emission.  Figure\,\ref{fig:all_cch} and Y show the spectra and the moment 0 map of CCH, respectively.
+\section{Intensity maps of \methanol, \methylcyanide, \methylformate, and \dimethylether}
+% \input{moment0_seleted_coms}
+
+\section{The Spectra of \cch}
+The \cch\ spectra toward the continuum emission have irregular line profiles.  Some spectra have strong self-absorption, while some spectra only show the blue-shifted emission.  Due to the absorption and irregular line profile, the \textsc{xclass} fitting routine often fails to faithfully reproduce the observed \cch\ spectra.  \cch\ can easily form in the outflow cavity wall due to the abundant CH$_{4}$ sublimated from dust grains as well as C$^+$ ionized by the UV radiation.  Thus, the \cch\ spectra can have broad line width and multiple components.  Furthermore, the morphology of the \cch\ emission traces the outflows, making our extraction from the continuum emission non-ideal for representing the nature of the \cch\ emission.  Figure\,\ref{fig:all_cch} and Y show the spectra and the moment 0 map of \cch, respectively.
 
 \begin{figure}[htbp!]
   \centering
   \includegraphics[width=0.47\textwidth]{Ncol_ch3oh_cch.pdf}
-  \caption{Correlation of the column densities of CCH and \methanol\ fitted from the PEACHES protostars.  The sources where both molecules are detected are shown in black; the sources where only one molecule is detected are shown in magenta; finally, the sources where both molecules are not detected are shown in black for the corresponding upper limits.}
+  \caption{Correlation of the column densities of \cch\ and \methanol\ fitted from the PEACHES protostars.  The sources where both molecules are detected are shown in black; the sources where only one molecule is detected are shown in magenta; finally, the sources where both molecules are not detected are shown in black for the corresponding upper limits.}
   \label{fig:cch_ch3oh}
 \end{figure}
 
 \begin{figure*}[htbp!]
   \centering
   \includegraphics[width=\textwidth]{all_cch.pdf}
-  \caption{The CCH spectra of all PEACHES sources extracted from the continuum emission.}
+  \caption{The \cch\ spectra of all PEACHES sources extracted from the continuum emission.}
   \label{fig:all_cch}
 \end{figure*}
 

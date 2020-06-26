@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 JUN 2020 16:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 JUN 2020 11:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -473,29 +473,29 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count164
 \@thisrulewidth=\dimen150
 )
-Class revtex4-1 Info: Unrecognized array package. Please update this document class! (Proceeding with fingers crossed.) on input line 120.
-Class revtex4-1 Info: Patching unrecognized longtable package. (Proceeding with fingers crossed) on input line 120.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 120.
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 120.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 120.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 120.
+Class revtex4-1 Info: Unrecognized array package. Please update this document class! (Proceeding with fingers crossed.) on input line 125.
+Class revtex4-1 Info: Patching unrecognized longtable package. (Proceeding with fingers crossed) on input line 125.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 125.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 125.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 125.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 125.
  (/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.aux)
 \openout1 = `peaches.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
  (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count165
@@ -521,7 +521,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring ON on input line 120.
+Package hyperref Info: Link coloring ON on input line 125.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
  (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -529,319 +529,383 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count171
 )
-LaTeX Info: Redefining \ref on input line 120.
-LaTeX Info: Redefining \pageref on input line 120.
-LaTeX Info: Redefining \nameref on input line 120.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 132.
+LaTeX Info: Redefining \ref on input line 125.
+LaTeX Info: Redefining \pageref on input line 125.
+LaTeX Info: Redefining \nameref on input line 125.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 137.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 132.
+LaTeX Font Info:    Try loading font information for U+msa on input line 137.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 132.
+LaTeX Font Info:    Try loading font information for U+msb on input line 137.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 132.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 137.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 132.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 137.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 132.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 137.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 132.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 137.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 139.
-
-Overfull \hbox (14.65695pt too wide) in paragraph at lines 160--162
-[]\OT1/cmr/m/n/10 Set3 has the con-tin-uum win-dow rang-ing from 245800[]
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 144.
+ [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) detected at line 212
+$\OML/cmm/m/it/7 a$
  []
 
-(/Volumes/SD/Google Drive/research/PEACHES/manuscript/sources.tex) (/Volumes/SD/Google Drive/research/PEACHES/manuscript/sources_internal.tex)
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 172.
+(/Volumes/SD/Google Drive/research/PEACHES/manuscript/sources.tex
+Underfull \hbox (badness 10000) detected at line 63
+$\OML/cmm/m/it/7 a$
+ []
+
+) [2] [3] [4]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 241.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 172.
- [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 241.
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 173.
-
-[3]
-Underfull \hbox (badness 1342) in paragraph at lines 173--174
+Underfull \hbox (badness 1342) in paragraph at lines 241--242
 []\OT1/cmr/m/n/10 Extracting spec-tra: We use the CASA task
  []
 
-<all_continuum.pdf, id=91, 1727.17047pt x 2083.76907pt>
+<all_continuum.pdf, id=157, 1727.17047pt x 2083.76907pt>
 File: all_continuum.pdf Graphic file (type pdf)
  <use all_continuum.pdf>
-Package pdftex.def Info: all_continuum.pdf used on input line 182.
+Package pdftex.def Info: all_continuum.pdf used on input line 248.
 (pdftex.def)             Requested size: 513.11743pt x 619.06258pt.
- [4] [5 </Volumes/SD/Google Drive/research/PEACHES/manuscript/all_continuum.pdf>] <stats_sorted_by_Tcont.pdf, id=363, 1046.1082pt x 865.87553pt>
-File: stats_sorted_by_Tcont.pdf Graphic file (type pdf)
- <use stats_sorted_by_Tcont.pdf>
-Package pdftex.def Info: stats_sorted_by_Tcont.pdf used on input line 213.
-(pdftex.def)             Requested size: 513.11743pt x 424.71873pt.
- <stats_sorted_by_tbol.pdf, id=366, 1046.1082pt x 938.82176pt>
-File: stats_sorted_by_tbol.pdf Graphic file (type pdf)
- <use stats_sorted_by_tbol.pdf>
-Package pdftex.def Info: stats_sorted_by_tbol.pdf used on input line 221.
-(pdftex.def)             Requested size: 513.11743pt x 460.49942pt.
- <stats_sorted_by_lbol.pdf, id=368, 1158.1268pt x 1018.60236pt>
-File: stats_sorted_by_lbol.pdf Graphic file (type pdf)
- <use stats_sorted_by_lbol.pdf>
-Package pdftex.def Info: stats_sorted_by_lbol.pdf used on input line 228.
-(pdftex.def)             Requested size: 513.11743pt x 451.31049pt.
- <stats_sorted_by_Mcont.pdf, id=369, 1059.15695pt x 865.87553pt>
-File: stats_sorted_by_Mcont.pdf Graphic file (type pdf)
- <use stats_sorted_by_Mcont.pdf>
-Package pdftex.def Info: stats_sorted_by_Mcont.pdf used on input line 234.
-(pdftex.def)             Requested size: 513.11743pt x 419.48671pt.
- [6] [7 </Volumes/SD/Google Drive/research/PEACHES/manuscript/stats_sorted_by_Tcont.pdf>] <Ncol_ch3oh_ch3cn.pdf, id=459, 978.51198pt x 716.88261pt>
-File: Ncol_ch3oh_ch3cn.pdf Graphic file (type pdf)
- <use Ncol_ch3oh_ch3cn.pdf>
-Package pdftex.def Info: Ncol_ch3oh_ch3cn.pdf used on input line 248.
-(pdftex.def)             Requested size: 241.16582pt x 176.68242pt.
- <pearson_r_ch3oh_ch3cn.pdf, id=460, 532.539pt x 389.48836pt>
-File: pearson_r_ch3oh_ch3cn.pdf Graphic file (type pdf)
- <use pearson_r_ch3oh_ch3cn.pdf>
-Package pdftex.def Info: pearson_r_ch3oh_ch3cn.pdf used on input line 255.
-(pdftex.def)             Requested size: 241.16582pt x 176.38544pt.
- <corner_Ncol_correlations.pdf, id=461, 712.35196pt x 712.13239pt>
-File: corner_Ncol_correlations.pdf Graphic file (type pdf)
- <use corner_Ncol_correlations.pdf>
-Package pdftex.def Info: corner_Ncol_correlations.pdf used on input line 262.
-(pdftex.def)             Requested size: 513.11743pt x 512.98485pt.
- <corner_Ncol_correlations_combined_norm.pdf, id=466, 713.41641pt x 712.13239pt>
-File: corner_Ncol_correlations_combined_norm.pdf Graphic file (type pdf)
- <use corner_Ncol_correlations_combined_norm.pdf>
-Package pdftex.def Info: corner_Ncol_correlations_combined_norm.pdf used on input line 300.
-(pdftex.def)             Requested size: 513.11743pt x 512.21335pt.
- <corner_Ncol_correlations_minor.pdf, id=469, 2027.73514pt x 1959.79295pt>
-File: corner_Ncol_correlations_minor.pdf Graphic file (type pdf)
- <use corner_Ncol_correlations_minor.pdf>
-Package pdftex.def Info: corner_Ncol_correlations_minor.pdf used on input line 307.
-(pdftex.def)             Requested size: 513.11743pt x 495.92784pt.
- <Set1_ID03_2.pdf, id=474, 518.30331pt x 389.49954pt>
+ <Set1_ID02_CH3OH_243915.pdf, id=158, 536.36855pt x 435.42894pt>
+File: Set1_ID02_CH3OH_243915.pdf Graphic file (type pdf)
+ <use Set1_ID02_CH3OH_243915.pdf>
+Package pdftex.def Info: Set1_ID02_CH3OH_243915.pdf used on input line 255.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ <Set1_ID02_CH3CN_257527.pdf, id=159, 536.36855pt x 435.42894pt>
+File: Set1_ID02_CH3CN_257527.pdf Graphic file (type pdf)
+ <use Set1_ID02_CH3CN_257527.pdf>
+Package pdftex.def Info: Set1_ID02_CH3CN_257527.pdf used on input line 256.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ <Set1_ID02_CH3OCHO_259342.pdf, id=160, 536.36855pt x 435.42894pt>
+File: Set1_ID02_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use Set1_ID02_CH3OCHO_259342.pdf>
+Package pdftex.def Info: Set1_ID02_CH3OCHO_259342.pdf used on input line 257.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ <Set1_ID02_CH3OCH3_259311.pdf, id=161, 527.42891pt x 435.42894pt>
+File: Set1_ID02_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use Set1_ID02_CH3OCH3_259311.pdf>
+Package pdftex.def Info: Set1_ID02_CH3OCH3_259311.pdf used on input line 258.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ <Set2_ID00_CH3OH_243915.pdf, id=162, 545.3082pt x 435.42894pt>
+File: Set2_ID00_CH3OH_243915.pdf Graphic file (type pdf)
+ <use Set2_ID00_CH3OH_243915.pdf>
+Package pdftex.def Info: Set2_ID00_CH3OH_243915.pdf used on input line 260.
+(pdftex.def)             Requested size: 123.151pt x 98.3327pt.
+ <Set2_ID00_CH3CN_257527.pdf, id=163, 545.3082pt x 435.42894pt>
+File: Set2_ID00_CH3CN_257527.pdf Graphic file (type pdf)
+ <use Set2_ID00_CH3CN_257527.pdf>
+Package pdftex.def Info: Set2_ID00_CH3CN_257527.pdf used on input line 261.
+(pdftex.def)             Requested size: 123.151pt x 98.3327pt.
+ <Set2_ID00_CH3OCHO_259342.pdf, id=164, 545.3082pt x 435.42894pt>
+File: Set2_ID00_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use Set2_ID00_CH3OCHO_259342.pdf>
+Package pdftex.def Info: Set2_ID00_CH3OCHO_259342.pdf used on input line 262.
+(pdftex.def)             Requested size: 123.151pt x 98.3327pt.
+ <Set2_ID00_CH3OCH3_259311.pdf, id=165, 536.36855pt x 435.42894pt>
+File: Set2_ID00_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use Set2_ID00_CH3OCH3_259311.pdf>
+Package pdftex.def Info: Set2_ID00_CH3OCH3_259311.pdf used on input line 263.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ <Set3_ID00_CH3OH_243915.pdf, id=166, 536.36855pt x 435.42894pt>
+File: Set3_ID00_CH3OH_243915.pdf Graphic file (type pdf)
+ <use Set3_ID00_CH3OH_243915.pdf>
+Package pdftex.def Info: Set3_ID00_CH3OH_243915.pdf used on input line 265.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ <Set3_ID00_CH3CN_257527.pdf, id=167, 536.36855pt x 435.42894pt>
+File: Set3_ID00_CH3CN_257527.pdf Graphic file (type pdf)
+ <use Set3_ID00_CH3CN_257527.pdf>
+Package pdftex.def Info: Set3_ID00_CH3CN_257527.pdf used on input line 266.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ <Set3_ID00_CH3OCHO_259342.pdf, id=168, 536.36855pt x 435.42894pt>
+File: Set3_ID00_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use Set3_ID00_CH3OCHO_259342.pdf>
+Package pdftex.def Info: Set3_ID00_CH3OCHO_259342.pdf used on input line 267.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ <Set3_ID00_CH3OCH3_259311.pdf, id=169, 536.36855pt x 435.42894pt>
+File: Set3_ID00_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use Set3_ID00_CH3OCH3_259311.pdf>
+Package pdftex.def Info: Set3_ID00_CH3OCH3_259311.pdf used on input line 268.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ <Set3_ID01_CH3OH_243915.pdf, id=170, 536.36855pt x 435.42894pt>
+File: Set3_ID01_CH3OH_243915.pdf Graphic file (type pdf)
+ <use Set3_ID01_CH3OH_243915.pdf>
+Package pdftex.def Info: Set3_ID01_CH3OH_243915.pdf used on input line 270.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ <Set3_ID01_CH3CN_257527.pdf, id=171, 536.36855pt x 435.42894pt>
+File: Set3_ID01_CH3CN_257527.pdf Graphic file (type pdf)
+ <use Set3_ID01_CH3CN_257527.pdf>
+Package pdftex.def Info: Set3_ID01_CH3CN_257527.pdf used on input line 271.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ <Set3_ID01_CH3OCHO_259342.pdf, id=172, 536.36855pt x 435.42894pt>
+File: Set3_ID01_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use Set3_ID01_CH3OCHO_259342.pdf>
+Package pdftex.def Info: Set3_ID01_CH3OCHO_259342.pdf used on input line 272.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ <Set3_ID01_CH3OCH3_259311.pdf, id=173, 527.42891pt x 435.42894pt>
+File: Set3_ID01_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use Set3_ID01_CH3OCH3_259311.pdf>
+Package pdftex.def Info: Set3_ID01_CH3OCH3_259311.pdf used on input line 273.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ <Set3_ID07_CH3OH_243915.pdf, id=174, 527.42891pt x 435.42894pt>
+File: Set3_ID07_CH3OH_243915.pdf Graphic file (type pdf)
+ <use Set3_ID07_CH3OH_243915.pdf>
+Package pdftex.def Info: Set3_ID07_CH3OH_243915.pdf used on input line 275.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ <Set3_ID07_CH3CN_257527.pdf, id=175, 527.42891pt x 435.42894pt>
+File: Set3_ID07_CH3CN_257527.pdf Graphic file (type pdf)
+ <use Set3_ID07_CH3CN_257527.pdf>
+Package pdftex.def Info: Set3_ID07_CH3CN_257527.pdf used on input line 276.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ <Set3_ID07_CH3OCHO_259342.pdf, id=176, 536.36855pt x 435.42894pt>
+File: Set3_ID07_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use Set3_ID07_CH3OCHO_259342.pdf>
+Package pdftex.def Info: Set3_ID07_CH3OCHO_259342.pdf used on input line 277.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ <Set3_ID07_CH3OCH3_259311.pdf, id=177, 527.42891pt x 435.42894pt>
+File: Set3_ID07_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use Set3_ID07_CH3OCH3_259311.pdf>
+Package pdftex.def Info: Set3_ID07_CH3OCH3_259311.pdf used on input line 278.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+
+
+LaTeX Warning: Reference `tbl:line_id' on page 5 undefined on input line 292.
+
+[5] [6 </Volumes/SD/Google Drive/research/PEACHES/manuscript/all_continuum.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 297.
+
+[7 </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID02_CH3OH_243915.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID02_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID02_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID02_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID02_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID02_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID02_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set2_ID00_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set2_ID00_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set2_ID00_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set2_ID00_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set2_ID00_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set2_ID00_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set2_ID00_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set2_ID00_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID00_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID00_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID00_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID00_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID00_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID00_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID00_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID00_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID01_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID01_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID01_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID01_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID01_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID01_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID01_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID01_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID07_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID07_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID07_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID07_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID07_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID07_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID07_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID07_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [8] <stats.pdf, id=1620, 1046.1082pt x 801.65955pt>
+File: stats.pdf Graphic file (type pdf)
+ <use stats.pdf>
+Package pdftex.def Info: stats.pdf used on input line 320.
+(pdftex.def)             Requested size: 513.11743pt x 393.22028pt.
+ <detection_summary_all.pdf, id=1621, 1044.42993pt x 452.72795pt>
+File: detection_summary_all.pdf Graphic file (type pdf)
+ <use detection_summary_all.pdf>
+Package pdftex.def Info: detection_summary_all.pdf used on input line 327.
+(pdftex.def)             Requested size: 513.11743pt x 222.42581pt.
+ <detection_summary_Tb.pdf, id=1628, 889.97177pt x 452.72795pt>
+File: detection_summary_Tb.pdf Graphic file (type pdf)
+ <use detection_summary_Tb.pdf>
+Package pdftex.def Info: detection_summary_Tb.pdf used on input line 334.
+(pdftex.def)             Requested size: 513.11743pt x 261.02808pt.
+ <Set1_ID03_2.pdf, id=1633, 518.30331pt x 389.49954pt>
 File: Set1_ID03_2.pdf Graphic file (type pdf)
  <use Set1_ID03_2.pdf>
-Package pdftex.def Info: Set1_ID03_2.pdf used on input line 318.
+Package pdftex.def Info: Set1_ID03_2.pdf used on input line 366.
 (pdftex.def)             Requested size: 241.16582pt x 181.23427pt.
- <Set1_ID03_2_rot_temps.pdf, id=475, 524.7448pt x 388.91925pt>
+ <Set1_ID03_2_rot_temps.pdf, id=1634, 524.7448pt x 388.91925pt>
 File: Set1_ID03_2_rot_temps.pdf Graphic file (type pdf)
  <use Set1_ID03_2_rot_temps.pdf>
-Package pdftex.def Info: Set1_ID03_2_rot_temps.pdf used on input line 319.
+Package pdftex.def Info: Set1_ID03_2_rot_temps.pdf used on input line 367.
 (pdftex.def)             Requested size: 241.16582pt x 178.74478pt.
- [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+ [9] <Ncol_ch3oh_ch3cn.pdf, id=1652, 978.51198pt x 716.88261pt>
+File: Ncol_ch3oh_ch3cn.pdf Graphic file (type pdf)
+ <use Ncol_ch3oh_ch3cn.pdf>
+Package pdftex.def Info: Ncol_ch3oh_ch3cn.pdf used on input line 420.
+(pdftex.def)             Requested size: 241.16582pt x 176.68242pt.
+ <pearson_r_ch3oh_ch3cn.pdf, id=1653, 536.28658pt x 388.91925pt>
+File: pearson_r_ch3oh_ch3cn.pdf Graphic file (type pdf)
+ <use pearson_r_ch3oh_ch3cn.pdf>
+Package pdftex.def Info: pearson_r_ch3oh_ch3cn.pdf used on input line 427.
+(pdftex.def)             Requested size: 241.16582pt x 174.89334pt.
+ <corner_Ncol_correlations.pdf, id=1654, 712.35196pt x 712.13239pt>
+File: corner_Ncol_correlations.pdf Graphic file (type pdf)
+ <use corner_Ncol_correlations.pdf>
+Package pdftex.def Info: corner_Ncol_correlations.pdf used on input line 434.
+(pdftex.def)             Requested size: 513.11743pt x 512.98485pt.
+ <corner_Ncol_correlations_combined_norm.pdf, id=1659, 713.41641pt x 712.13239pt>
+File: corner_Ncol_correlations_combined_norm.pdf Graphic file (type pdf)
+ <use corner_Ncol_correlations_combined_norm.pdf>
+Package pdftex.def Info: corner_Ncol_correlations_combined_norm.pdf used on input line 441.
+(pdftex.def)             Requested size: 513.11743pt x 512.21335pt.
+ <Ncol_major_minor.pdf, id=1662, 1145.97202pt x 2302.07245pt>
+File: Ncol_major_minor.pdf Graphic file (type pdf)
+ <use Ncol_major_minor.pdf>
+Package pdftex.def Info: Ncol_major_minor.pdf used on input line 448.
+(pdftex.def)             Requested size: 323.77267pt x 650.43pt.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.349 \section{Discussion}
-                           </Volumes/SD/Google Drive/research/PEACHES/manuscript/stats_sorted_by_tbol.pdf>] <ratio_ch3cn_ch3oh_lbol.pdf, id=541, 533.66876pt x 390.0171pt>
-File: ratio_ch3cn_ch3oh_lbol.pdf Graphic file (type pdf)
- <use ratio_ch3cn_ch3oh_lbol.pdf>
-Package pdftex.def Info: ratio_ch3cn_ch3oh_lbol.pdf used on input line 354.
-(pdftex.def)             Requested size: 241.16582pt x 176.24997pt.
- <ratio_ch3ocho_ch3oh_lbol.pdf, id=542, 543.89447pt x 390.0171pt>
-File: ratio_ch3ocho_ch3oh_lbol.pdf Graphic file (type pdf)
- <use ratio_ch3ocho_ch3oh_lbol.pdf>
-Package pdftex.def Info: ratio_ch3ocho_ch3oh_lbol.pdf used on input line 355.
-(pdftex.def)             Requested size: 241.16582pt x 172.93517pt.
- <ratio_ch3och3_ch3oh_lbol.pdf, id=543, 543.89447pt x 394.74591pt>
-File: ratio_ch3och3_ch3oh_lbol.pdf Graphic file (type pdf)
- <use ratio_ch3och3_ch3oh_lbol.pdf>
-Package pdftex.def Info: ratio_ch3och3_ch3oh_lbol.pdf used on input line 356.
-(pdftex.def)             Requested size: 241.16582pt x 175.03194pt.
- <ratio_ch3och3_ch3ocho_lbol.pdf, id=544, 533.66876pt x 392.95581pt>
-File: ratio_ch3och3_ch3ocho_lbol.pdf Graphic file (type pdf)
- <use ratio_ch3och3_ch3ocho_lbol.pdf>
-Package pdftex.def Info: ratio_ch3och3_ch3ocho_lbol.pdf used on input line 357.
-(pdftex.def)             Requested size: 241.16582pt x 177.57797pt.
- <ratio_ch3cn_ch3oh_tbol.pdf, id=545, 533.66876pt x 389.49954pt>
-File: ratio_ch3cn_ch3oh_tbol.pdf Graphic file (type pdf)
- <use ratio_ch3cn_ch3oh_tbol.pdf>
-Package pdftex.def Info: ratio_ch3cn_ch3oh_tbol.pdf used on input line 364.
-(pdftex.def)             Requested size: 241.16582pt x 176.01607pt.
- <ratio_ch3ocho_ch3oh_tbol.pdf, id=546, 543.89447pt x 389.49954pt>
-File: ratio_ch3ocho_ch3oh_tbol.pdf Graphic file (type pdf)
- <use ratio_ch3ocho_ch3oh_tbol.pdf>
-Package pdftex.def Info: ratio_ch3ocho_ch3oh_tbol.pdf used on input line 365.
-(pdftex.def)             Requested size: 241.16582pt x 172.70567pt.
- <ratio_ch3och3_ch3oh_tbol.pdf, id=547, 543.89447pt x 394.22836pt>
-File: ratio_ch3och3_ch3oh_tbol.pdf Graphic file (type pdf)
- <use ratio_ch3och3_ch3oh_tbol.pdf>
-Package pdftex.def Info: ratio_ch3och3_ch3oh_tbol.pdf used on input line 366.
-(pdftex.def)             Requested size: 241.16582pt x 174.80246pt.
- <ratio_ch3och3_ch3ocho_tbol.pdf, id=548, 533.66876pt x 392.43825pt>
-File: ratio_ch3och3_ch3ocho_tbol.pdf Graphic file (type pdf)
- <use ratio_ch3och3_ch3ocho_tbol.pdf>
-Package pdftex.def Info: ratio_ch3och3_ch3ocho_tbol.pdf used on input line 367.
-(pdftex.def)             Requested size: 241.16582pt x 177.34409pt.
- <ratio_ch3cn_ch3oh_tcont.pdf, id=549, 543.59618pt x 389.49954pt>
-File: ratio_ch3cn_ch3oh_tcont.pdf Graphic file (type pdf)
- <use ratio_ch3cn_ch3oh_tcont.pdf>
-Package pdftex.def Info: ratio_ch3cn_ch3oh_tcont.pdf used on input line 374.
-(pdftex.def)             Requested size: 241.16582pt x 172.80077pt.
- <ratio_ch3ocho_ch3oh_tcont.pdf, id=550, 543.89447pt x 389.49954pt>
-File: ratio_ch3ocho_ch3oh_tcont.pdf Graphic file (type pdf)
- <use ratio_ch3ocho_ch3oh_tcont.pdf>
-Package pdftex.def Info: ratio_ch3ocho_ch3oh_tcont.pdf used on input line 375.
-(pdftex.def)             Requested size: 241.16582pt x 172.70567pt.
- <ratio_ch3och3_ch3oh_tcont.pdf, id=551, 543.89447pt x 394.22836pt>
-File: ratio_ch3och3_ch3oh_tcont.pdf Graphic file (type pdf)
- <use ratio_ch3och3_ch3oh_tcont.pdf>
-Package pdftex.def Info: ratio_ch3och3_ch3oh_tcont.pdf used on input line 376.
-(pdftex.def)             Requested size: 241.16582pt x 174.80246pt.
- <ratio_ch3och3_ch3ocho_tcont.pdf, id=552, 533.66876pt x 392.43825pt>
-File: ratio_ch3och3_ch3ocho_tcont.pdf Graphic file (type pdf)
- <use ratio_ch3och3_ch3ocho_tcont.pdf>
-Package pdftex.def Info: ratio_ch3och3_ch3ocho_tcont.pdf used on input line 377.
-(pdftex.def)             Requested size: 241.16582pt x 177.34409pt.
- (/Volumes/SD/Google Drive/research/PEACHES/manuscript/line_id.tex [9pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.2 \begin{deluxetable*}
-                        {cccccc} </Volumes/SD/Google Drive/research/PEACHES/manuscript/stats_sorted_by_lbol.pdf>] [10pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+LaTeX Warning: Float too large for page by 36.8611pt on input line 451.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.253     \enddata
-                   </Volumes/SD/Google Drive/research/PEACHES/manuscript/stats_sorted_by_Mcont.pdf>] [11 </Volumes/SD/Google Drive/research/PEACHES/manuscript/Ncol_ch3oh_ch3cn.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/pearson_r_ch3oh_ch3cn.pdf
+<ratio_ch3cn_ch3oh.pdf, id=1665, 527.90805pt x 563.22922pt>
+File: ratio_ch3cn_ch3oh.pdf Graphic file (type pdf)
+ <use ratio_ch3cn_ch3oh.pdf>
+Package pdftex.def Info: ratio_ch3cn_ch3oh.pdf used on input line 458.
+(pdftex.def)             Requested size: 241.16582pt x 257.30098pt.
+ <ratio_ch3och3_ch3ocho.pdf, id=1666, 528.02267pt x 562.80338pt>
+File: ratio_ch3och3_ch3ocho.pdf Graphic file (type pdf)
+ <use ratio_ch3och3_ch3ocho.pdf>
+Package pdftex.def Info: ratio_ch3och3_ch3ocho.pdf used on input line 459.
+(pdftex.def)             Requested size: 241.16582pt x 257.04634pt.
+ <ratio_ch3ocho_ch3oh.pdf, id=1667, 527.8972pt x 563.22922pt>
+File: ratio_ch3ocho_ch3oh.pdf Graphic file (type pdf)
+ <use ratio_ch3ocho_ch3oh.pdf>
+Package pdftex.def Info: ratio_ch3ocho_ch3oh.pdf used on input line 460.
+(pdftex.def)             Requested size: 241.16582pt x 257.30098pt.
+ <ratio_ch3och3_ch3oh.pdf, id=1668, 527.8972pt x 562.80019pt>
+File: ratio_ch3och3_ch3oh.pdf Graphic file (type pdf)
+ <use ratio_ch3och3_ch3oh.pdf>
+Package pdftex.def Info: ratio_ch3och3_ch3oh.pdf used on input line 461.
+(pdftex.def)             Requested size: 241.16582pt x 257.105pt.
+ [10 </Volumes/SD/Google Drive/research/PEACHES/manuscript/stats.pdf>] [11 </Volumes/SD/Google Drive/research/PEACHES/manuscript/detection_summary_all.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/detection_summary_Tb.pdf
 
-pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/pearson_r_ch3oh_ch3cn.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [12 </Volumes/SD/Google Drive/research/PEACHES/manuscript/corner_Ncol_correlations.pdf>] [13 </Volumes/SD/Google Drive/research/PEACHES/manuscript/corner_Ncol_correlations_combined_norm.pdf>] [14 </Volumes/SD/Google Drive/research/PEACHES/manuscript/corner_Ncol_correlations_minor.pdf>] [15 </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID03_2.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID03_2_rot_temps.pdf
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/detection_summary_Tb.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 472.
+
+[12 </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID03_2.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID03_2_rot_temps.pdf
 
 pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID03_2_rot_temps.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [16 </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3cn_ch3oh_lbol.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3ocho_ch3oh_lbol.pdf
+>]
 
-pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3ocho_ch3oh_lbol.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3oh_lbol.pdf
-
-pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3oh_lbol.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3ocho_lbol.pdf
-
-pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3ocho_lbol.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [17 </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3cn_ch3oh_tbol.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3ocho_ch3oh_tbol.pdf
-
-pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3ocho_ch3oh_tbol.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3oh_tbol.pdf
-
-pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3oh_tbol.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3ocho_tbol.pdf
-
-pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3ocho_tbol.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [18 </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3cn_ch3oh_tcont.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3ocho_ch3oh_tcont.pdf
-
-pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3ocho_ch3oh_tcont.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3oh_tcont.pdf
-
-pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3oh_tcont.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3ocho_tcont.pdf
-
-pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3ocho_tcont.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [19] [20]
-Underfull \hbox (badness 10000) detected at line 254
-$\OML/cmm/m/it/7 a$
- []
+LaTeX Warning: A float is stuck (cannot be placed) on input line 472.
 
 
-Underfull \hbox (badness 10000) detected at line 255
-$\OML/cmm/m/it/7 b$
- []
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-) <Ncol_ch3oh_cch.pdf, id=1487, 988.54947pt x 726.9201pt>
+[13 </Volumes/SD/Google Drive/research/PEACHES/manuscript/Ncol_ch3oh_ch3cn.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/pearson_r_ch3oh_ch3cn.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/pearson_r_ch3oh_ch3cn.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Reference `tbl:line_id' on page 14 undefined on input line 531.
+
+[14 </Volumes/SD/Google Drive/research/PEACHES/manuscript/corner_Ncol_correlations.pdf>] [15 </Volumes/SD/Google Drive/research/PEACHES/manuscript/corner_Ncol_correlations_combined_norm.pdf>] [16 </Volumes/SD/Google Drive/research/PEACHES/manuscript/Ncol_major_minor.pdf>] <Ncol_ch3oh_cch.pdf, id=2253, 977.93169pt x 716.88261pt>
 File: Ncol_ch3oh_cch.pdf Graphic file (type pdf)
  <use Ncol_ch3oh_cch.pdf>
-Package pdftex.def Info: Ncol_ch3oh_cch.pdf used on input line 443.
-(pdftex.def)             Requested size: 241.16582pt x 177.33719pt.
- <all_cch.pdf, id=1488, 1527.61021pt x 1581.56055pt>
+Package pdftex.def Info: Ncol_ch3oh_cch.pdf used on input line 543.
+(pdftex.def)             Requested size: 241.16582pt x 176.78087pt.
+ <all_cch.pdf, id=2254, 1527.61021pt x 1581.56055pt>
 File: all_cch.pdf Graphic file (type pdf)
  <use all_cch.pdf>
-Package pdftex.def Info: all_cch.pdf used on input line 450.
+Package pdftex.def Info: all_cch.pdf used on input line 550.
 (pdftex.def)             Requested size: 513.11743pt x 531.2318pt.
- (/Volumes/SD/Google Drive/research/PEACHES/manuscript/source_note.tex
-Underfull \hbox (badness 3271) in paragraph at lines 60--62
-[]\foo Weak in-di-ca-tion of the uniden-ti-fied line at
+ (/Volumes/SD/Google Drive/research/PEACHES/manuscript/source_note.tex [17 </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3cn_ch3oh.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3ocho.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3ocho.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3ocho_ch3oh.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3ocho_ch3oh.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3oh.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3oh.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Overfull \hbox (3.83058pt too wide) in paragraph at lines 66--67
+[]\foo Unidentified lines at 244248[], 246219[], 246254[], 246344[], 246389[], 246434[], 246525[],
  []
 
 
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 66--67
-\foo 246254[], 246344[], 246389[], 246434[],
+Overfull \hbox (3.83058pt too wide) in paragraph at lines 72--73
+[]\foo Unidentified lines at 244248[], 246254[], 246314[], 246322[], 246389[], 246434[], 246525[],
+ []
+
+[18 </Volumes/SD/Google Drive/research/PEACHES/manuscript/Ncol_ch3oh_cch.pdf>] [19 </Volumes/SD/Google Drive/research/PEACHES/manuscript/all_cch.pdf>]
+Overfull \hbox (3.83058pt too wide) in paragraph at lines 89--91
+[]\foo Unidentified lines at 244248[], 246254[], 246331[], 246344[], 246434[], 246525[], 246838[],
  []
 
 
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 66--67
-\foo 246525[], 246838[], 258268[], 258271[],
+Overfull \hbox (3.83058pt too wide) in paragraph at lines 97--98
+[]\foo Unidentified lines at 244232[], 244248[], 246207[], 246254[], 246388[], 246435[], 246525[],
  []
 
-
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 72--73
-\foo 246314[], 246322[], 246389[], 246434[],
- []
-
-
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 72--73
-\foo 246525[], 246696[], 246838[], 246873[],
- []
-
-
-Underfull \hbox (badness 6001) in paragraph at lines 72--73
-\foo 247082[], 258268[], 258271[], and
- []
-
-[21 </Volumes/SD/Google Drive/research/PEACHES/manuscript/Ncol_ch3oh_cch.pdf>] [22 </Volumes/SD/Google Drive/research/PEACHES/manuscript/all_cch.pdf>]
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 89--91
-\foo 246331[], 246344[], 246434[], 246525[],
- []
-
-
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 89--91
-\foo 246838[], 246974[], 247086[], 257268[],
- []
-
-
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 89--91
-\foo 257271[], 259323[], 259331[], 262098[],
- []
-
-
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 97--98
-\foo 246207[], 246254[], 246388[], 246435[],
- []
-
-
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 97--98
-\foo 246525[], 246538[], 246838[], 246973[],
- []
-
-
-Overfull \hbox (12.29099pt too wide) in paragraph at lines 166--167
-\foo 246143[], 246192[], 246525[], 246674[],
- []
-
-) (/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.bbl [23]) [24]
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 460.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 460.
+) (/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.bbl [20]) [21]
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 560.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 560.
  (/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.aux)
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 460.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 560.
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 10289 strings out of 493014
- 144056 string characters out of 6133351
- 430981 words of memory out of 5000000
- 13541 multiletter control sequences out of 15000+600000
- 19915 words of font info for 76 fonts, out of 8000000 for 9000
+ 10464 strings out of 493014
+ 148358 string characters out of 6133351
+ 397519 words of memory out of 5000000
+ 13685 multiletter control sequences out of 15000+600000
+ 20216 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,13n,37p,2625b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.pdf" (24 pages, 2679491 bytes).
+ 36i,13n,37p,2625b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.pdf" (21 pages, 3418442 bytes).
 PDF statistics:
- 1719 PDF objects out of 1728 (max. 8388607)
- 664 compressed objects within 7 object streams
- 109 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2669 PDF objects out of 2984 (max. 8388607)
+ 804 compressed objects within 9 object streams
+ 135 named destinations out of 1000 (max. 500000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
