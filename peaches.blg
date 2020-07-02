@@ -5,44 +5,46 @@ The style file: aasjournal.bst
 Database file #1: research.bib
 Database file #2: fixed.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 52 entries,
+Warning--empty publisher in 2016ascl.soft09017R
+You've used 80 entries,
             3222 wiz_defined-function locations,
-            1083 strings with 22913 characters,
-and the built_in function-call counts, 27381 in all, are:
-= -- 2046
-> -- 2509
-< -- 5
-+ -- 840
-- -- 935
-* -- 2571
-:= -- 5134
-add.period$ -- 52
-call.type$ -- 52
-change.case$ -- 320
-chr.to.int$ -- 52
-cite$ -- 52
-duplicate$ -- 942
-empty$ -- 1479
-format.name$ -- 966
-if$ -- 5393
+            1293 strings with 32564 characters,
+and the built_in function-call counts, 42372 in all, are:
+= -- 3158
+> -- 3926
+< -- 12
++ -- 1320
+- -- 1453
+* -- 3971
+:= -- 7934
+add.period$ -- 80
+call.type$ -- 80
+change.case$ -- 508
+chr.to.int$ -- 80
+cite$ -- 81
+duplicate$ -- 1454
+empty$ -- 2274
+format.name$ -- 1509
+if$ -- 8327
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 51
-newline$ -- 161
-num.names$ -- 209
-pop$ -- 447
+missing$ -- 77
+newline$ -- 245
+num.names$ -- 322
+pop$ -- 715
 preamble$ -- 1
-purify$ -- 320
+purify$ -- 508
 quote$ -- 0
-skip$ -- 734
+skip$ -- 1115
 stack$ -- 0
-substring$ -- 922
-swap$ -- 8
-text.length$ -- 1
+substring$ -- 1381
+swap$ -- 16
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 468
-warning$ -- 0
-while$ -- 188
+type$ -- 720
+warning$ -- 1
+while$ -- 298
 width$ -- 0
-write$ -- 522
+write$ -- 803
+(There was 1 warning)

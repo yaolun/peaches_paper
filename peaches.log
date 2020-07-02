@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 JUN 2020 12:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 JUL 2020 02:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -532,30 +532,33 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 125.
 LaTeX Info: Redefining \pageref on input line 125.
 LaTeX Info: Redefining \nameref on input line 125.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 137.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 163.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 137.
+LaTeX Font Info:    Try loading font information for U+msa on input line 163.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 137.
+LaTeX Font Info:    Try loading font information for U+msb on input line 163.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 137.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 163.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 137.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 163.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 137.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 163.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 137.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 163.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 144.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 170.
+Missing character: There is no â in font cmti8!
+Missing character: There is no € in font cmti8!
+Missing character: There is no ™ in font cmti8!
  [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) detected at line 212
+Underfull \hbox (badness 10000) detected at line 238
 $\OML/cmm/m/it/7 a$
  []
 
@@ -565,129 +568,129 @@ $\OML/cmm/m/it/7 a$
  []
 
 ) [2] [3] [4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 241.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 267.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 241.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 267.
 
-Underfull \hbox (badness 1342) in paragraph at lines 241--242
+Underfull \hbox (badness 1342) in paragraph at lines 267--268
 []\OT1/cmr/m/n/10 Extracting spec-tra: We use the CASA task
  []
 
 <all_continuum.pdf, id=157, 1727.17047pt x 2083.76907pt>
 File: all_continuum.pdf Graphic file (type pdf)
  <use all_continuum.pdf>
-Package pdftex.def Info: all_continuum.pdf used on input line 248.
+Package pdftex.def Info: all_continuum.pdf used on input line 274.
 (pdftex.def)             Requested size: 513.11743pt x 619.06258pt.
  <Set1_ID02_CH3OH_243915.pdf, id=158, 536.36855pt x 435.42894pt>
 File: Set1_ID02_CH3OH_243915.pdf Graphic file (type pdf)
  <use Set1_ID02_CH3OH_243915.pdf>
-Package pdftex.def Info: Set1_ID02_CH3OH_243915.pdf used on input line 255.
+Package pdftex.def Info: Set1_ID02_CH3OH_243915.pdf used on input line 281.
 (pdftex.def)             Requested size: 123.151pt x 99.97379pt.
  <Set1_ID02_CH3CN_257527.pdf, id=159, 536.36855pt x 435.42894pt>
 File: Set1_ID02_CH3CN_257527.pdf Graphic file (type pdf)
  <use Set1_ID02_CH3CN_257527.pdf>
-Package pdftex.def Info: Set1_ID02_CH3CN_257527.pdf used on input line 256.
+Package pdftex.def Info: Set1_ID02_CH3CN_257527.pdf used on input line 282.
 (pdftex.def)             Requested size: 123.151pt x 99.97379pt.
  <Set1_ID02_CH3OCHO_259342.pdf, id=160, 536.36855pt x 435.42894pt>
 File: Set1_ID02_CH3OCHO_259342.pdf Graphic file (type pdf)
  <use Set1_ID02_CH3OCHO_259342.pdf>
-Package pdftex.def Info: Set1_ID02_CH3OCHO_259342.pdf used on input line 257.
+Package pdftex.def Info: Set1_ID02_CH3OCHO_259342.pdf used on input line 283.
 (pdftex.def)             Requested size: 123.151pt x 99.97379pt.
  <Set1_ID02_CH3OCH3_259311.pdf, id=161, 527.42891pt x 435.42894pt>
 File: Set1_ID02_CH3OCH3_259311.pdf Graphic file (type pdf)
  <use Set1_ID02_CH3OCH3_259311.pdf>
-Package pdftex.def Info: Set1_ID02_CH3OCH3_259311.pdf used on input line 258.
+Package pdftex.def Info: Set1_ID02_CH3OCH3_259311.pdf used on input line 284.
 (pdftex.def)             Requested size: 123.151pt x 101.66805pt.
  <Set2_ID00_CH3OH_243915.pdf, id=162, 545.3082pt x 435.42894pt>
 File: Set2_ID00_CH3OH_243915.pdf Graphic file (type pdf)
  <use Set2_ID00_CH3OH_243915.pdf>
-Package pdftex.def Info: Set2_ID00_CH3OH_243915.pdf used on input line 260.
+Package pdftex.def Info: Set2_ID00_CH3OH_243915.pdf used on input line 286.
 (pdftex.def)             Requested size: 123.151pt x 98.3327pt.
  <Set2_ID00_CH3CN_257527.pdf, id=163, 545.3082pt x 435.42894pt>
 File: Set2_ID00_CH3CN_257527.pdf Graphic file (type pdf)
  <use Set2_ID00_CH3CN_257527.pdf>
-Package pdftex.def Info: Set2_ID00_CH3CN_257527.pdf used on input line 261.
+Package pdftex.def Info: Set2_ID00_CH3CN_257527.pdf used on input line 287.
 (pdftex.def)             Requested size: 123.151pt x 98.3327pt.
  <Set2_ID00_CH3OCHO_259342.pdf, id=164, 545.3082pt x 435.42894pt>
 File: Set2_ID00_CH3OCHO_259342.pdf Graphic file (type pdf)
  <use Set2_ID00_CH3OCHO_259342.pdf>
-Package pdftex.def Info: Set2_ID00_CH3OCHO_259342.pdf used on input line 262.
+Package pdftex.def Info: Set2_ID00_CH3OCHO_259342.pdf used on input line 288.
 (pdftex.def)             Requested size: 123.151pt x 98.3327pt.
  <Set2_ID00_CH3OCH3_259311.pdf, id=165, 536.36855pt x 435.42894pt>
 File: Set2_ID00_CH3OCH3_259311.pdf Graphic file (type pdf)
  <use Set2_ID00_CH3OCH3_259311.pdf>
-Package pdftex.def Info: Set2_ID00_CH3OCH3_259311.pdf used on input line 263.
+Package pdftex.def Info: Set2_ID00_CH3OCH3_259311.pdf used on input line 289.
 (pdftex.def)             Requested size: 123.151pt x 99.97379pt.
- <Set3_ID00_CH3OH_243915.pdf, id=166, 536.36855pt x 435.42894pt>
+ <Set3_ID00_CH3OH_243915.pdf, id=166, 527.42891pt x 435.42894pt>
 File: Set3_ID00_CH3OH_243915.pdf Graphic file (type pdf)
  <use Set3_ID00_CH3OH_243915.pdf>
-Package pdftex.def Info: Set3_ID00_CH3OH_243915.pdf used on input line 265.
-(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
- <Set3_ID00_CH3CN_257527.pdf, id=167, 536.36855pt x 435.42894pt>
+Package pdftex.def Info: Set3_ID00_CH3OH_243915.pdf used on input line 291.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ <Set3_ID00_CH3CN_257527.pdf, id=167, 527.42891pt x 435.42894pt>
 File: Set3_ID00_CH3CN_257527.pdf Graphic file (type pdf)
  <use Set3_ID00_CH3CN_257527.pdf>
-Package pdftex.def Info: Set3_ID00_CH3CN_257527.pdf used on input line 266.
-(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
- <Set3_ID00_CH3OCHO_259342.pdf, id=168, 536.36855pt x 435.42894pt>
+Package pdftex.def Info: Set3_ID00_CH3CN_257527.pdf used on input line 292.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ <Set3_ID00_CH3OCHO_259342.pdf, id=168, 527.42891pt x 435.42894pt>
 File: Set3_ID00_CH3OCHO_259342.pdf Graphic file (type pdf)
  <use Set3_ID00_CH3OCHO_259342.pdf>
-Package pdftex.def Info: Set3_ID00_CH3OCHO_259342.pdf used on input line 267.
-(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
- <Set3_ID00_CH3OCH3_259311.pdf, id=169, 536.36855pt x 435.42894pt>
+Package pdftex.def Info: Set3_ID00_CH3OCHO_259342.pdf used on input line 293.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ <Set3_ID00_CH3OCH3_259311.pdf, id=169, 527.42891pt x 435.42894pt>
 File: Set3_ID00_CH3OCH3_259311.pdf Graphic file (type pdf)
  <use Set3_ID00_CH3OCH3_259311.pdf>
-Package pdftex.def Info: Set3_ID00_CH3OCH3_259311.pdf used on input line 268.
-(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+Package pdftex.def Info: Set3_ID00_CH3OCH3_259311.pdf used on input line 294.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
  <Set3_ID01_CH3OH_243915.pdf, id=170, 536.36855pt x 435.42894pt>
 File: Set3_ID01_CH3OH_243915.pdf Graphic file (type pdf)
  <use Set3_ID01_CH3OH_243915.pdf>
-Package pdftex.def Info: Set3_ID01_CH3OH_243915.pdf used on input line 270.
+Package pdftex.def Info: Set3_ID01_CH3OH_243915.pdf used on input line 296.
 (pdftex.def)             Requested size: 123.151pt x 99.97379pt.
  <Set3_ID01_CH3CN_257527.pdf, id=171, 536.36855pt x 435.42894pt>
 File: Set3_ID01_CH3CN_257527.pdf Graphic file (type pdf)
  <use Set3_ID01_CH3CN_257527.pdf>
-Package pdftex.def Info: Set3_ID01_CH3CN_257527.pdf used on input line 271.
+Package pdftex.def Info: Set3_ID01_CH3CN_257527.pdf used on input line 297.
 (pdftex.def)             Requested size: 123.151pt x 99.97379pt.
  <Set3_ID01_CH3OCHO_259342.pdf, id=172, 536.36855pt x 435.42894pt>
 File: Set3_ID01_CH3OCHO_259342.pdf Graphic file (type pdf)
  <use Set3_ID01_CH3OCHO_259342.pdf>
-Package pdftex.def Info: Set3_ID01_CH3OCHO_259342.pdf used on input line 272.
+Package pdftex.def Info: Set3_ID01_CH3OCHO_259342.pdf used on input line 298.
 (pdftex.def)             Requested size: 123.151pt x 99.97379pt.
  <Set3_ID01_CH3OCH3_259311.pdf, id=173, 527.42891pt x 435.42894pt>
 File: Set3_ID01_CH3OCH3_259311.pdf Graphic file (type pdf)
  <use Set3_ID01_CH3OCH3_259311.pdf>
-Package pdftex.def Info: Set3_ID01_CH3OCH3_259311.pdf used on input line 273.
+Package pdftex.def Info: Set3_ID01_CH3OCH3_259311.pdf used on input line 299.
 (pdftex.def)             Requested size: 123.151pt x 101.66805pt.
  <Set3_ID07_CH3OH_243915.pdf, id=174, 527.42891pt x 435.42894pt>
 File: Set3_ID07_CH3OH_243915.pdf Graphic file (type pdf)
  <use Set3_ID07_CH3OH_243915.pdf>
-Package pdftex.def Info: Set3_ID07_CH3OH_243915.pdf used on input line 275.
+Package pdftex.def Info: Set3_ID07_CH3OH_243915.pdf used on input line 301.
 (pdftex.def)             Requested size: 123.151pt x 101.66805pt.
  <Set3_ID07_CH3CN_257527.pdf, id=175, 527.42891pt x 435.42894pt>
 File: Set3_ID07_CH3CN_257527.pdf Graphic file (type pdf)
  <use Set3_ID07_CH3CN_257527.pdf>
-Package pdftex.def Info: Set3_ID07_CH3CN_257527.pdf used on input line 276.
+Package pdftex.def Info: Set3_ID07_CH3CN_257527.pdf used on input line 302.
 (pdftex.def)             Requested size: 123.151pt x 101.66805pt.
- <Set3_ID07_CH3OCHO_259342.pdf, id=176, 536.36855pt x 435.42894pt>
+ <Set3_ID07_CH3OCHO_259342.pdf, id=176, 527.42891pt x 435.42894pt>
 File: Set3_ID07_CH3OCHO_259342.pdf Graphic file (type pdf)
  <use Set3_ID07_CH3OCHO_259342.pdf>
-Package pdftex.def Info: Set3_ID07_CH3OCHO_259342.pdf used on input line 277.
-(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+Package pdftex.def Info: Set3_ID07_CH3OCHO_259342.pdf used on input line 303.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
  <Set3_ID07_CH3OCH3_259311.pdf, id=177, 527.42891pt x 435.42894pt>
 File: Set3_ID07_CH3OCH3_259311.pdf Graphic file (type pdf)
  <use Set3_ID07_CH3OCH3_259311.pdf>
-Package pdftex.def Info: Set3_ID07_CH3OCH3_259311.pdf used on input line 278.
+Package pdftex.def Info: Set3_ID07_CH3OCH3_259311.pdf used on input line 304.
 (pdftex.def)             Requested size: 123.151pt x 101.66805pt.
 
 
-LaTeX Warning: Reference `tbl:line_id' on page 5 undefined on input line 292.
+LaTeX Warning: Reference `tbl:line_id' on page 5 undefined on input line 318.
 
 [5] [6 </Volumes/SD/Google Drive/research/PEACHES/manuscript/all_continuum.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 297.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 323.
 
 [7 </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID02_CH3OH_243915.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID02_CH3CN_257527.pdf
 
@@ -746,115 +749,1078 @@ pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscr
 > </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID07_CH3OCH3_259311.pdf
 
 pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set3_ID07_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [8] <stats.pdf, id=1620, 1046.1082pt x 801.65955pt>
+>] [8] <stats.pdf, id=1683, 1046.1082pt x 801.65955pt>
 File: stats.pdf Graphic file (type pdf)
  <use stats.pdf>
-Package pdftex.def Info: stats.pdf used on input line 320.
+Package pdftex.def Info: stats.pdf used on input line 346.
 (pdftex.def)             Requested size: 513.11743pt x 393.22028pt.
- <detection_summary_all.pdf, id=1621, 1044.42993pt x 452.72795pt>
+ <detection_summary_all.pdf, id=1684, 1044.42993pt x 452.72795pt>
 File: detection_summary_all.pdf Graphic file (type pdf)
  <use detection_summary_all.pdf>
-Package pdftex.def Info: detection_summary_all.pdf used on input line 327.
+Package pdftex.def Info: detection_summary_all.pdf used on input line 353.
 (pdftex.def)             Requested size: 513.11743pt x 222.42581pt.
- <detection_summary_Tb.pdf, id=1628, 889.97177pt x 452.72795pt>
+ <detection_summary_Tb.pdf, id=1691, 889.97177pt x 452.72795pt>
 File: detection_summary_Tb.pdf Graphic file (type pdf)
  <use detection_summary_Tb.pdf>
-Package pdftex.def Info: detection_summary_Tb.pdf used on input line 334.
+Package pdftex.def Info: detection_summary_Tb.pdf used on input line 360.
 (pdftex.def)             Requested size: 513.11743pt x 261.02808pt.
- <Set1_ID03_2.pdf, id=1633, 518.30331pt x 389.49954pt>
+ <Set1_ID03_2.pdf, id=1696, 518.30331pt x 389.49954pt>
 File: Set1_ID03_2.pdf Graphic file (type pdf)
  <use Set1_ID03_2.pdf>
-Package pdftex.def Info: Set1_ID03_2.pdf used on input line 345.
+Package pdftex.def Info: Set1_ID03_2.pdf used on input line 371.
 (pdftex.def)             Requested size: 241.16582pt x 181.23427pt.
- <Set1_ID03_2_rot_temps.pdf, id=1634, 524.7448pt x 388.91925pt>
+ <Set1_ID03_2_rot_temps.pdf, id=1697, 524.7448pt x 388.91925pt>
 File: Set1_ID03_2_rot_temps.pdf Graphic file (type pdf)
  <use Set1_ID03_2_rot_temps.pdf>
-Package pdftex.def Info: Set1_ID03_2_rot_temps.pdf used on input line 346.
+Package pdftex.def Info: Set1_ID03_2_rot_temps.pdf used on input line 372.
 (pdftex.def)             Requested size: 241.16582pt x 178.74478pt.
- (/Volumes/SD/Google Drive/research/PEACHES/manuscript/mf_temp_jsps.tex) [9] <Ncol_ch3oh_ch3cn.pdf, id=1655, 978.51198pt x 716.88261pt>
-File: Ncol_ch3oh_ch3cn.pdf Graphic file (type pdf)
- <use Ncol_ch3oh_ch3cn.pdf>
-Package pdftex.def Info: Ncol_ch3oh_ch3cn.pdf used on input line 404.
-(pdftex.def)             Requested size: 241.16582pt x 176.68242pt.
- <pearson_r_ch3oh_ch3cn.pdf, id=1656, 536.28658pt x 388.91925pt>
-File: pearson_r_ch3oh_ch3cn.pdf Graphic file (type pdf)
- <use pearson_r_ch3oh_ch3cn.pdf>
-Package pdftex.def Info: pearson_r_ch3oh_ch3cn.pdf used on input line 411.
-(pdftex.def)             Requested size: 241.16582pt x 174.89334pt.
- <corner_Ncol_correlations.pdf, id=1657, 712.35196pt x 712.13239pt>
-File: corner_Ncol_correlations.pdf Graphic file (type pdf)
- <use corner_Ncol_correlations.pdf>
-Package pdftex.def Info: corner_Ncol_correlations.pdf used on input line 418.
-(pdftex.def)             Requested size: 513.11743pt x 512.98485pt.
- <corner_Ncol_correlations_combined_norm.pdf, id=1662, 713.41641pt x 712.13239pt>
-File: corner_Ncol_correlations_combined_norm.pdf Graphic file (type pdf)
- <use corner_Ncol_correlations_combined_norm.pdf>
-Package pdftex.def Info: corner_Ncol_correlations_combined_norm.pdf used on input line 425.
-(pdftex.def)             Requested size: 513.11743pt x 512.21335pt.
- <Ncol_major_minor.pdf, id=1665, 1145.97202pt x 2302.07245pt>
-File: Ncol_major_minor.pdf Graphic file (type pdf)
- <use Ncol_major_minor.pdf>
-Package pdftex.def Info: Ncol_major_minor.pdf used on input line 432.
-(pdftex.def)             Requested size: 323.77267pt x 650.43pt.
-
-
-LaTeX Warning: Float too large for page by 36.8611pt on input line 435.
-
-<ratio_ch3cn_ch3oh.pdf, id=1668, 527.90805pt x 563.22922pt>
-File: ratio_ch3cn_ch3oh.pdf Graphic file (type pdf)
- <use ratio_ch3cn_ch3oh.pdf>
-Package pdftex.def Info: ratio_ch3cn_ch3oh.pdf used on input line 442.
-(pdftex.def)             Requested size: 241.16582pt x 257.30098pt.
- <ratio_ch3och3_ch3ocho.pdf, id=1669, 528.02267pt x 562.80338pt>
-File: ratio_ch3och3_ch3ocho.pdf Graphic file (type pdf)
- <use ratio_ch3och3_ch3ocho.pdf>
-Package pdftex.def Info: ratio_ch3och3_ch3ocho.pdf used on input line 443.
-(pdftex.def)             Requested size: 241.16582pt x 257.04634pt.
- <ratio_ch3ocho_ch3oh.pdf, id=1670, 527.8972pt x 563.22922pt>
-File: ratio_ch3ocho_ch3oh.pdf Graphic file (type pdf)
- <use ratio_ch3ocho_ch3oh.pdf>
-Package pdftex.def Info: ratio_ch3ocho_ch3oh.pdf used on input line 444.
-(pdftex.def)             Requested size: 241.16582pt x 257.30098pt.
- <ratio_ch3och3_ch3oh.pdf, id=1671, 527.8972pt x 562.80019pt>
-File: ratio_ch3och3_ch3oh.pdf Graphic file (type pdf)
- <use ratio_ch3och3_ch3oh.pdf>
-Package pdftex.def Info: ratio_ch3och3_ch3oh.pdf used on input line 445.
-(pdftex.def)             Requested size: 241.16582pt x 257.105pt.
- [10 </Volumes/SD/Google Drive/research/PEACHES/manuscript/stats.pdf>] [11 </Volumes/SD/Google Drive/research/PEACHES/manuscript/detection_summary_all.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/detection_summary_Tb.pdf
+ (/Volumes/SD/Google Drive/research/PEACHES/manuscript/mf_temp_jsps.tex) [9] [10 </Volumes/SD/Google Drive/research/PEACHES/manuscript/stats.pdf>] [11 </Volumes/SD/Google Drive/research/PEACHES/manuscript/detection_summary_all.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/detection_summary_Tb.pdf
 
 pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/detection_summary_Tb.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 452.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 414.
 
 [12 </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID03_2.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID03_2_rot_temps.pdf
 
 pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Set1_ID03_2_rot_temps.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
+>] <Ncol_ch3oh_ch3cn.pdf, id=2013, 978.51198pt x 716.88261pt>
+File: Ncol_ch3oh_ch3cn.pdf Graphic file (type pdf)
+ <use Ncol_ch3oh_ch3cn.pdf>
+Package pdftex.def Info: Ncol_ch3oh_ch3cn.pdf used on input line 422.
+(pdftex.def)             Requested size: 513.11743pt x 375.92052pt.
+ <pearson_r_ch3oh_ch3cn.pdf, id=2014, 536.28658pt x 388.91925pt>
+File: pearson_r_ch3oh_ch3cn.pdf Graphic file (type pdf)
+ <use pearson_r_ch3oh_ch3cn.pdf>
+Package pdftex.def Info: pearson_r_ch3oh_ch3cn.pdf used on input line 429.
+(pdftex.def)             Requested size: 241.16582pt x 174.89334pt.
+ <corner_Ncol_correlations.pdf, id=2015, 712.35196pt x 712.13239pt>
+File: corner_Ncol_correlations.pdf Graphic file (type pdf)
+ <use corner_Ncol_correlations.pdf>
+Package pdftex.def Info: corner_Ncol_correlations.pdf used on input line 436.
+(pdftex.def)             Requested size: 513.11743pt x 512.98485pt.
+ <corner_Ncol_correlations_combined_norm.pdf, id=2020, 713.41641pt x 712.13239pt>
+File: corner_Ncol_correlations_combined_norm.pdf Graphic file (type pdf)
+ <use corner_Ncol_correlations_combined_norm.pdf>
+Package pdftex.def Info: corner_Ncol_correlations_combined_norm.pdf used on input line 443.
+(pdftex.def)             Requested size: 513.11743pt x 512.21335pt.
+ <Ncol_major_minor.pdf, id=2023, 1145.97202pt x 2302.07245pt>
+File: Ncol_major_minor.pdf Graphic file (type pdf)
+ <use Ncol_major_minor.pdf>
+Package pdftex.def Info: Ncol_major_minor.pdf used on input line 450.
+(pdftex.def)             Requested size: 323.77267pt x 650.43pt.
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 452.
+
+LaTeX Warning: Float too large for page by 36.8611pt on input line 453.
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 459--460
+[]\OT1/cmr/m/n/10 We fur-ther test the ef-fect of pro-to-stel-lar evo-lu-
+ []
+
+<ratio_ch3cn_ch3oh.pdf, id=2030, 527.90805pt x 563.22922pt>
+File: ratio_ch3cn_ch3oh.pdf Graphic file (type pdf)
+ <use ratio_ch3cn_ch3oh.pdf>
+Package pdftex.def Info: ratio_ch3cn_ch3oh.pdf used on input line 463.
+(pdftex.def)             Requested size: 241.16582pt x 257.30098pt.
+ <ratio_ch3och3_ch3ocho.pdf, id=2031, 528.02267pt x 562.80338pt>
+File: ratio_ch3och3_ch3ocho.pdf Graphic file (type pdf)
+ <use ratio_ch3och3_ch3ocho.pdf>
+Package pdftex.def Info: ratio_ch3och3_ch3ocho.pdf used on input line 464.
+(pdftex.def)             Requested size: 241.16582pt x 257.04634pt.
+ <ratio_ch3ocho_ch3oh.pdf, id=2032, 527.8972pt x 563.22922pt>
+File: ratio_ch3ocho_ch3oh.pdf Graphic file (type pdf)
+ <use ratio_ch3ocho_ch3oh.pdf>
+Package pdftex.def Info: ratio_ch3ocho_ch3oh.pdf used on input line 465.
+(pdftex.def)             Requested size: 241.16582pt x 257.30098pt.
+ <ratio_ch3och3_ch3oh.pdf, id=2033, 527.8972pt x 562.80019pt>
+File: ratio_ch3och3_ch3oh.pdf Graphic file (type pdf)
+ <use ratio_ch3och3_ch3oh.pdf>
+Package pdftex.def Info: ratio_ch3och3_ch3oh.pdf used on input line 466.
+(pdftex.def)             Requested size: 241.16582pt x 257.105pt.
+ <ratios_survey.pdf, id=2034, 534.79799pt x 444.2196pt>
+File: ratios_survey.pdf Graphic file (type pdf)
+ <use ratios_survey.pdf>
+Package pdftex.def Info: ratios_survey.pdf used on input line 481.
+(pdftex.def)             Requested size: 241.16582pt x 200.324pt.
+ [13] [14 </Volumes/SD/Google Drive/research/PEACHES/manuscript/Ncol_ch3oh_ch3cn.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 500.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 500.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-[13 </Volumes/SD/Google Drive/research/PEACHES/manuscript/Ncol_ch3oh_ch3cn.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/pearson_r_ch3oh_ch3cn.pdf
+[15 </Volumes/SD/Google Drive/research/PEACHES/manuscript/pearson_r_ch3oh_ch3cn.pdf>]
 
-pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/pearson_r_ch3oh_ch3cn.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
+LaTeX Warning: Reference `tbl:line_id' on page 16 undefined on input line 520.
 
-LaTeX Warning: Reference `tbl:line_id' on page 14 undefined on input line 517.
+[16 </Volumes/SD/Google Drive/research/PEACHES/manuscript/corner_Ncol_correlations.pdf>] [17 </Volumes/SD/Google Drive/research/PEACHES/manuscript/corner_Ncol_correlations_combined_norm.pdf>] [18 </Volumes/SD/Google Drive/research/PEACHES/manuscript/Ncol_major_minor.pdf>] (/Volumes/SD/Google Drive/research/PEACHES/manuscript/moment0_seleted_coms.tex </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3OH_243915.pdf, id=2414, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3OH_243915.pdf used on input line 3.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3OCHO_259342.pdf, id=2415, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3OCHO_259342.pdf used on input line 4.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3OCH3_259311.pdf, id=2416, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3OCH3_259311.pdf used on input line 5.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3CN_257527.pdf, id=2417, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3CN_257527.pdf used on input line 6.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3OH_243915.pdf, id=2418, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3OH_243915.pdf used on input line 8.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3OCHO_259342.pdf, id=2419, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3OCHO_259342.pdf used on input line 9.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3OCH3_259311.pdf, id=2420, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3OCH3_259311.pdf used on input line 10.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3CN_257527.pdf, id=2421, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3CN_257527.pdf used on input line 11.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3OH_243915.pdf, id=2422, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3OH_243915.pdf used on input line 13.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3OCHO_259342.pdf, id=2423, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3OCHO_259342.pdf used on input line 14.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3OCH3_259311.pdf, id=2424, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3OCH3_259311.pdf used on input line 15.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3CN_257527.pdf, id=2425, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3CN_257527.pdf used on input line 16.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3OH_243915.pdf, id=2426, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3OH_243915.pdf used on input line 18.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3OCHO_259342.pdf, id=2427, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3OCHO_259342.pdf used on input line 19.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3OCH3_259311.pdf, id=2428, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3OCH3_259311.pdf used on input line 20.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3CN_257527.pdf, id=2429, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3CN_257527.pdf used on input line 21.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3OH_243915.pdf, id=2430, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3OH_243915.pdf used on input line 23.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3OCHO_259342.pdf, id=2431, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3OCHO_259342.pdf used on input line 24.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3OCH3_259311.pdf, id=2432, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3OCH3_259311.pdf used on input line 25.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3CN_257527.pdf, id=2433, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3CN_257527.pdf used on input line 26.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3OH_243915.pdf, id=2434, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3OH_243915.pdf used on input line 38.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3OCHO_259342.pdf, id=2435, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3OCHO_259342.pdf used on input line 39.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3OCH3_259311.pdf, id=2436, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3OCH3_259311.pdf used on input line 40.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3CN_257527.pdf, id=2437, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3CN_257527.pdf used on input line 41.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3OH_243915.pdf, id=2438, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3OH_243915.pdf used on input line 43.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3OCHO_259342.pdf, id=2439, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3OCHO_259342.pdf used on input line 44.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3OCH3_259311.pdf, id=2440, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3OCH3_259311.pdf used on input line 45.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3CN_257527.pdf, id=2441, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3CN_257527.pdf used on input line 46.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3OH_243915.pdf, id=2442, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3OH_243915.pdf used on input line 48.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3OCHO_259342.pdf, id=2443, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3OCHO_259342.pdf used on input line 49.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3OCH3_259311.pdf, id=2444, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3OCH3_259311.pdf used on input line 50.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3CN_257527.pdf, id=2445, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3CN_257527.pdf used on input line 51.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3OH_243915.pdf, id=2446, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3OH_243915.pdf used on input line 53.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3OCHO_259342.pdf, id=2447, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3OCHO_259342.pdf used on input line 54.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3OCH3_259311.pdf, id=2448, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3OCH3_259311.pdf used on input line 55.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3CN_257527.pdf, id=2449, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3CN_257527.pdf used on input line 56.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3OH_243915.pdf, id=2450, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3OH_243915.pdf used on input line 58.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3OCHO_259342.pdf, id=2451, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3OCHO_259342.pdf used on input line 59.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3OCH3_259311.pdf, id=2452, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3OCH3_259311.pdf used on input line 60.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3CN_257527.pdf, id=2453, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3CN_257527.pdf used on input line 61.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3OH_243915.pdf, id=2454, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3OH_243915.pdf used on input line 68.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3OCHO_259342.pdf, id=2455, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3OCHO_259342.pdf used on input line 69.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3OCH3_259311.pdf, id=2456, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3OCH3_259311.pdf used on input line 70.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3CN_257527.pdf, id=2457, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3CN_257527.pdf used on input line 71.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3OH_243915.pdf, id=2458, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3OH_243915.pdf used on input line 73.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3OCHO_259342.pdf, id=2459, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3OCHO_259342.pdf used on input line 74.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3OCH3_259311.pdf, id=2460, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3OCH3_259311.pdf Graphic file (type pdf)
 
-[14 </Volumes/SD/Google Drive/research/PEACHES/manuscript/corner_Ncol_correlations.pdf>] [15 </Volumes/SD/Google Drive/research/PEACHES/manuscript/corner_Ncol_correlations_combined_norm.pdf>] [16 </Volumes/SD/Google Drive/research/PEACHES/manuscript/Ncol_major_minor.pdf>] <Ncol_ch3oh_cch.pdf, id=2256, 977.93169pt x 716.88261pt>
-File: Ncol_ch3oh_cch.pdf Graphic file (type pdf)
- <use Ncol_ch3oh_cch.pdf>
-Package pdftex.def Info: Ncol_ch3oh_cch.pdf used on input line 529.
-(pdftex.def)             Requested size: 241.16582pt x 176.78087pt.
- <all_cch.pdf, id=2257, 1527.61021pt x 1581.56055pt>
-File: all_cch.pdf Graphic file (type pdf)
- <use all_cch.pdf>
-Package pdftex.def Info: all_cch.pdf used on input line 536.
-(pdftex.def)             Requested size: 513.11743pt x 531.2318pt.
- (/Volumes/SD/Google Drive/research/PEACHES/manuscript/source_note.tex [17 </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3cn_ch3oh.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3ocho.pdf
+<use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3OCH3_259311.pdf used on input line 75.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3CN_257527.pdf, id=2461, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3CN_257527.pdf used on input line 76.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3OH_243915.pdf, id=2462, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3OH_243915.pdf used on input line 78.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3OCHO_259342.pdf, id=2463, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3OCHO_259342.pdf used on input line 79.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3OCH3_259311.pdf, id=2464, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3OCH3_259311.pdf used on input line 80.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3CN_257527.pdf, id=2465, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3CN_257527.pdf used on input line 81.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3OH_243915.pdf, id=2466, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3OH_243915.pdf used on input line 83.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3OCHO_259342.pdf, id=2467, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3OCHO_259342.pdf used on input line 84.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3OCH3_259311.pdf, id=2468, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3OCH3_259311.pdf used on input line 85.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3CN_257527.pdf, id=2469, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3CN_257527.pdf used on input line 86.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3OH_243915.pdf, id=2470, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3OH_243915.pdf used on input line 88.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3OCHO_259342.pdf, id=2471, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3OCHO_259342.pdf used on input line 89.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3OCH3_259311.pdf, id=2472, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3OCH3_259311.pdf used on input line 90.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3CN_257527.pdf, id=2473, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3CN_257527.pdf used on input line 91.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3OH_243915.pdf, id=2474, 545.3082pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3OH_243915.pdf used on input line 98.
+(pdftex.def)             Requested size: 123.151pt x 98.3327pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3OCHO_259342.pdf, id=2475, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3OCHO_259342.pdf used on input line 99.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3OCH3_259311.pdf, id=2476, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3OCH3_259311.pdf used on input line 100.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3CN_257527.pdf, id=2477, 545.3082pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3CN_257527.pdf used on input line 101.
+(pdftex.def)             Requested size: 123.151pt x 98.3327pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3OH_243915.pdf, id=2478, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3OH_243915.pdf used on input line 103.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3OCHO_259342.pdf, id=2479, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3OCHO_259342.pdf used on input line 104.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3OCH3_259311.pdf, id=2480, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3OCH3_259311.pdf used on input line 105.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3CN_257527.pdf, id=2481, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3CN_257527.pdf used on input line 106.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3OH_243915.pdf, id=2482, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3OH_243915.pdf used on input line 108.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3OCHO_259342.pdf, id=2483, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3OCHO_259342.pdf used on input line 109.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3OCH3_259311.pdf, id=2484, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3OCH3_259311.pdf used on input line 110.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3CN_257527.pdf, id=2485, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3CN_257527.pdf used on input line 111.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3OH_243915.pdf, id=2486, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3OH_243915.pdf used on input line 113.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3OCHO_259342.pdf, id=2487, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3OCHO_259342.pdf used on input line 114.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3OCH3_259311.pdf, id=2488, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3OCH3_259311.pdf used on input line 115.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3CN_257527.pdf, id=2489, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3CN_257527.pdf used on input line 116.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3OH_243915.pdf, id=2490, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3OH_243915.pdf used on input line 118.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3OCHO_259342.pdf, id=2491, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3OCHO_259342.pdf used on input line 119.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3OCH3_259311.pdf, id=2492, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3OCH3_259311.pdf used on input line 120.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3CN_257527.pdf, id=2493, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3CN_257527.pdf used on input line 121.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3OH_243915.pdf, id=2494, 545.3082pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3OH_243915.pdf used on input line 128.
+(pdftex.def)             Requested size: 123.151pt x 98.3327pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3OCHO_259342.pdf, id=2495, 545.3082pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3OCHO_259342.pdf used on input line 129.
+(pdftex.def)             Requested size: 123.151pt x 98.3327pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3OCH3_259311.pdf, id=2496, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3OCH3_259311.pdf used on input line 130.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3CN_257527.pdf, id=2497, 545.3082pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3CN_257527.pdf used on input line 131.
+(pdftex.def)             Requested size: 123.151pt x 98.3327pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3OH_243915.pdf, id=2498, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3OH_243915.pdf used on input line 133.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3OCHO_259342.pdf, id=2499, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3OCHO_259342.pdf used on input line 134.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3OCH3_259311.pdf, id=2500, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3OCH3_259311.pdf used on input line 135.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3CN_257527.pdf, id=2501, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3CN_257527.pdf used on input line 136.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3OH_243915.pdf, id=2502, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3OH_243915.pdf used on input line 138.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3OCHO_259342.pdf, id=2503, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3OCHO_259342.pdf used on input line 139.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3OCH3_259311.pdf, id=2504, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3OCH3_259311.pdf used on input line 140.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3CN_257527.pdf, id=2505, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3CN_257527.pdf used on input line 141.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3OH_243915.pdf, id=2506, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3OH_243915.pdf used on input line 143.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3OCHO_259342.pdf, id=2507, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3OCHO_259342.pdf used on input line 144.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3OCH3_259311.pdf, id=2508, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3OCH3_259311.pdf used on input line 145.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+
+</Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3CN_257527.pdf, id=2509, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3CN_257527.pdf used on input line 146.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3OH_243915.pdf, id=2510, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3OH_243915.pdf used on input line 148.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3OCHO_259342.pdf, id=2511, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3OCHO_259342.pdf used on input line 149.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3OCH3_259311.pdf, id=2512, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3OCH3_259311.pdf used on input line 150.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3CN_257527.pdf, id=2513, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3CN_257527.pdf used on input line 151.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3OH_243915.pdf, id=2514, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3OH_243915.pdf used on input line 158.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3OCHO_259342.pdf, id=2515, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3OCHO_259342.pdf used on input line 159.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3OCH3_259311.pdf, id=2516, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3OCH3_259311.pdf used on input line 160.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3CN_257527.pdf, id=2517, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3CN_257527.pdf used on input line 161.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3OH_243915.pdf, id=2518, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3OH_243915.pdf used on input line 163.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3OCHO_259342.pdf, id=2519, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3OCHO_259342.pdf used on input line 164.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3OCH3_259311.pdf, id=2520, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3OCH3_259311.pdf used on input line 165.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3CN_257527.pdf, id=2521, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3CN_257527.pdf used on input line 166.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3OH_243915.pdf, id=2522, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3OH_243915.pdf used on input line 168.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3OCHO_259342.pdf, id=2523, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3OCHO_259342.pdf used on input line 169.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3OCH3_259311.pdf, id=2524, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3OCH3_259311.pdf used on input line 170.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3CN_257527.pdf, id=2525, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3CN_257527.pdf used on input line 171.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3OH_243915.pdf, id=2526, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3OH_243915.pdf used on input line 173.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3OCHO_259342.pdf, id=2527, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3OCHO_259342.pdf used on input line 174.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3OCH3_259311.pdf, id=2528, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3OCH3_259311.pdf used on input line 175.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3CN_257527.pdf, id=2529, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3CN_257527.pdf used on input line 176.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3OH_243915.pdf, id=2530, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3OH_243915.pdf used on input line 178.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3OCHO_259342.pdf, id=2531, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3OCHO_259342.pdf used on input line 179.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3OCH3_259311.pdf, id=2532, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3OCH3_259311.pdf used on input line 180.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3CN_257527.pdf, id=2533, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3CN_257527.pdf used on input line 181.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3OH_243915.pdf, id=2534, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3OH_243915.pdf used on input line 188.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3OCHO_259342.pdf, id=2535, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3OCHO_259342.pdf used on input line 189.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3OCH3_259311.pdf, id=2536, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3OCH3_259311.pdf used on input line 190.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3CN_257527.pdf, id=2537, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3CN_257527.pdf used on input line 191.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3OH_243915.pdf, id=2538, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3OH_243915.pdf used on input line 193.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3OCHO_259342.pdf, id=2539, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3OCHO_259342.pdf used on input line 194.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3OCH3_259311.pdf, id=2540, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3OCH3_259311.pdf used on input line 195.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3CN_257527.pdf, id=2541, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3CN_257527.pdf used on input line 196.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3OH_243915.pdf, id=2542, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3OH_243915.pdf used on input line 198.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3OCHO_259342.pdf, id=2543, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3OCHO_259342.pdf used on input line 199.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3OCH3_259311.pdf, id=2544, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3OCH3_259311.pdf used on input line 200.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3CN_257527.pdf, id=2545, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3CN_257527.pdf used on input line 201.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3OH_243915.pdf, id=2546, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3OH_243915.pdf used on input line 203.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3OCHO_259342.pdf, id=2547, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3OCHO_259342.pdf used on input line 204.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3OCH3_259311.pdf, id=2548, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3OCH3_259311.pdf used on input line 205.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3CN_257527.pdf, id=2549, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3CN_257527.pdf used on input line 206.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3OH_243915.pdf, id=2550, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3OH_243915.pdf used on input line 208.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3OCHO_259342.pdf, id=2551, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3OCHO_259342.pdf used on input line 209.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3OCH3_259311.pdf, id=2552, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3OCH3_259311.pdf used on input line 210.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3CN_257527.pdf, id=2553, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3CN_257527.pdf used on input line 211.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3OH_243915.pdf, id=2554, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3OH_243915.pdf used on input line 218.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3OCHO_259342.pdf, id=2555, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3OCHO_259342.pdf used on input line 219.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3OCH3_259311.pdf, id=2556, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3OCH3_259311.pdf used on input line 220.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3CN_257527.pdf, id=2557, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3CN_257527.pdf Graphic file (type pdf)
+
+<use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3CN_257527.pdf used on input line 221.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3OH_243915.pdf, id=2558, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3OH_243915.pdf used on input line 223.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3OCHO_259342.pdf, id=2559, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3OCHO_259342.pdf used on input line 224.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3OCH3_259311.pdf, id=2560, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3OCH3_259311.pdf used on input line 225.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3CN_257527.pdf, id=2561, 536.36855pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3CN_257527.pdf used on input line 226.
+(pdftex.def)             Requested size: 123.151pt x 99.97379pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3OH_243915.pdf, id=2562, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3OH_243915.pdf used on input line 228.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3OCHO_259342.pdf, id=2563, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3OCHO_259342.pdf used on input line 229.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3OCH3_259311.pdf, id=2564, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3OCH3_259311.pdf used on input line 230.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3CN_257527.pdf, id=2565, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3CN_257527.pdf used on input line 231.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3OH_243915.pdf, id=2566, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3OH_243915.pdf used on input line 233.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3OCHO_259342.pdf, id=2567, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3OCHO_259342.pdf used on input line 234.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3OCH3_259311.pdf, id=2568, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3OCH3_259311.pdf used on input line 235.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3CN_257527.pdf, id=2569, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3CN_257527.pdf used on input line 236.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3OH_243915.pdf, id=2570, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3OH_243915.pdf used on input line 238.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3OCHO_259342.pdf, id=2571, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3OCHO_259342.pdf used on input line 239.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3OCH3_259311.pdf, id=2572, 518.48926pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3OCH3_259311.pdf used on input line 240.
+(pdftex.def)             Requested size: 123.151pt x 103.42209pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3CN_257527.pdf, id=2573, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3CN_257527.pdf used on input line 241.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3OH_243915.pdf, id=2574, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3OH_243915.pdf used on input line 248.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3OCHO_259342.pdf, id=2575, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3OCHO_259342.pdf used on input line 249.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3OCH3_259311.pdf, id=2576, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3OCH3_259311.pdf used on input line 250.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3CN_257527.pdf, id=2577, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3CN_257527.pdf used on input line 251.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3OH_243915.pdf, id=2578, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3OH_243915.pdf used on input line 253.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3OCHO_259342.pdf, id=2579, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3OCHO_259342.pdf used on input line 254.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3OCH3_259311.pdf, id=2580, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3OCH3_259311.pdf used on input line 255.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3CN_257527.pdf, id=2581, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3CN_257527.pdf used on input line 256.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3OH_243915.pdf, id=2582, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3OH_243915.pdf used on input line 258.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3OCHO_259342.pdf, id=2583, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3OCHO_259342.pdf used on input line 259.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3OCH3_259311.pdf, id=2584, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3OCH3_259311.pdf used on input line 260.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3CN_257527.pdf, id=2585, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3CN_257527.pdf used on input line 261.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3OH_243915.pdf, id=2586, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3OH_243915.pdf used on input line 263.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3OCHO_259342.pdf, id=2587, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3OCHO_259342.pdf used on input line 264.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3OCH3_259311.pdf, id=2588, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3OCH3_259311.pdf used on input line 265.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3CN_257527.pdf, id=2589, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3CN_257527.pdf used on input line 266.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3OH_243915.pdf, id=2590, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3OH_243915.pdf used on input line 268.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3OCHO_259342.pdf, id=2591, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3OCHO_259342.pdf used on input line 269.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3OCH3_259311.pdf, id=2592, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3OCH3_259311.pdf used on input line 270.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3CN_257527.pdf, id=2593, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3CN_257527.pdf used on input line 271.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3OH_243915.pdf, id=2594, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3OH_243915.pdf used on input line 278.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3OCHO_259342.pdf, id=2595, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3OCHO_259342.pdf used on input line 279.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3OCH3_259311.pdf, id=2596, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3OCH3_259311.pdf used on input line 280.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3CN_257527.pdf, id=2597, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3CN_257527.pdf used on input line 281.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3OH_243915.pdf, id=2598, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3OH_243915.pdf used on input line 283.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3OCHO_259342.pdf, id=2599, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3OCHO_259342.pdf used on input line 284.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3OCH3_259311.pdf, id=2600, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3OCH3_259311.pdf used on input line 285.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3CN_257527.pdf, id=2601, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3CN_257527.pdf used on input line 286.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3OH_243915.pdf, id=2602, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3OH_243915.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3OH_243915.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3OH_243915.pdf used on input line 288.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3OCHO_259342.pdf, id=2603, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3OCHO_259342.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3OCHO_259342.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3OCHO_259342.pdf used on input line 289.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3OCH3_259311.pdf, id=2604, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3OCH3_259311.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3OCH3_259311.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3OCH3_259311.pdf used on input line 290.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+ </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3CN_257527.pdf, id=2605, 527.42891pt x 435.42894pt>
+File: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3CN_257527.pdf Graphic file (type pdf)
+ <use /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3CN_257527.pdf>
+Package pdftex.def Info: /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3CN_257527.pdf used on input line 291.
+(pdftex.def)             Requested size: 123.151pt x 101.66805pt.
+) [19 </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3cn_ch3oh.pdf> </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3ocho.pdf
 
 pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3ocho.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3ocho_ch3oh.pdf
@@ -863,49 +1829,648 @@ pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscr
 > </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3oh.pdf
 
 pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/ratio_ch3och3_ch3oh.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] <Ncol_ch3oh_cch.pdf, id=2762, 977.93169pt x 716.88261pt>
+File: Ncol_ch3oh_cch.pdf Graphic file (type pdf)
+ <use Ncol_ch3oh_cch.pdf>
+Package pdftex.def Info: Ncol_ch3oh_cch.pdf used on input line 533.
+(pdftex.def)             Requested size: 241.16582pt x 176.78087pt.
+ <all_cch.pdf, id=2763, 1527.61021pt x 1581.56055pt>
+File: all_cch.pdf Graphic file (type pdf)
+ <use all_cch.pdf>
+Package pdftex.def Info: all_cch.pdf used on input line 540.
+(pdftex.def)             Requested size: 513.11743pt x 531.2318pt.
+ (/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.bbl [20 </Volumes/SD/Google Drive/research/PEACHES/manuscript/ratios_survey.pdf>] [21 </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3OH_243915.pdf> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_2_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID03_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID00_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_4_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (3.83058pt too wide) in paragraph at lines 66--67
-[]\foo Unidentified lines at 244248[], 246219[], 246254[], 246344[], 246389[], 246434[], 246525[],
- []
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 114.
+
+[22pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.114   {Herbst}}]{2008ApJ...682..283G}
+                                        </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3OH_243915.pdf> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_3_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID01_2_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID02_2_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID05_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 114.
 
 
-Overfull \hbox (3.83058pt too wide) in paragraph at lines 72--73
-[]\foo Unidentified lines at 244248[], 246254[], 246314[], 246322[], 246389[], 246434[], 246525[],
- []
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-[18 </Volumes/SD/Google Drive/research/PEACHES/manuscript/Ncol_ch3oh_cch.pdf>] [19 </Volumes/SD/Google Drive/research/PEACHES/manuscript/all_cch.pdf>]
-Overfull \hbox (3.83058pt too wide) in paragraph at lines 89--91
-[]\foo Unidentified lines at 244248[], 246254[], 246331[], 246344[], 246434[], 246525[], 246838[],
- []
+[23pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.151   {Yamamoto}}]{2018ApJS..236...52H}
+                                          </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3OH_243915.pdf> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3OCHO_259342.pdf
 
-Overfull \hbox (3.83058pt too wide) in paragraph at lines 97--98
-[]\foo Unidentified lines at 244232[], 244248[], 246207[], 246254[], 246388[], 246435[], 246525[],
- []
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3OCH3_259311.pdf
 
-) (/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.bbl [20]) [21]
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 546.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 546.
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID06_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID07_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set1_ID08_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID07_2_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [24pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.202   {Graninger}}]{2018ApJ...863...88L}
+                                           </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3OH_243915.pdf> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID03_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID16_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID04_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID08_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_2_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [25pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.242   {Pearson}}]{2009A&A...506.1487M}
+                                         </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3OH_243915.pdf> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID00_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID09_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID11_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_2_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID01_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [26pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.282 ...ne}, \& {Yamamoto}}]{2017ApJ...837..174O}
+                                                   </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3OH_243915.pdf> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID05_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID12_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID02_2_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID06_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [27pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.327   {Takakuwa}}]{2019ApJ...872..196S}
+                                          </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3OH_243915.pdf> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_2_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set2_ID13_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID05_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID04_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID02_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [28pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.374   {Perez}}]{2016ApJ...818...73T}
+                                       </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3OH_243915.pdf> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID03_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID01_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_2_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID00_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [29pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.413 ...odman}, \& {Alves}}]{2020A&A...633A..51Z}
+                                                   </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3OH_243915.pdf> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID09_2_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID06_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_2_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID07_3_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [30pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.413 ...odman}, \& {Alves}}]{2020A&A...633A..51Z}
+                                                   </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3OH_243915.pdf> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_2_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID08_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3OH_243915.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3OH_243915.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3OCHO_259342.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3OCHO_259342.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3OCH3_259311.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3OCH3_259311.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3CN_257527.pdf
+
+pdfTeX warning: pdflatex (file /Users/yaolun/1d_spectra/extractions/moment0/subset/Set3_ID10_CH3CN_257527.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Volumes/SD/Google Drive/research/PEACHES/manuscript/Ncol_ch3oh_cch.pdf
+
+pdfTeX warning: pdflatex (file /Volumes/SD/Google Drive/research/PEACHES/manuscript/Ncol_ch3oh_cch.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 413.
+
+[31 </Volumes/SD/Google Drive/research/PEACHES/manuscript/all_cch.pdf>]) [32]
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 550.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 550.
  (/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.aux)
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 546.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 550.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 10468 strings out of 493014
- 148520 string characters out of 6133351
- 397537 words of memory out of 5000000
- 13685 multiletter control sequences out of 15000+600000
+ 11557 strings out of 493014
+ 222055 string characters out of 6133351
+ 409079 words of memory out of 5000000
+ 14578 multiletter control sequences out of 15000+600000
  20216 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,13n,37p,2625b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.pdf" (21 pages, 3421026 bytes).
+ 36i,13n,37p,2625b,745s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on "/Volumes/SD/Google Drive/research/PEACHES/manuscript/peaches.pdf" (32 pages, 14428607 bytes).
 PDF statistics:
- 2672 PDF objects out of 2984 (max. 8388607)
- 807 compressed objects within 9 object streams
- 136 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 14645 PDF objects out of 15390 (max. 8388607)
+ 2461 compressed objects within 25 object streams
+ 158 named destinations out of 1000 (max. 500000)
+ 1151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
