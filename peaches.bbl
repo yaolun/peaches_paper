@@ -62,6 +62,12 @@
 {Brauer}, C.~S., {Pearson}, J.~C., {Drouin}, B.~J., \& {Yu}, S. 2009, \apjs,
   184, 133
 
+\bibitem[{{Calcutt} {et~al.}(2018){Calcutt}, {J{\o}rgensen}, {M{\"u}ller},
+  {Kristensen}, {Coutens}, {Bourke}, {Garrod}, {Persson}, {van der Wiel}, {van
+  Dishoeck}, \& {Wampfler}}]{2018A&A...616A..90C}
+{Calcutt}, H., {J{\o}rgensen}, J.~K., {M{\"u}ller}, H.~S.~P., {et~al.} 2018,
+  \aap, 616, A90
+
 \bibitem[{{Carney} {et~al.}(2016){Carney}, {Y{\i}ld{\i}z}, {Mottram}, {van
   Dishoeck}, {Ramchandani}, \& {J{\o}rgensen}}]{2016A&A...586A..44C}
 {Carney}, M.~T., {Y{\i}ld{\i}z}, U.~A., {Mottram}, J.~C., {et~al.} 2016, \aap,
@@ -109,6 +115,9 @@
   \& {M{\"u}ller}}]{2016JMoSp.327...95E}
 {Endres}, C.~P., {Schlemmer}, S., {Schilke}, P., {Stutzki}, J., \&
   {M{\"u}ller}, H. S.~P. 2016, Journal of Molecular Spectroscopy, 327, 95
+
+\bibitem[{{Garrod}(2013)}]{2013ApJ...765...60G}
+{Garrod}, R.~T. 2013, \apj, 765, 60
 
 \bibitem[{{Garrod} {et~al.}(2008){Garrod}, {Widicus Weaver}, \&
   {Herbst}}]{2008ApJ...682..283G}
@@ -172,6 +181,11 @@
   {Hirota}, {Aikawa}, \& {Yamamoto}}]{2016ApJ...830L..37I}
 {Imai}, M., {Sakai}, N., {Oya}, Y., {et~al.} 2016, \apjl, 830, L37
 
+\bibitem[{{Jacobsen} {et~al.}(2019){Jacobsen}, {J{\o}rgensen}, {Di Francesco},
+  {Evans}, {Choi}, \& {Lee}}]{2019A&A...629A..29J}
+{Jacobsen}, S.~K., {J{\o}rgensen}, J.~K., {Di Francesco}, J., {et~al.} 2019,
+  \aap, 629, A29
+
 \bibitem[{{Jorgensen} {et~al.}(2020){Jorgensen}, {Belloche}, \&
   {Garrod}}]{2020arXiv200607071J}
 {Jorgensen}, J.~K., {Belloche}, A., \& {Garrod}, R.~T. 2020, arXiv e-prints,
@@ -189,6 +203,12 @@
 {J{\o}rgensen}, J.~K., {van der Wiel}, M.~H.~D., {Coutens}, A., {et~al.} 2016,
   \aap, 595, A117
 
+\bibitem[{{J{\o}rgensen} {et~al.}(2018){J{\o}rgensen}, {M{\"u}ller}, {Calcutt},
+  {Coutens}, {Drozdovskaya}, {{\"O}berg}, {Persson}, {Taquet}, {van Dishoeck},
+  \& {Wampfler}}]{2018A&A...620A.170J}
+{J{\o}rgensen}, J.~K., {M{\"u}ller}, H.~S.~P., {Calcutt}, H., {et~al.} 2018,
+  \aap, 620, A170
+
 \bibitem[{{Kleiner} {et~al.}(1996){Kleiner}, {Lovas}, \&
   {Godefroid}}]{1996JPCRD..25.1113K}
 {Kleiner}, I., {Lovas}, F.~J., \& {Godefroid}, M. 1996, Journal of Physical and
@@ -203,6 +223,10 @@
 {Law}, C.~J., {{\"O}berg}, K.~I., {Bergner}, J.~B., \& {Graninger}, D. 2018,
   \apj, 863, 88
 
+\bibitem[{{Lee} {et~al.}(2009){Lee}, {Hirano}, {Palau}, {Ho}, {Bourke},
+  {Zhang}, \& {Shang}}]{2009ApJ...699.1584L}
+{Lee}, C.-F., {Hirano}, N., {Palau}, A., {et~al.} 2009, \apj, 699, 1584
+
 \bibitem[{{Lee} {et~al.}(2017){Lee}, {Li}, {Ho}, {Hirano}, {Zhang}, \&
   {Shang}}]{2017ApJ...843...27L}
 {Lee}, C.-F., {Li}, Z.-Y., {Ho}, P. T.~P., {et~al.} 2017, \apj, 843, 27
@@ -214,6 +238,12 @@
   {Herbst}}]{2008JMoSp.251..293M}
 {Maeda}, A., {De Lucia}, F.~C., \& {Herbst}, E. 2008, Journal of Molecular
   Spectroscopy, 251, 293
+
+\bibitem[{{Manigand} {et~al.}(2020){Manigand}, {J{\o}rgensen}, {Calcutt},
+  {M{\"u}ller}, {Ligterink}, {Coutens}, {Drozdovskaya}, {van Dishoeck}, \&
+  {Wampfler}}]{2020A&A...635A..48M}
+{Manigand}, S., {J{\o}rgensen}, J.~K., {Calcutt}, H., {et~al.} 2020, \aap, 635,
+  A48
 
 \bibitem[{{Marcelino} {et~al.}(2018){Marcelino}, {Gerin}, {Cernicharo},
   {Fuente}, {Wootten}, {Chapillon}, {Pety}, {Lis}, {Roueff}, {Commer{\c{c}}on},
@@ -313,6 +343,10 @@
   {Blake}}]{1984ApJS...55..633P}
 {Plummer}, G.~M., {Herbst}, E., {De Lucia}, F., \& {Blake}, G.~A. 1984, \apjs,
   55, 633
+
+\bibitem[{{Plunkett} {et~al.}(2013){Plunkett}, {Arce}, {Corder}, {Mardones},
+  {Sargent}, \& {Schnee}}]{2013ApJ...774...22P}
+{Plunkett}, A.~L., {Arce}, H.~G., {Corder}, S.~A., {et~al.} 2013, \apj, 774, 22
 
 \bibitem[{{Rabli} \& {Flower}(2010)}]{2010MNRAS.406...95R}
 {Rabli}, D., \& {Flower}, D.~R. 2010, \mnras, 406, 95
