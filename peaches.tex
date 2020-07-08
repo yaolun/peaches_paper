@@ -319,7 +319,7 @@ Line identification starts with manual identification and verification for a few
 \end{itemize}
 Table\,\ref{tbl:line_id} lists the identified species and transitions that are detected in at least one of the PEACHES protostars.  Only identifiable transitions are listed.  The \textsc{xclass} modeling include all the transitions in our frequency coverage for each molecule regardless their Einstein-A values and upper energy levels.  
 
-As shown in Figure\,\ref{fig:coms_map_sample}, COMs emission centers around the protostars at $\sim 100-200$\,au.  At the similar region, the gas density is around $\sim 10^{8}$\cc\ \citep[B1-b S: ][]{2017A&A...606A..35G}, similar to the critical density of the COM emission detected in our observations.  For example, the \methanol\ line at 243915\mhz\ has a critical density of 1.4\ee{8}\cc\ \citep{2005A&A...432..369S,2010MNRAS.406...95R}.  Thus, the assumption of LTE holds for modeling the COM emission.  \textcolor{red}{YLY: B1-b S is one of the most dense protostars.  My guess is that the COMs is close to LTE but not in LTE.  We also test the LTE assumption on \methanol\ with the large velocity gradient (LVG) model using RADEX (\refnote).  The column density difference is only X\%.}
+As shown in Figure\,\ref{fig:coms_map_sample}, COMs emission centers around the protostars at $\sim 100-200$\,au.  At the similar region, the gas density is around $\sim 10^{9}--10^{12}$\cc, if we use the averaged continuum brightness temperature to estimate the gas column density and assume the same size in the radial direction as that in the plane of sky (Appendix\,\ref{sec:n_gas}).  The \methanol\ line at 243915\mhz\ has a critical density of 1.4\ee{8}\cc\ \citep{2005A&A...432..369S,2010MNRAS.406...95R}.  Thus, the assumption of LTE holds for modeling the COM emission.  \textcolor{red}{YLY: I was trying to make an argument using Fig. 8 in \citet{2016A&A...595A.117J}; however, I realize that they focus on Band 7 methanol instead of Band 6.}
 
 Systematic spectral fitting using \textsc{xclass} is applied to all sources using a list of species, compiled from the identifications.  Appendix\,\ref{sec:catalogs} lists the catalogs used in this study.  The fitting function in \textsc{xclass} includes several optimization algorithms that can be used in series to reduce biases.  We configure the algorithm chain that starts with the genetic algorithm followed by the Levenberg-Marquardt $\chi^{2}$ minimization.  The genetic algorithm searches the best-fitting parameters iteratively with generations that evolve like a natural selection, where the better fitting models get less modification over generations.  We setup the genetic algorithm to search for the top two best-fitting models with 30 generations.  Then, the Levenberg-Marquardt $\chi^{2}$ minimization applies to the two best-fitting models for 20 iterations to find the best-fitting models.  The genetic algorithm aims to find local minimums and the Levenberg-Marquardt minimization further finds the best-fitting models in the local minimums.  The two best-fitting models found by the genetic algorithm often very similar, suggesting that there is only one minimum.  To address the rare cases of two separated local minimums, we pick the model with the lower $\chi^{2}$ values from the two best-fitting models constrained by the Levenberg-Marquardt minimization.  
 
@@ -561,20 +561,36 @@ Figure\,\ref{fig:coms_map_all} shows the intensity maps of \methanol, \methylcya
 \input{moment0_seleted_coms}
 
 \section{The Spectra of \cch}
-The \cch\ spectra toward the continuum emission have irregular line profiles.  Some spectra have strong self-absorption, while some spectra only show the blue-shifted emission.  Due to the absorption and irregular line profile, the \textsc{xclass} fitting routine often fails to faithfully reproduce the observed \cch\ spectra.  \cch\ can easily form in the outflow cavity wall due to the abundant CH$_{4}$ sublimated from dust grains as well as C$^+$ ionized by the UV radiation.  Thus, the \cch\ spectra can have broad line width and multiple components.  Furthermore, the morphology of the \cch\ emission traces the outflows, making our extraction from the continuum emission non-ideal for representing the nature of the \cch\ emission.  \textcolor{red}{Figure\,\ref{fig:all_cch} and Y show the spectra and the moment 0 map of \cch, respectively.}
+% The \cch\ spectra toward the continuum emission have irregular line profiles.  Some spectra have strong self-absorption, while some spectra only show the blue-shifted emission.  Due to the absorption and irregular line profile, the \textsc{xclass} fitting routine often fails to faithfully reproduce the observed \cch\ spectra.  \cch\ can easily form in the outflow cavity wall due to the abundant CH$_{4}$ sublimated from dust grains as well as C$^+$ ionized by the UV radiation.  Thus, the \cch\ spectra can have broad line width and multiple components.  Furthermore, the morphology of the \cch\ emission traces the outflows, making our extraction from the continuum emission non-ideal for representing the nature of the \cch\ emission.  \textcolor{red}{Figure\,\ref{fig:all_cch} and Y show the spectra and the moment 0 map of \cch, respectively.}
 
-\begin{figure}[htbp!]
-  \centering
-  \includegraphics[width=0.47\textwidth]{Ncol_ch3oh_cch.pdf}
-  \caption{Correlation of the column densities of \cch\ and \methanol\ fitted from the PEACHES protostars.  The sources where both molecules are detected are shown in black; the sources where only one molecule is detected are shown in magenta; finally, the sources where both molecules are not detected are shown in black for the corresponding upper limits.}
-  \label{fig:cch_ch3oh}
-\end{figure}
+% \begin{figure}[htbp!]
+%   \centering
+%   \includegraphics[width=0.47\textwidth]{Ncol_ch3oh_cch.pdf}
+%   \caption{Correlation of the column densities of \cch\ and \methanol\ fitted from the PEACHES protostars.  The sources where both molecules are detected are shown in black; the sources where only one molecule is detected are shown in magenta; finally, the sources where both molecules are not detected are shown in black for the corresponding upper limits.}
+%   \label{fig:cch_ch3oh}
+% \end{figure}
 
 \begin{figure*}[htbp!]
   \centering
   \includegraphics[width=\textwidth]{all_cch.pdf}
   \caption{The \cch\ spectra of all PEACHES sources extracted from the continuum emission.}
   \label{fig:all_cch}
+\end{figure*}
+
+\section{Estimation of the column and volumn gas density}
+\label{sec:n_gas}
+The continuum brightness temperature indirectly measures the gas column density assuming an optically thin emission.  Within the extraction region for the 1D spectra, we can estimate the gas column density from the averaged continuum brightness temperature using
+\begin{align}
+  N_{\rm gas} \text{(g cm$^{-2}$)} & = \frac{R_{\rm g2d}<I_{\nu}>}{\kappa_{\nu}B_{\nu}(T_{\rm d})} \nonumber \\
+  N_{\rm gas} \text{(cm$^{-2}$)} & = \frac{R_{\rm g2d}<I_{\nu}>}{\kappa_{\nu}B_{\nu}(T_{\rm d})\mu_{\rm H}m_{\rm H}},
+\end{align}
+where $R_{\rm g2d}$ is the gas-to-dust mass ratio of 100, $<I_{\nu}>$ is the averaged intensity, $\kappa_{\nu}$ is the dust opacity, $B_{\nu}(T_{\rm d})$ is the Planck function at $T_{\rm d}$, which is assumed as 30\,K.  We assume a frequnecy of 250\ghz.  Furthermore, we can estimate the volumn density assuming the emitting gas has the same spatial extent along the line of sight as that along the plane of sky.  Figure\,\ref{fig:Ngas_ngas} shows the estimated column and volumn gas densities of the PEACHES protostars.
+
+\begin{figure*}[htbp!]
+  \centering
+  \includegraphics[width=\textwidth]{Ngas_ngas.pdf}
+  \caption{The derived gas column and volumn densities compared with the modeled column densities of \methanol.  The sources are sorted by their gas column density.  The vertical lines indicate the n(H$_2$) where the LTE assumption lead to 10\%\ error for methanol at 100\,K and 300\,K, respectively \citep{2016A&A...595A.117J}.}
+  \label{fig:Ngas_ngas}
 \end{figure*}
 
 % \section{Notes on the COMs Modeling}

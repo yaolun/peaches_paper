@@ -6,45 +6,45 @@ Database file #1: research.bib
 Database file #2: fixed.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in 2016ascl.soft09017R
-You've used 87 entries,
+You've used 86 entries,
             3222 wiz_defined-function locations,
-            1345 strings with 34813 characters,
-and the built_in function-call counts, 45870 in all, are:
-= -- 3428
-> -- 4228
+            1337 strings with 34469 characters,
+and the built_in function-call counts, 45356 in all, are:
+= -- 3393
+> -- 4178
 < -- 13
-+ -- 1422
-- -- 1566
-* -- 4289
-:= -- 8594
-add.period$ -- 87
-call.type$ -- 87
-change.case$ -- 552
-chr.to.int$ -- 87
-cite$ -- 88
-duplicate$ -- 1578
-empty$ -- 2470
-format.name$ -- 1626
-if$ -- 9018
++ -- 1406
+- -- 1548
+* -- 4238
+:= -- 8495
+add.period$ -- 86
+call.type$ -- 86
+change.case$ -- 548
+chr.to.int$ -- 86
+cite$ -- 87
+duplicate$ -- 1560
+empty$ -- 2442
+format.name$ -- 1607
+if$ -- 8917
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 84
-newline$ -- 266
-num.names$ -- 350
-pop$ -- 772
+missing$ -- 83
+newline$ -- 263
+num.names$ -- 346
+pop$ -- 766
 preamble$ -- 1
-purify$ -- 552
+purify$ -- 548
 quote$ -- 0
-skip$ -- 1213
+skip$ -- 1199
 stack$ -- 0
-substring$ -- 1500
+substring$ -- 1483
 swap$ -- 16
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 783
+type$ -- 774
 warning$ -- 1
-while$ -- 323
+while$ -- 320
 width$ -- 0
-write$ -- 873
+write$ -- 863
 (There was 1 warning)
