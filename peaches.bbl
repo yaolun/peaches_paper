@@ -1,0 +1,412 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\href{#1}{#1}}
+
+\bibitem[{{Aikawa}(2013)}]{2013ChRv..113.8961A}
+{Aikawa}, Y. 2013, Chemical Reviews, 113, 8961
+
+\bibitem[{{Astropy Collaboration} {et~al.}(2018){Astropy Collaboration},
+  {Price-Whelan}, {Sip{\H{o}}cz}, {G{\"u}nther}, {Lim}, {Crawford}, {Conseil},
+  {Shupe}, {Craig}, {Dencheva}, {Ginsburg}, {Vand erPlas}, {Bradley},
+  {P{\'e}rez-Su{\'a}rez}, {de Val-Borro}, {Aldcroft}, {Cruz}, {Robitaille},
+  {Tollerud}, {Ardelean}, {Babej}, {Bach}, {Bachetti}, {Bakanov}, {Bamford},
+  {Barentsen}, {Barmby}, {Baumbach}, {Berry}, {Biscani}, {Boquien}, {Bostroem},
+  {Bouma}, {Brammer}, {Bray}, {Breytenbach}, {Buddelmeijer}, {Burke},
+  {Calderone}, {Cano Rodr{\'\i}guez}, {Cara}, {Cardoso}, {Cheedella}, {Copin},
+  {Corrales}, {Crichton}, {D'Avella}, {Deil}, {Depagne}, {Dietrich}, {Donath},
+  {Droettboom}, {Earl}, {Erben}, {Fabbro}, {Ferreira}, {Finethy}, {Fox},
+  {Garrison}, {Gibbons}, {Goldstein}, {Gommers}, {Greco}, {Greenfield},
+  {Groener}, {Grollier}, {Hagen}, {Hirst}, {Homeier}, {Horton}, {Hosseinzadeh},
+  {Hu}, {Hunkeler}, {Ivezi{\'c}}, {Jain}, {Jenness}, {Kanarek}, {Kendrew},
+  {Kern}, {Kerzendorf}, {Khvalko}, {King}, {Kirkby}, {Kulkarni}, {Kumar},
+  {Lee}, {Lenz}, {Littlefair}, {Ma}, {Macleod}, {Mastropietro}, {McCully},
+  {Montagnac}, {Morris}, {Mueller}, {Mumford}, {Muna}, {Murphy}, {Nelson},
+  {Nguyen}, {Ninan}, {N{\"o}the}, {Ogaz}, {Oh}, {Parejko}, {Parley}, {Pascual},
+  {Patil}, {Patil}, {Plunkett}, {Prochaska}, {Rastogi}, {Reddy Janga},
+  {Sabater}, {Sakurikar}, {Seifert}, {Sherbert}, {Sherwood-Taylor}, {Shih},
+  {Sick}, {Silbiger}, {Singanamalla}, {Singer}, {Sladen}, {Sooley},
+  {Sornarajah}, {Streicher}, {Teuben}, {Thomas}, {Tremblay}, {Turner},
+  {Terr{\'o}n}, {van Kerkwijk}, {de la Vega}, {Watkins}, {Weaver}, {Whitmore},
+  {Woillez}, {Zabalza}, \& {Astropy Contributors}}]{2018AJ....156..123A}
+{Astropy Collaboration}, {Price-Whelan}, A.~M., {Sip{\H{o}}cz}, B.~M., {et~al.}
+  2018, \aj, 156, 123
+
+\bibitem[{{Belloche} {et~al.}(2020){Belloche}, {Maury}, {Maret}, {Anderl},
+  {Bacmann}, {Andr{\'e}}, {Bontemps}, {Cabrit}, {Codella}, {Gaudel}, {Gueth},
+  {Lef{\`e}vre}, {Lefloch}, {Podio}, \& {Testi}}]{2020A&A...635A.198B}
+{Belloche}, A., {Maury}, A.~J., {Maret}, S., {et~al.} 2020, \aap, 635, A198
+
+\bibitem[{{Belov} {et~al.}(1998){Belov}, {Tretyakov}, {Kozin}, {Klisch},
+  {Winnewisser}, {Lafferty}, \& {Flaud}}]{1998JMoSp.191...17B}
+{Belov}, S.~P., {Tretyakov}, M.~Y., {Kozin}, I.~N., {et~al.} 1998, Journal of
+  Molecular Spectroscopy, 191, 17
+
+\bibitem[{{Bergner} {et~al.}(2017){Bergner}, {{\"O}berg}, {Garrod}, \&
+  {Graninger}}]{2017ApJ...841..120B}
+{Bergner}, J.~B., {{\"O}berg}, K.~I., {Garrod}, R.~T., \& {Graninger}, D.~M.
+  2017, \apj, 841, 120
+
+\bibitem[{{Bottinelli} {et~al.}(2007){Bottinelli}, {Ceccarelli}, {Williams}, \&
+  {Lefloch}}]{2007A&A...463..601B}
+{Bottinelli}, S., {Ceccarelli}, C., {Williams}, J.~P., \& {Lefloch}, B. 2007,
+  \aap, 463, 601
+
+\bibitem[{{Bottinelli} {et~al.}(2004){Bottinelli}, {Ceccarelli}, {Lefloch},
+  {Williams}, {Castets}, {Caux}, {Cazaux}, {Maret}, {Parise}, \&
+  {Tielens}}]{2004ApJ...615..354B}
+{Bottinelli}, S., {Ceccarelli}, C., {Lefloch}, B., {et~al.} 2004, \apj, 615,
+  354
+
+\bibitem[{{Brauer} {et~al.}(2009){Brauer}, {Pearson}, {Drouin}, \&
+  {Yu}}]{2009ApJS..184..133B}
+{Brauer}, C.~S., {Pearson}, J.~C., {Drouin}, B.~J., \& {Yu}, S. 2009, \apjs,
+  184, 133
+
+\bibitem[{{Carney} {et~al.}(2016){Carney}, {Y{\i}ld{\i}z}, {Mottram}, {van
+  Dishoeck}, {Ramchandani}, \& {J{\o}rgensen}}]{2016A&A...586A..44C}
+{Carney}, M.~T., {Y{\i}ld{\i}z}, U.~A., {Mottram}, J.~C., {et~al.} 2016, \aap,
+  586, A44
+
+\bibitem[{{Carvajal} {et~al.}(2007){Carvajal}, {Willaert}, {Demaison}, \&
+  {Kleiner}}]{2007JMoSp.246..158C}
+{Carvajal}, M., {Willaert}, F., {Demaison}, J., \& {Kleiner}, I. 2007, Journal
+  of Molecular Spectroscopy, 246, 158
+
+\bibitem[{{Cazaux} {et~al.}(2003){Cazaux}, {Tielens}, {Ceccarelli}, {Castets},
+  {Wakelam}, {Caux}, {Parise}, \& {Teyssier}}]{2003ApJ...593L..51C}
+{Cazaux}, S., {Tielens}, A.~G.~G.~M., {Ceccarelli}, C., {et~al.} 2003, \apjl,
+  593, L51
+
+\bibitem[{{Ceccarelli}(2004)}]{2004ASPC..323..195C}
+{Ceccarelli}, C. 2004, in Astronomical Society of the Pacific Conference
+  Series, Vol. 323, Star Formation in the Interstellar Medium: In Honor of
+  David Hollenbach, ed. D.~{Johnstone}, F.~C. {Adams}, D.~N.~C. {Lin}, D.~A.
+  {Neufeeld}, \& E.~C. {Ostriker}, 195
+
+\bibitem[{{Curtis} {et~al.}(2010){Curtis}, {Richer}, {Swift}, \&
+  {Williams}}]{2010MNRAS.408.1516C}
+{Curtis}, E.~I., {Richer}, J.~S., {Swift}, J.~J., \& {Williams}, J.~P. 2010,
+  \mnras, 408, 1516
+
+\bibitem[{{De Simone} {et~al.}(2020){De Simone}, {Ceccarelli}, {Codella},
+  {Svoboda}, {Chandler}, {Bouvier}, {Yamamoto}, {Sakai}, {Caselli}, {Favre},
+  {Loinard}, {Lefloch}, {Liu}, {L{\'o}pez-Sepulcre}, {Pineda}, {Taquet}, \&
+  {Testi}}]{2020ApJ...896L...3D}
+{De Simone}, M., {Ceccarelli}, C., {Codella}, C., {et~al.} 2020, \apjl, 896, L3
+
+\bibitem[{{Dunham} {et~al.}(2013){Dunham}, {Arce}, {Allen}, {Evans},
+  {Broekhoven-Fiene}, {Chapman}, {Cieza}, {Gutermuth}, {Harvey}, {Hatchell},
+  {Huard}, {Kirk}, {Matthews}, {Mer{\'\i}n}, {Miller}, {Peterson}, \&
+  {Spezzi}}]{2013AJ....145...94D}
+{Dunham}, M.~M., {Arce}, H.~G., {Allen}, L.~E., {et~al.} 2013, \aj, 145, 94
+
+\bibitem[{{Endres} {et~al.}(2009){Endres}, {Drouin}, {Pearson}, {M{\"u}ller},
+  {Lewen}, {Schlemmer}, \& {Giesen}}]{2009A&A...504..635E}
+{Endres}, C.~P., {Drouin}, B.~J., {Pearson}, J.~C., {et~al.} 2009, \aap, 504,
+  635
+
+\bibitem[{{Endres} {et~al.}(2016){Endres}, {Schlemmer}, {Schilke}, {Stutzki},
+  \& {M{\"u}ller}}]{2016JMoSp.327...95E}
+{Endres}, C.~P., {Schlemmer}, S., {Schilke}, P., {Stutzki}, J., \&
+  {M{\"u}ller}, H. S.~P. 2016, Journal of Molecular Spectroscopy, 327, 95
+
+\bibitem[{{Garrod} {et~al.}(2008){Garrod}, {Widicus Weaver}, \&
+  {Herbst}}]{2008ApJ...682..283G}
+{Garrod}, R.~T., {Widicus Weaver}, S.~L., \& {Herbst}, E. 2008, \apj, 682, 283
+
+\bibitem[{{Graninger} {et~al.}(2016){Graninger}, {Wilkins}, \&
+  {{\"O}berg}}]{2016ApJ...833..125G}
+{Graninger}, D.~M., {Wilkins}, O.~H., \& {{\"O}berg}, K.~I. 2016, \apj, 833,
+  125
+
+\bibitem[{{Gratier} {et~al.}(2016){Gratier}, {Majumdar}, {Ohishi}, {Roueff},
+  {Loison}, {Hickson}, \& {Wakelam}}]{2016ApJS..225...25G}
+{Gratier}, P., {Majumdar}, L., {Ohishi}, M., {et~al.} 2016, \apjs, 225, 25
+
+\bibitem[{{Groner} {et~al.}(2002){Groner}, {Albert}, {Herbst}, {De Lucia},
+  {Lovas}, {Drouin}, \& {Pearson}}]{2002ApJS..142..145G}
+{Groner}, P., {Albert}, S., {Herbst}, E., {et~al.} 2002, \apjs, 142, 145
+
+\bibitem[{{Hatchell} {et~al.}(2007){Hatchell}, {Fuller}, {Richer}, {Harries},
+  \& {Ladd}}]{2007A&A...468.1009H}
+{Hatchell}, J., {Fuller}, G.~A., {Richer}, J.~S., {Harries}, T.~J., \& {Ladd},
+  E.~F. 2007, \aap, 468, 1009
+
+\bibitem[{{Hatchell} {et~al.}(2005){Hatchell}, {Richer}, {Fuller},
+  {Qualtrough}, {Ladd}, \& {Chandler}}]{2005A&A...440..151H}
+{Hatchell}, J., {Richer}, J.~S., {Fuller}, G.~A., {et~al.} 2005, \aap, 440, 151
+
+\bibitem[{{Helminger} \& {De Lucia}(1985)}]{1985JMoSp.111...66H}
+{Helminger}, P.~A., \& {De Lucia}, F.~C. 1985, Journal of Molecular
+  Spectroscopy, 111, 66
+
+\bibitem[{{Higuchi} {et~al.}(2018){Higuchi}, {Sakai}, {Watanabe},
+  {L{\'o}pez-Sepulcre}, {Yoshida}, {Oya}, {Imai}, {Zhang}, {Ceccarelli},
+  {Lefloch}, {Codella}, {Bachiller}, {Hirota}, {Sakai}, \&
+  {Yamamoto}}]{2018ApJS..236...52H}
+{Higuchi}, A.~E., {Sakai}, N., {Watanabe}, Y., {et~al.} 2018, \apjs, 236, 52
+
+\bibitem[{{Hirota} {et~al.}(2008){Hirota}, {Bushimata}, {Choi}, {Honma},
+  {Imai}, {Iwadate}, {Jike}, {Kameya}, {Kamohara}, {Kan-Ya}, {Kawaguchi},
+  {Kijima}, {Kobayashi}, {Kuji}, {Kurayama}, {Manabe}, {Miyaji}, {Nagayama},
+  {Nakagawa}, {Oh}, {Omodaka}, {Oyama}, {Sakai}, {Sasao}, {Sato}, {Shibata},
+  {Tamura}, \& {Yamashita}}]{2008PASJ...60...37H}
+{Hirota}, T., {Bushimata}, T., {Choi}, Y.~K., {et~al.} 2008, \pasj, 60, 37
+
+\bibitem[{{Ilyushin} {et~al.}(2009){Ilyushin}, {Kryvda}, \&
+  {Alekseev}}]{2009JMoSp.255...32I}
+{Ilyushin}, V., {Kryvda}, A., \& {Alekseev}, E. 2009, Journal of Molecular
+  Spectroscopy, 255, 32
+
+\bibitem[{{Imai} {et~al.}(2019){Imai}, {Oya}, {Sakai}, {L{\'o}pez-Sepulcre},
+  {Watanabe}, \& {Yamamoto}}]{2019ApJ...873L..21I}
+{Imai}, M., {Oya}, Y., {Sakai}, N., {et~al.} 2019, \apjl, 873, L21
+
+\bibitem[{{Imai} {et~al.}(2016){Imai}, {Sakai}, {Oya}, {L{\'o}pez-Sepulcre},
+  {Watanabe}, {Ceccarelli}, {Lefloch}, {Caux}, {Vastel}, {Kahane}, {Sakai},
+  {Hirota}, {Aikawa}, \& {Yamamoto}}]{2016ApJ...830L..37I}
+{Imai}, M., {Sakai}, N., {Oya}, Y., {et~al.} 2016, \apjl, 830, L37
+
+\bibitem[{{Jorgensen} {et~al.}(2020){Jorgensen}, {Belloche}, \&
+  {Garrod}}]{2020arXiv200607071J}
+{Jorgensen}, J.~K., {Belloche}, A., \& {Garrod}, R.~T. 2020, arXiv e-prints,
+  arXiv:2006.07071
+
+\bibitem[{{J{\o}rgensen} {et~al.}(2008){J{\o}rgensen}, {Johnstone}, {Kirk},
+  {Myers}, {Allen}, \& {Shirley}}]{2008ApJ...683..822J}
+{J{\o}rgensen}, J.~K., {Johnstone}, D., {Kirk}, H., {et~al.} 2008, \apj, 683,
+  822
+
+\bibitem[{{J{\o}rgensen} {et~al.}(2016){J{\o}rgensen}, {van der Wiel},
+  {Coutens}, {Lykke}, {M{\"u}ller}, {van Dishoeck}, {Calcutt}, {Bjerkeli},
+  {Bourke}, {Drozdovskaya}, {Favre}, {Fayolle}, {Garrod}, {Jacobsen},
+  {{\"O}berg}, {Persson}, \& {Wampfler}}]{2016A&A...595A.117J}
+{J{\o}rgensen}, J.~K., {van der Wiel}, M.~H.~D., {Coutens}, A., {et~al.} 2016,
+  \aap, 595, A117
+
+\bibitem[{{Kleiner} {et~al.}(1996){Kleiner}, {Lovas}, \&
+  {Godefroid}}]{1996JPCRD..25.1113K}
+{Kleiner}, I., {Lovas}, F.~J., \& {Godefroid}, M. 1996, Journal of Physical and
+  Chemical Reference Data, 25, 1113
+
+\bibitem[{{Ko} {et~al.}(2020){Ko}, {Liu}, {Lai}, {Ching}, {Rao}, \&
+  {Girart}}]{2020ApJ...889..172K}
+{Ko}, C.-L., {Liu}, H.~B., {Lai}, S.-P., {et~al.} 2020, \apj, 889, 172
+
+\bibitem[{{Law} {et~al.}(2018){Law}, {{\"O}berg}, {Bergner}, \&
+  {Graninger}}]{2018ApJ...863...88L}
+{Law}, C.~J., {{\"O}berg}, K.~I., {Bergner}, J.~B., \& {Graninger}, D. 2018,
+  \apj, 863, 88
+
+\bibitem[{{Lee} {et~al.}(2017){Lee}, {Li}, {Ho}, {Hirano}, {Zhang}, \&
+  {Shang}}]{2017ApJ...843...27L}
+{Lee}, C.-F., {Li}, Z.-Y., {Ho}, P. T.~P., {et~al.} 2017, \apj, 843, 27
+
+\bibitem[{{Lovas}(1985)}]{1985JPCRD..14..395L}
+{Lovas}, F.~J. 1985, Journal of Physical and Chemical Reference Data, 14, 395
+
+\bibitem[{{Maeda} {et~al.}(2008){Maeda}, {De Lucia}, \&
+  {Herbst}}]{2008JMoSp.251..293M}
+{Maeda}, A., {De Lucia}, F.~C., \& {Herbst}, E. 2008, Journal of Molecular
+  Spectroscopy, 251, 293
+
+\bibitem[{{Marcelino} {et~al.}(2018){Marcelino}, {Gerin}, {Cernicharo},
+  {Fuente}, {Wootten}, {Chapillon}, {Pety}, {Lis}, {Roueff}, {Commer{\c{c}}on},
+  \& {Ciardi}}]{2018A&A...620A..80M}
+{Marcelino}, N., {Gerin}, M., {Cernicharo}, J., {et~al.} 2018, \aap, 620, A80
+
+\bibitem[{{McGuire}(2018)}]{2018ApJS..239...17M}
+{McGuire}, B.~A. 2018, \apjs, 239, 17
+
+\bibitem[{{McMullin} {et~al.}(2007){McMullin}, {Waters}, {Schiebel}, {Young},
+  \& {Golap}}]{2007ASPC..376..127M}
+{McMullin}, J.~P., {Waters}, B., {Schiebel}, D., {Young}, W., \& {Golap}, K.
+  2007, in Astronomical Society of the Pacific Conference Series, Vol. 376,
+  Astronomical Data Analysis Software and Systems XVI, ed. R.~A. {Shaw},
+  F.~{Hill}, \& D.~J. {Bell}, 127
+
+\bibitem[{{M{\"o}ller} {et~al.}(2017){M{\"o}ller}, {Endres}, \&
+  {Schilke}}]{2017A&A...598A...7M}
+{M{\"o}ller}, T., {Endres}, C., \& {Schilke}, P. 2017, \aap, 598, A7
+
+\bibitem[{{M{\"u}ller} \& {Br{\"u}nken}(2005)}]{2005JMoSp.232..213M}
+{M{\"u}ller}, H. S.~P., \& {Br{\"u}nken}, S. 2005, Journal of Molecular
+  Spectroscopy, 232, 213
+
+\bibitem[{{M{\"u}ller} {et~al.}(2009){M{\"u}ller}, {Drouin}, \&
+  {Pearson}}]{2009A&A...506.1487M}
+{M{\"u}ller}, H.~S.~P., {Drouin}, B.~J., \& {Pearson}, J.~C. 2009, \aap, 506,
+  1487
+
+\bibitem[{{M{\"u}ller} {et~al.}(2005){M{\"u}ller}, {Schl{\"o}der}, {Stutzki},
+  \& {Winnewisser}}]{2005JMoSt.742..215M}
+{M{\"u}ller}, H. S.~P., {Schl{\"o}der}, F., {Stutzki}, J., \& {Winnewisser}, G.
+  2005, Journal of Molecular Structure, 742, 215
+
+\bibitem[{{M{\"u}ller} {et~al.}(2001){M{\"u}ller}, {Thorwirth}, {Roth}, \&
+  {Winnewisser}}]{2001A&A...370L..49M}
+{M{\"u}ller}, H.~S.~P., {Thorwirth}, S., {Roth}, D.~A., \& {Winnewisser}, G.
+  2001, \aap, 370, L49
+
+\bibitem[{{Murillo} {et~al.}(2016){Murillo}, {van Dishoeck}, {Tobin}, \&
+  {Fedele}}]{2016A&A...592A..56M}
+{Murillo}, N.~M., {van Dishoeck}, E.~F., {Tobin}, J.~J., \& {Fedele}, D. 2016,
+  \aap, 592, A56
+
+\bibitem[{{Nagy} {et~al.}(2019){Nagy}, {Spezzano}, {Caselli}, {Vasyunin},
+  {Tafalla}, {Bizzocchi}, {Prudenzano}, \& {Redaelli}}]{2019A&A...630A.136N}
+{Nagy}, Z., {Spezzano}, S., {Caselli}, P., {et~al.} 2019, \aap, 630, A136
+
+\bibitem[{{Oesterling} {et~al.}(1999){Oesterling}, {Albert}, {De Lucia},
+  {Sastry}, \& {Herbst}}]{1999ApJ...521..255O}
+{Oesterling}, L.~C., {Albert}, S., {De Lucia}, F.~C., {Sastry}, K.~V.~L.~N., \&
+  {Herbst}, E. 1999, \apj, 521, 255
+
+\bibitem[{{Ortiz-Le{\'o}n} {et~al.}(2018){Ortiz-Le{\'o}n}, {Loinard}, {Dzib},
+  {Galli}, {Kounkel}, {Mioduszewski}, {Rodr{\'\i}guez}, {Torres}, {Hartmann},
+  {Boden}, {Evans}, {Brice{\~n}o}, \& {Tobin}}]{2018ApJ...865...73O}
+{Ortiz-Le{\'o}n}, G.~N., {Loinard}, L., {Dzib}, S.~A., {et~al.} 2018, \apj,
+  865, 73
+
+\bibitem[{{Oya} {et~al.}(2016){Oya}, {Sakai}, {L{\'o}pez-Sepulcre}, {Watanabe},
+  {Ceccarelli}, {Lefloch}, {Favre}, \& {Yamamoto}}]{2016ApJ...824...88O}
+{Oya}, Y., {Sakai}, N., {L{\'o}pez-Sepulcre}, A., {et~al.} 2016, \apj, 824, 88
+
+\bibitem[{{Oya} {et~al.}(2017){Oya}, {Sakai}, {Watanabe}, {Higuchi}, {Hirota},
+  {L{\'o}pez-Sepulcre}, {Sakai}, {Aikawa}, {Ceccarelli}, {Lefloch}, {Caux},
+  {Vastel}, {Kahane}, \& {Yamamoto}}]{2017ApJ...837..174O}
+{Oya}, Y., {Sakai}, N., {Watanabe}, Y., {et~al.} 2017, \apj, 837, 174
+
+\bibitem[{{Pearson} {et~al.}(2008){Pearson}, {Brauer}, \&
+  {Drouin}}]{2008JMoSp.251..394P}
+{Pearson}, J.~C., {Brauer}, C.~S., \& {Drouin}, B.~J. 2008, Journal of
+  Molecular Spectroscopy, 251, 394
+
+\bibitem[{{Pearson} \& {Mueller}(1996)}]{1996ApJ...471.1067P}
+{Pearson}, J.~C., \& {Mueller}, H.~S.~P. 1996, \apj, 471, 1067
+
+\bibitem[{{Pearson} {et~al.}(1994){Pearson}, {Sastry}, {Herbst}, \& {De
+  Lucia}}]{1994ApJS...93..589P}
+{Pearson}, J.~C., {Sastry}, K.~V.~L.~N., {Herbst}, E., \& {De Lucia}, F.~C.
+  1994, \apjs, 93, 589
+
+\bibitem[{{Pearson} {et~al.}(1996){Pearson}, {Sastry}, {Herbst}, \& {De
+  Lucia}}]{1996JMoSp.175..246P}
+---. 1996, Journal of Molecular Spectroscopy, 175, 246
+
+\bibitem[{{Pearson} {et~al.}(2012){Pearson}, {Yu}, \&
+  {Drouin}}]{2012JMoSp.280..119P}
+{Pearson}, J.~C., {Yu}, S., \& {Drouin}, B.~J. 2012, Journal of Molecular
+  Spectroscopy, 280, 119
+
+\bibitem[{{Pickett} {et~al.}(1998){Pickett}, {Poynter}, {Cohen}, {Delitsky},
+  {Pearson}, \& {M{\"u}ller}}]{1998JQSRT..60..883P}
+{Pickett}, H.~M., {Poynter}, R.~L., {Cohen}, E.~A., {et~al.} 1998, \jqsrt, 60,
+  883
+
+\bibitem[{{Plummer} {et~al.}(1984){Plummer}, {Herbst}, {De Lucia}, \&
+  {Blake}}]{1984ApJS...55..633P}
+{Plummer}, G.~M., {Herbst}, E., {De Lucia}, F., \& {Blake}, G.~A. 1984, \apjs,
+  55, 633
+
+\bibitem[{{Rabli} \& {Flower}(2010)}]{2010MNRAS.406...95R}
+{Rabli}, D., \& {Flower}, D.~R. 2010, \mnras, 406, 95
+
+\bibitem[{{Robitaille} {et~al.}(2016){Robitaille}, {Ginsburg}, {Beaumont},
+  {Leroy}, \& {Rosolowsky}}]{2016ascl.soft09017R}
+{Robitaille}, T., {Ginsburg}, A., {Beaumont}, C., {Leroy}, A., \& {Rosolowsky},
+  E. 2016, {spectral-cube: Read and analyze astrophysical spectral data cubes},
+  , , ascl:1609.017
+
+\bibitem[{{Sahu} {et~al.}(2019){Sahu}, {Liu}, {Su}, {Li}, {Lee}, {Hirano}, \&
+  {Takakuwa}}]{2019ApJ...872..196S}
+{Sahu}, D., {Liu}, S.-Y., {Su}, Y.-N., {et~al.} 2019, \apj, 872, 196
+
+\bibitem[{{Sakai} {et~al.}(2009){Sakai}, {Sakai}, {Hirota}, {Burton}, \&
+  {Yamamoto}}]{2009ApJ...697..769S}
+{Sakai}, N., {Sakai}, T., {Hirota}, T., {Burton}, M., \& {Yamamoto}, S. 2009,
+  \apj, 697, 769
+
+\bibitem[{{Sakai} {et~al.}(2010){Sakai}, {Sakai}, {Hirota}, \&
+  {Yamamoto}}]{2010ApJ...722.1633S}
+{Sakai}, N., {Sakai}, T., {Hirota}, T., \& {Yamamoto}, S. 2010, \apj, 722, 1633
+
+\bibitem[{{Sakai} \& {Yamamoto}(2013)}]{2013ChRv..113.8981S}
+{Sakai}, N., \& {Yamamoto}, S. 2013, Chemical Reviews, 113, 8981
+
+\bibitem[{{Sakai} {et~al.}(2014){Sakai}, {Sakai}, {Hirota}, {Watanabe},
+  {Ceccarelli}, {Kahane}, {Bottinelli}, {Caux}, {Demyk}, {Vastel}, {Coutens},
+  {Taquet}, {Ohashi}, {Takakuwa}, {Yen}, {Aikawa}, \&
+  {Yamamoto}}]{2014Natur.507...78S}
+{Sakai}, N., {Sakai}, T., {Hirota}, T., {et~al.} 2014, \nat, 507, 78
+
+\bibitem[{{Sakai} {et~al.}(2016){Sakai}, {Oya}, {L{\'o}pez-Sepulcre},
+  {Watanabe}, {Sakai}, {Hirota}, {Aikawa}, {Ceccarelli}, {Lefloch}, {Caux},
+  {Vastel}, {Kahane}, \& {Yamamoto}}]{2016ApJ...820L..34S}
+{Sakai}, N., {Oya}, Y., {L{\'o}pez-Sepulcre}, A., {et~al.} 2016, \apjl, 820,
+  L34
+
+\bibitem[{{Sch{\"o}ier} {et~al.}(2005){Sch{\"o}ier}, {van der Tak}, {van
+  Dishoeck}, \& {Black}}]{2005A&A...432..369S}
+{Sch{\"o}ier}, F.~L., {van der Tak}, F.~F.~S., {van Dishoeck}, E.~F., \&
+  {Black}, J.~H. 2005, \aap, 432, 369
+
+\bibitem[{{Stephens} {et~al.}(2018){Stephens}, {Dunham}, {Myers}, {Pokhrel},
+  {Bourke}, {Vorobyov}, {Tobin}, {Sadavoy}, {Pineda}, {Offner}, {Lee},
+  {Kristensen}, {J{\o}rgensen}, {Goodman}, {Arce}, \&
+  {Gurwell}}]{2018ApJS..237...22S}
+{Stephens}, I.~W., {Dunham}, M.~M., {Myers}, P.~C., {et~al.} 2018, \apjs, 237,
+  22
+
+\bibitem[{{Stephens} {et~al.}(2019){Stephens}, {Bourke}, {Dunham}, {Myers},
+  {Pokhrel}, {Tobin}, {Arce}, {Sadavoy}, {Vorobyov}, {Pineda}, {Offner}, {Lee},
+  {Kristensen}, {J{\o}rgensen}, {Gurwell}, \& {Goodman}}]{2019ApJS..245...21S}
+{Stephens}, I.~W., {Bourke}, T.~L., {Dunham}, M.~M., {et~al.} 2019, \apjs, 245,
+  21
+
+\bibitem[{{Tobin} {et~al.}(2016){Tobin}, {Looney}, {Li}, {Chand ler}, {Dunham},
+  {Segura-Cox}, {Sadavoy}, {Melis}, {Harris}, {Kratter}, \&
+  {Perez}}]{2016ApJ...818...73T}
+{Tobin}, J.~J., {Looney}, L.~W., {Li}, Z.-Y., {et~al.} 2016, \apj, 818, 73
+
+\bibitem[{{Tychoniec} {et~al.}(2018){Tychoniec}, {Tobin}, {Karska}, {Chand
+  ler}, {Dunham}, {Harris}, {Kratter}, {Li}, {Looney}, {Melis}, {P{\'e}rez},
+  {Sadavoy}, {Segura-Cox}, \& {van Dishoeck}}]{2018ApJS..238...19T}
+{Tychoniec}, {\L}., {Tobin}, J.~J., {Karska}, A., {et~al.} 2018, \apjs, 238, 19
+
+\bibitem[{{Tychoniec} {et~al.}(2020){Tychoniec}, {Manara}, {Rosotti}, {van
+  Dishoeck}, {Cridland }, {Hsieh}, {Murillo}, {Segura-Cox}, {van Terwisga}, \&
+  {Tobin}}]{2020arXiv200602812T}
+{Tychoniec}, {\L}., {Manara}, C.~F., {Rosotti}, G.~P., {et~al.} 2020, arXiv
+  e-prints, arXiv:2006.02812
+
+\bibitem[{{Xu} \& {Lovas}(1997)}]{1997JPCRD..26...17X}
+{Xu}, L.-H., \& {Lovas}, F.~J. 1997, Journal of Physical and Chemical Reference
+  Data, 26, 17
+
+\bibitem[{{Xu} {et~al.}(2008){Xu}, {Fisher}, {Lees}, {Shi}, {Hougen},
+  {Pearson}, {Drouin}, {Blake}, \& {Braakman}}]{2008JMoSp.251..305X}
+{Xu}, L.-H., {Fisher}, J., {Lees}, R.~M., {et~al.} 2008, Journal of Molecular
+  Spectroscopy, 251, 305
+
+\bibitem[{{Yang} {et~al.}(2017){Yang}, {Evans}, {Green}, {Dunham}, \&
+  {J{\o}rgensen}}]{2017ApJ...835..259Y}
+{Yang}, Y.-L., {Evans}, Neal~J., I., {Green}, J.~D., {Dunham}, M.~M., \&
+  {J{\o}rgensen}, J.~K. 2017, \apj, 835, 259
+
+\bibitem[{{Yang} {et~al.}(2020){Yang}, {Evans}, {Smith}, {Lee}, {Tobin},
+  {Terebey}, {Calcutt}, {J{\o}rgensen}, {Green}, \&
+  {Bourke}}]{2020ApJ...891...61Y}
+{Yang}, Y.-L., {Evans}, Neal~J., I., {Smith}, A., {et~al.} 2020, \apj, 891, 61
+
+\bibitem[{{Zhang} {et~al.}(2018){Zhang}, {Higuchi}, {Sakai}, {Oya},
+  {L{\'o}pez-Sepulcre}, {Imai}, {Sakai}, {Watanabe}, {Ceccarelli}, {Lefloch},
+  \& {Yamamoto}}]{2018ApJ...864...76Z}
+{Zhang}, Y., {Higuchi}, A.~E., {Sakai}, N., {et~al.} 2018, \apj, 864, 76
+
+\bibitem[{{Zucker} {et~al.}(2020){Zucker}, {Speagle}, {Schlafly}, {Green},
+  {Finkbeiner}, {Goodman}, \& {Alves}}]{2020A&A...633A..51Z}
+{Zucker}, C., {Speagle}, J.~S., {Schlafly}, E.~F., {et~al.} 2020, \aap, 633,
+  A51
+
+\end{thebibliography}
