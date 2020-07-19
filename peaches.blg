@@ -4,52 +4,47 @@ The top-level auxiliary file: peaches.aux
 The style file: aasjournal.bst
 Database file #1: research.bib
 Database file #2: fixed.bib
-Warning--I didn't find a database entry for "2013ApJ...774...22P"
-Warning--I didn't find a database entry for "2009ApJ...699.1584L"
-Warning--I didn't find a database entry for "2013ApJ...765...60G"
-Warning--I didn't find a database entry for "2018A&A...620A.170J"
-Warning--I didn't find a database entry for "2020A&A...635A..48M"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in 2016ascl.soft09017R
-You've used 81 entries,
+You've used 118 entries,
             3222 wiz_defined-function locations,
-            1311 strings with 33103 characters,
-and the built_in function-call counts, 42919 in all, are:
-= -- 3203
-> -- 3974
-< -- 12
-+ -- 1337
-- -- 1472
-* -- 4020
-:= -- 8036
-add.period$ -- 81
-call.type$ -- 81
-change.case$ -- 517
-chr.to.int$ -- 81
-cite$ -- 82
-duplicate$ -- 1472
-empty$ -- 2302
-format.name$ -- 1528
-if$ -- 8434
+            1578 strings with 43007 characters,
+and the built_in function-call counts, 61272 in all, are:
+= -- 4686
+> -- 5497
+< -- 15
++ -- 1850
+- -- 2053
+* -- 5659
+:= -- 11399
+add.period$ -- 118
+call.type$ -- 118
+change.case$ -- 756
+chr.to.int$ -- 118
+cite$ -- 119
+duplicate$ -- 2147
+empty$ -- 3349
+format.name$ -- 2131
+if$ -- 12103
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 78
-newline$ -- 248
-num.names$ -- 326
-pop$ -- 726
+missing$ -- 114
+newline$ -- 359
+num.names$ -- 475
+pop$ -- 1066
 preamble$ -- 1
-purify$ -- 517
+purify$ -- 756
 quote$ -- 0
-skip$ -- 1129
+skip$ -- 1638
 stack$ -- 0
-substring$ -- 1398
-swap$ -- 16
+substring$ -- 2032
+swap$ -- 22
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 729
+type$ -- 1062
 warning$ -- 1
-while$ -- 302
+while$ -- 442
 width$ -- 0
-write$ -- 813
-(There were 6 warnings)
+write$ -- 1183
+(There was 1 warning)

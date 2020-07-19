@@ -1,69 +1,63 @@
-\begin{deluxetable*}{cccccccccc}
+\begin{deluxetable*}{ccccccccc}
     \tabletypesize{\scriptsize}
     \tablecaption{PEACHES Sample \label{tbl:source_list}}
     \tablewidth{\textwidth}
     \tablehead{\colhead{Source} & \colhead{Common names} & \colhead{R.A. (J2000)} & \colhead{Decl. (J2000)} & 
-    \colhead{$v_\text{lsr}$} & \colhead{Ref. ($v_\text{lsr}$)} & \colhead{Beam} & \colhead{Cont. Size} & \colhead{$T_\text{cont}$} & \colhead{$M_\text{dust}$\tablenotemark{a}} \\
+    \colhead{$v_\text{lsr}$} & \colhead{Ref. ($v_\text{lsr}$)} & \colhead{Beam} & \colhead{Cont. Size} & \colhead{$T_\text{b, cont}$} \\
     \colhead{} & \colhead{} & \colhead{(hh:mm:ss)} & \colhead{(dd:mm:ss)} & 
-    \colhead{(km s$^{-1}$)} & \colhead{} & \colhead{(\arcsec)} & \colhead{(\arcsec)} & \colhead{(K)} & \colhead{(M$_{\oplus}$)}}
+    \colhead{(km s$^{-1}$)} & \colhead{} & \colhead{(\arcsec)} & \colhead{(\arcsec)} & \colhead{(K)}}
     \startdata
-    Per-emb 22 B   &                & 03:25:22.35    & 30:45:13.11    & 4.3 & S19    & 0\farcs{64}$\times$0\farcs{39} & 0\farcs{95}$\times$0\farcs{51} & 0.92   & 23.1$\pm$13.0                 \\
-    Per-emb 22 A   &                & 03:25:22.41    & 30:45:13.26    & 4.3 & S19    & 0\farcs{64}$\times$0\farcs{39} & 0\farcs{86}$\times$0\farcs{65} & 1.71   & 96.4$\pm$24.1                 \\
-    L1448 NW       & L1448 IRS 3C   & 03:25:35.67    & 30:45:34.16    & 4.2 & H18    & 0\farcs{64}$\times$0\farcs{39} & 0\farcs{83}$\times$0\farcs{47} & 3.15   & 382.4$\pm$54.9                \\
-    Per-emb 33 B/C &                & 03:25:36.32    & 30:45:15.19    & 5.3 & S19    & 0\farcs{64}$\times$0\farcs{39} & 0\farcs{75}$\times$0\farcs{48} & 5.55   & 226.4$\pm$43.7                \\
-    Per-emb 33 A   &                & 03:25:36.38    & 30:45:14.72    & 5.3 & S19    & 0\farcs{64}$\times$0\farcs{39} & 0\farcs{73}$\times$0\farcs{45} & 10.33  & 294.0$\pm$57.6                \\
-    L1448 IRS 3A   &                & 03:25:36.50    & 30:45:21.90    & 4.6 & H18    & 0\farcs{64}$\times$0\farcs{39} & 0\farcs{85}$\times$0\farcs{59} & 3.21   & 235.1$\pm$47.8                \\
-    Per-emb 26     &                & 03:25:38.88    & 30:44:05.28    & 5.4 & S19    & 0\farcs{64}$\times$0\farcs{39} & 0\farcs{69}$\times$0\farcs{45} & 8.03   & 636.1$\pm$102.5               \\
-    Per-emb 42     &                & 03:25:39.14    & 30:43:57.90    & 5.8 & S19    & 0\farcs{64}$\times$0\farcs{39} & 0\farcs{64}$\times$0\farcs{39} & 0.66   & 116.5$\pm$29.0                \\
-    Per-emb 25     & IRAS 03235$+$3004 & 03:26:37.51    & 30:15:27.81    & 5.5 & S18    & 0\farcs{64}$\times$0\farcs{39} & 0\farcs{69}$\times$0\farcs{41} & 5.27   & 172.6$\pm$65.4                \\
-    Per-emb 17     & L1455 IRS 1, IRAS 03245$+$3002 & 03:27:39.11    & 30:13:02.96    & 6.0 & S19    & 0\farcs{64}$\times$0\farcs{40} & 0\farcs{79}$\times$0\farcs{48} & 2.00   & 199.4$\pm$34.0                \\
-    Per-emb 20     & L1455 IRS 4    & 03:27:43.28    & 30:12:28.88    & 5.3 & S19    & 0\farcs{64}$\times$0\farcs{40} & 1\farcs{29}$\times$0\farcs{78} & 0.14   & $<$31.1$\pm$15.5              \\
-    L1455 IRS 2    &                & 03:27:47.69    & 30:12:04.33    & 5.1 & H18    & 0\farcs{64}$\times$0\farcs{40} & 0\farcs{60}$\times$0\farcs{38} & 0.13   & 23.3$\pm$13.3                 \\
-    Per-emb 35 A   & NGC 1333 IRAS 1 & 03:28:37.10    & 31:13:30.77    & 7.4 & Y20    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{75}$\times$0\farcs{51} & 0.93   & 47.0$\pm$15.7                 \\
-    Per-emb 35 B   & NGC 1333 IRAS 1 & 03:28:37.22    & 31:13:31.74    & 7.3 & Y20    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{78}$\times$0\farcs{53} & 0.75   & 86.8$\pm$20.6                 \\
-    Per-emb 27     & NGC 1333 IRAS 2A & 03:28:55.57    & 31:14:36.97    & 6.5 & Y20    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{93}$\times$0\farcs{66} & 5.79   & 683.7$\pm$93.6                \\
-    EDJ2009-172    &                & 03:28:56.65    & 31:18:35.43    & \nodata & \nodata & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{69}$\times$0\farcs{44} & 0.62   & 196.4$\pm$20.0                \\
-    Per-emb 36     & NGC 1333 IRAS 2B & 03:28:57.37    & 31:14:15.77    & 6.9 & S19    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{73}$\times$0\farcs{46} & 5.56   & 666.5$\pm$93.4                \\
-    Per-emb 54     & NGC 1333 IRAS 6 & 03:29:01.55    & 31:20:20.49    & 7.9 & S19    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{69}$\times$0\farcs{40} & 0.07   & 115.5$\pm$28.2                \\
-    SVS 13B        & NGC 1333 SVS 13B & 03:29:03.08    & 31:15:51.73    & 8.5 & S19    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{87}$\times$0\farcs{68} & 6.64   & 581.1$\pm$98.2                \\
-    SVS 13A2       & VLA 3          & 03:29:03.39    & 31:16:01.58    & 8.4 & S18    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{86}$\times$0\farcs{53} & 0.61   & 102.6$\pm$27.7                \\
-    Per-emb 44     & NGC 1333 SVS 13A & 03:29:03.76    & 31:16:03.70    & 8.7 & S19    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{98}$\times$0\farcs{79} & 6.84   & 674.4$\pm$90.9                \\
-    Per-emb 15     &                & 03:29:04.06    & 31:14:46.23    & 6.8 & S19    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{89}$\times$0\farcs{70} & 0.17   & $<$9.3$\pm$6.6                \\
-    Per-emb 50     & IRAS 03260$+$3111 A & 03:29:07.77    & 31:21:57.11    & 9.3 & Y20    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{73}$\times$0\farcs{44} & 4.13   & 535.2$\pm$91.0                \\
-    Per-emb 12 B   & NGC 1333 IRAS 4A2 & 03:29:10.44    & 31:13:32.08    & 6.9 & S19    & 0\farcs{66}$\times$0\farcs{42} & 1\farcs{33}$\times$0\farcs{81} & 10.04  & 158.1$\pm$38.4                \\
-    Per-emb 12 A   & NGC 1333 IRAS 4A1 & 03:29:10.54    & 31:13:30.93    & 6.9 & S19    & 0\farcs{66}$\times$0\farcs{42} & 1\farcs{11}$\times$0\farcs{98} & 21.85  & 2853.9$\pm$437.0              \\
-    Per-emb 21     & NGC 1333 IRAS 7 SM2 & 03:29:10.67    & 31:18:20.16    & 8.6 & Y20    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{74}$\times$0\farcs{48} & 2.05   & 211.9$\pm$41.1                \\
-    Per-emb 18     & NGC 1333 IRAS 7 SM1 & 03:29:11.27    & 31:18:31.09    & 8.1 & S19    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{84}$\times$0\farcs{73} & 3.42   & 224.8$\pm$47.1                \\
-    Per-emb 13     & NGC 1333 IRAS 4B1 & 03:29:12.02    & 31:13:07.99    & 7.1 & S19    & 0\farcs{66}$\times$0\farcs{42} & 1\farcs{07}$\times$0\farcs{83} & 14.76  & 1271.3$\pm$207.6              \\
-    IRAS4B'        & NGC 1333 IRAS 4B2 & 03:29:12.85    & 31:13:06.87    & 7.1 & S19    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{83}$\times$0\farcs{74} & 7.13   & 603.2$\pm$115.2               \\
-    Per-emb 14     & NGC 1333 IRAS 4C & 03:29:13.55    & 31:13:58.12    & 7.9 & S19    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{79}$\times$0\farcs{50} & 3.05   & 311.2$\pm$58.6                \\
-    EDJ2009-235    &                & 03:29:18.26    & 31:23:19.73    & 7.7 & Y20    & 0\farcs{67}$\times$0\farcs{42} & 0\farcs{66}$\times$0\farcs{44} & 0.26   & 16.6$\pm$10.0                 \\
-    EDJ2009-237    &                & 03:29:18.74    & 31:23:25.24    & \nodata & \nodata & 0\farcs{67}$\times$0\farcs{42} & 0\farcs{67}$\times$0\farcs{42} & 0.12   & \nodata                       \\
-    Per-emb 37     &                & 03:29:18.97    & 31:23:14.28    & 7.5 & Y20    & 0\farcs{67}$\times$0\farcs{42} & 0\farcs{82}$\times$0\farcs{57} & 0.56   & 95.4$\pm$23.9                 \\
-    Per-emb 60     &                & 03:29:20.05    & 31:24:07.35    & \nodata & \nodata & 0\farcs{67}$\times$0\farcs{42} & 0\farcs{73}$\times$0\farcs{47} & 0.08   & $<$13.3$\pm$8.1               \\
-    Per-emb 5      & IRAS 03282$+$3035 & 03:31:20.94    & 30:45:30.24    & 7.3 & S19    & 0\farcs{45}$\times$0\farcs{30} & 0\farcs{56}$\times$0\farcs{41} & 15.29  & 502.3$\pm$86.3                \\
-    Per-emb 2      & IRAS 03292$+$3039 & 03:32:17.92    & 30:49:47.81    & 7.0 & S19    & 0\farcs{45}$\times$0\farcs{30} & 1\farcs{35}$\times$0\farcs{97} & 7.41   & 927.4$\pm$175.6               \\
-    Per-emb 10     & B1-d           & 03:33:16.43    & 31:06:52.01    & 6.4 & S19    & 0\farcs{46}$\times$0\farcs{30} & 0\farcs{49}$\times$0\farcs{32} & 1.82   & 143.4$\pm$30.7                \\
-    Per-emb 40     & B1-a           & 03:33:16.67    & 31:07:54.87    & 7.4 & S19    & 0\farcs{46}$\times$0\farcs{30} & 0\farcs{47}$\times$0\farcs{32} & 1.44   & 72.9$\pm$18.0                 \\
-    Per-emb 29     & B1-c           & 03:33:17.88    & 31:09:31.74    & 6.1 & Y20    & 0\farcs{46}$\times$0\farcs{30} & 0\farcs{56}$\times$0\farcs{39} & 8.41   & 233.5$\pm$43.5                \\
-    B1-b N         &                & 03:33:21.21    & 31:07:43.63    & 6.6 & C16    & 0\farcs{46}$\times$0\farcs{30} & 0\farcs{56}$\times$0\farcs{47} & 7.67   & 483.8$\pm$85.1                \\
-    B1-b S         &                & 03:33:21.36    & 31:07:26.34    & 6.6 & C16    & 0\farcs{46}$\times$0\farcs{30} & 0\farcs{63}$\times$0\farcs{53} & 14.79  & 354.0$\pm$76.5                \\
-    Per-emb 16     &                & 03:43:50.97    & 32:03:24.12    & 8.8 & S19    & 0\farcs{50}$\times$0\farcs{32} & 0\farcs{61}$\times$0\farcs{52} & 0.35   & $<$34.9$\pm$18.1              \\
-    Per-emb 28     &                & 03:43:51.01    & 32:03:08.02    & 8.6 & S19    & 0\farcs{50}$\times$0\farcs{32} & 0\farcs{56}$\times$0\farcs{32} & 1.52   & 23.5$\pm$16.6                 \\
-    Per-emb 1      & HH 211 MMS     & 03:43:56.81    & 32:00:50.16    & 9.4 & S19    & 0\farcs{49}$\times$0\farcs{32} & 0\farcs{68}$\times$0\farcs{48} & 4.57   & 279.6$\pm$50.0                \\
-    Per-emb 11 B   & IC 348 MMS     & 03:43:56.88    & 32:03:03.08    & 9.0 & S19    & 0\farcs{50}$\times$0\farcs{33} & 0\farcs{92}$\times$0\farcs{69} & 0.40   & 21.7$\pm$14.9                 \\
-    Per-emb 11 A   & IC 348 MMS     & 03:43:57.07    & 32:03:04.76    & 9.0 & S19    & 0\farcs{50}$\times$0\farcs{33} & 0\farcs{61}$\times$0\farcs{48} & 10.47  & 413.5$\pm$73.1                \\
-    Per-emb 11 C   & IC 348 MMS     & 03:43:57.70    & 32:03:09.82    & 9.0 & S19    & 0\farcs{50}$\times$0\farcs{33} & 1\farcs{10}$\times$0\farcs{86} & 0.34   & 30.5$\pm$15.4                 \\
-    Per-emb 55     & IRAS 03415$+$3152 & 03:44:43.30    & 32:01:31.22    & 12.0 & S19    & 0\farcs{50}$\times$0\farcs{32} & 0\farcs{49}$\times$0\farcs{33} & 0.32   & 56.1$\pm$12.9                 \\
-    Per-emb 8      &                & 03:44:43.98    & 32:01:35.19    & 11.0 & S19    & 0\farcs{50}$\times$0\farcs{32} & 0\farcs{49}$\times$0\farcs{36} & 8.51   & 237.9$\pm$47.5                \\
-    Per-emb 53     & B5 IRS 1       & 03:47:41.59    & 32:51:43.62    & 10.2 & Y20    & 0\farcs{51}$\times$0\farcs{33} & 0\farcs{58}$\times$0\farcs{42} & 1.55   & 56.6$\pm$22.6                 \\
+    Per-emb 22 B   &                & 03:25:22.35    & 30:45:13.11    & 4.3 & S19    & 0\farcs{64}$\times$0\farcs{39} & 0\farcs{95}$\times$0\farcs{51} & 0.92  \\
+    Per-emb 22 A   &                & 03:25:22.41    & 30:45:13.26    & 4.3 & S19    & 0\farcs{64}$\times$0\farcs{39} & 0\farcs{86}$\times$0\farcs{65} & 1.71  \\
+    L1448 NW       & L1448 IRS 3C   & 03:25:35.67    & 30:45:34.16    & 4.2 & H18    & 0\farcs{64}$\times$0\farcs{39} & 0\farcs{83}$\times$0\farcs{47} & 3.15  \\
+    Per-emb 33 B/C &                & 03:25:36.32    & 30:45:15.19    & 5.3 & S19    & 0\farcs{64}$\times$0\farcs{39} & 0\farcs{75}$\times$0\farcs{48} & 5.55  \\
+    Per-emb 33 A   &                & 03:25:36.38    & 30:45:14.72    & 5.3 & S19    & 0\farcs{64}$\times$0\farcs{39} & 0\farcs{73}$\times$0\farcs{45} & 10.33 \\
+    L1448 IRS 3A   &                & 03:25:36.50    & 30:45:21.90    & 4.6 & H18    & 0\farcs{64}$\times$0\farcs{39} & 0\farcs{85}$\times$0\farcs{59} & 3.21  \\
+    Per-emb 26     &                & 03:25:38.88    & 30:44:05.28    & 5.4 & S19    & 0\farcs{64}$\times$0\farcs{39} & 0\farcs{69}$\times$0\farcs{45} & 8.03  \\
+    Per-emb 42     &                & 03:25:39.14    & 30:43:57.90    & 5.8 & S19    & 0\farcs{64}$\times$0\farcs{39} & 0\farcs{64}$\times$0\farcs{39} & 0.66  \\
+    Per-emb 25     & IRAS 03235$+$3004 & 03:26:37.51    & 30:15:27.81    & 5.5 & S18    & 0\farcs{64}$\times$0\farcs{39} & 0\farcs{69}$\times$0\farcs{41} & 5.27  \\
+    Per-emb 17     & L1455 IRS 1, IRAS 03245$+$3002 & 03:27:39.11    & 30:13:02.96    & 6.0 & S19    & 0\farcs{64}$\times$0\farcs{40} & 0\farcs{79}$\times$0\farcs{48} & 2.00  \\
+    Per-emb 20     & L1455 IRS 4    & 03:27:43.28    & 30:12:28.88    & 5.3 & S19    & 0\farcs{64}$\times$0\farcs{40} & 1\farcs{29}$\times$0\farcs{78} & 0.14  \\
+    L1455 IRS 2    &                & 03:27:47.69    & 30:12:04.33    & 5.1 & H18    & 0\farcs{64}$\times$0\farcs{40} & 0\farcs{60}$\times$0\farcs{38} & 0.13  \\
+    Per-emb 35 A   & NGC 1333 IRAS 1 & 03:28:37.10    & 31:13:30.77    & 7.4 & this study & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{75}$\times$0\farcs{51} & 0.93  \\
+    Per-emb 35 B   & NGC 1333 IRAS 1 & 03:28:37.22    & 31:13:31.74    & 7.3 & this study & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{78}$\times$0\farcs{53} & 0.75  \\
+    Per-emb 27     & NGC 1333 IRAS 2A & 03:28:55.57    & 31:14:36.97    & 6.5 & this study & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{93}$\times$0\farcs{66} & 5.79  \\
+    EDJ2009-172    &                & 03:28:56.65    & 31:18:35.43    & \nodata & \nodata & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{69}$\times$0\farcs{44} & 0.62  \\
+    Per-emb 36     & NGC 1333 IRAS 2B & 03:28:57.37    & 31:14:15.77    & 6.9 & S19    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{73}$\times$0\farcs{46} & 5.56  \\
+    Per-emb 54     & NGC 1333 IRAS 6 & 03:29:01.55    & 31:20:20.49    & 7.9 & S19    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{69}$\times$0\farcs{40} & 0.07  \\
+    SVS 13B        & NGC 1333 SVS 13B & 03:29:03.08    & 31:15:51.73    & 8.5 & S19    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{87}$\times$0\farcs{68} & 6.64  \\
+    SVS 13A2       & VLA 3          & 03:29:03.39    & 31:16:01.58    & 8.4 & S18    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{86}$\times$0\farcs{53} & 0.61  \\
+    Per-emb 44     & NGC 1333 SVS 13A & 03:29:03.76    & 31:16:03.70    & 8.7 & S19    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{98}$\times$0\farcs{79} & 6.84  \\
+    Per-emb 15     &                & 03:29:04.06    & 31:14:46.23    & 6.8 & S19    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{89}$\times$0\farcs{70} & 0.17  \\
+    Per-emb 50     & IRAS 03260$+$3111 A & 03:29:07.77    & 31:21:57.11    & 9.3 & this study & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{73}$\times$0\farcs{44} & 4.13  \\
+    Per-emb 12 B   & NGC 1333 IRAS 4A2 & 03:29:10.44    & 31:13:32.08    & 6.9 & S19    & 0\farcs{66}$\times$0\farcs{42} & 1\farcs{33}$\times$0\farcs{81} & 10.04 \\
+    Per-emb 12 A   & NGC 1333 IRAS 4A1 & 03:29:10.54    & 31:13:30.93    & 6.9 & S19    & 0\farcs{66}$\times$0\farcs{42} & 1\farcs{11}$\times$0\farcs{98} & 21.85 \\
+    Per-emb 21     & NGC 1333 IRAS 7 SM2 & 03:29:10.67    & 31:18:20.16    & 8.6 & this study & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{74}$\times$0\farcs{48} & 2.05  \\
+    Per-emb 18     & NGC 1333 IRAS 7 SM1 & 03:29:11.27    & 31:18:31.09    & 8.1 & S19    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{84}$\times$0\farcs{73} & 3.42  \\
+    Per-emb 13     & NGC 1333 IRAS 4B1 & 03:29:12.02    & 31:13:07.99    & 7.1 & S19    & 0\farcs{66}$\times$0\farcs{42} & 1\farcs{07}$\times$0\farcs{83} & 14.76 \\
+    IRAS4B'        & NGC 1333 IRAS 4B2 & 03:29:12.85    & 31:13:06.87    & 7.1 & S19    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{83}$\times$0\farcs{74} & 7.13  \\
+    Per-emb 14     & NGC 1333 IRAS 4C & 03:29:13.55    & 31:13:58.12    & 7.9 & S19    & 0\farcs{66}$\times$0\farcs{42} & 0\farcs{79}$\times$0\farcs{50} & 3.05  \\
+    EDJ2009-235    &                & 03:29:18.26    & 31:23:19.73    & 7.7 & this study & 0\farcs{67}$\times$0\farcs{42} & 0\farcs{66}$\times$0\farcs{44} & 0.26  \\
+    EDJ2009-237    &                & 03:29:18.74    & 31:23:25.24    & \nodata & \nodata & 0\farcs{67}$\times$0\farcs{42} & 0\farcs{67}$\times$0\farcs{42} & 0.12  \\
+    Per-emb 37     &                & 03:29:18.97    & 31:23:14.28    & 7.5 & this study & 0\farcs{67}$\times$0\farcs{42} & 0\farcs{82}$\times$0\farcs{57} & 0.56  \\
+    Per-emb 60     &                & 03:29:20.05    & 31:24:07.35    & \nodata & \nodata & 0\farcs{67}$\times$0\farcs{42} & 0\farcs{73}$\times$0\farcs{47} & 0.08  \\
+    Per-emb 5      & IRAS 03282$+$3035 & 03:31:20.94    & 30:45:30.24    & 7.3 & S19    & 0\farcs{45}$\times$0\farcs{30} & 0\farcs{56}$\times$0\farcs{41} & 15.29 \\
+    Per-emb 2      & IRAS 03292$+$3039 & 03:32:17.92    & 30:49:47.81    & 7.0 & S19    & 0\farcs{45}$\times$0\farcs{30} & 1\farcs{35}$\times$0\farcs{97} & 7.41  \\
+    Per-emb 10     & B1-d           & 03:33:16.43    & 31:06:52.01    & 6.4 & S19    & 0\farcs{46}$\times$0\farcs{30} & 0\farcs{49}$\times$0\farcs{32} & 1.82  \\
+    Per-emb 40     & B1-a           & 03:33:16.67    & 31:07:54.87    & 7.4 & S19    & 0\farcs{46}$\times$0\farcs{30} & 0\farcs{47}$\times$0\farcs{32} & 1.44  \\
+    Per-emb 29     & B1-c           & 03:33:17.88    & 31:09:31.74    & 6.1 & this study & 0\farcs{46}$\times$0\farcs{30} & 0\farcs{56}$\times$0\farcs{39} & 8.41  \\
+    B1-b N         &                & 03:33:21.21    & 31:07:43.63    & 6.6 & C16    & 0\farcs{46}$\times$0\farcs{30} & 0\farcs{56}$\times$0\farcs{47} & 7.67  \\
+    B1-b S         &                & 03:33:21.36    & 31:07:26.34    & 6.6 & C16    & 0\farcs{46}$\times$0\farcs{30} & 0\farcs{63}$\times$0\farcs{53} & 14.79 \\
+    Per-emb 16     &                & 03:43:50.97    & 32:03:24.12    & 8.8 & S19    & 0\farcs{50}$\times$0\farcs{32} & 0\farcs{61}$\times$0\farcs{52} & 0.35  \\
+    Per-emb 28     &                & 03:43:51.01    & 32:03:08.02    & 8.6 & S19    & 0\farcs{50}$\times$0\farcs{32} & 0\farcs{56}$\times$0\farcs{32} & 1.52  \\
+    Per-emb 1      & HH 211 MMS     & 03:43:56.81    & 32:00:50.16    & 9.4 & S19    & 0\farcs{49}$\times$0\farcs{32} & 0\farcs{68}$\times$0\farcs{48} & 4.57  \\
+    Per-emb 11 B   & IC 348 MMS     & 03:43:56.88    & 32:03:03.08    & 9.0 & S19    & 0\farcs{50}$\times$0\farcs{33} & 0\farcs{92}$\times$0\farcs{69} & 0.40  \\
+    Per-emb 11 A   & IC 348 MMS     & 03:43:57.07    & 32:03:04.76    & 9.0 & S19    & 0\farcs{50}$\times$0\farcs{33} & 0\farcs{61}$\times$0\farcs{48} & 10.47 \\
+    Per-emb 11 C   & IC 348 MMS     & 03:43:57.70    & 32:03:09.82    & 9.0 & S19    & 0\farcs{50}$\times$0\farcs{33} & 1\farcs{10}$\times$0\farcs{86} & 0.34  \\
+    Per-emb 55     & IRAS 03415$+$3152 & 03:44:43.30    & 32:01:31.22    & 12.0 & S19    & 0\farcs{50}$\times$0\farcs{32} & 0\farcs{49}$\times$0\farcs{33} & 0.32  \\
+    Per-emb 8      &                & 03:44:43.98    & 32:01:35.19    & 11.0 & S19    & 0\farcs{50}$\times$0\farcs{32} & 0\farcs{49}$\times$0\farcs{36} & 8.51  \\
+    Per-emb 53     & B5 IRS 1       & 03:47:41.59    & 32:51:43.62    & 10.2 & this study & 0\farcs{51}$\times$0\farcs{33} & 0\farcs{58}$\times$0\farcs{42} & 1.55  \\
     \enddata
-    \tablerefs{C16$=${\citet{2016A\string&A...586A..44C}}; H18$=${\citet{2018ApJS..236...52H}}; 
-               S18$=${\citet{2018ApJS..237...22S}}; S19$=${\citet{2019ApJS..245...21S}}; Y20$=$this study.}
-    \tablenotetext{a}{The dust mass is taken from \citet{2020arXiv200602812T}.}
-    \tablecomments{The dust masses for L1455 IRS 2, EDJ2009-235, EDJ2009-172 are taken from \citet{2018ApJS..238...19T}
-                   by applying a gas-to-dust ratio of 100.  The dust mass of unresolved multiple systems, such as L1448 NW, Per-emb 33 B/C,
-                   Per-emb 17, Per-emb 44, Per-emb 27, Per-emb 36, and Per-emb 55, are taken to be the total mass of multiple protostars.
-                   The dust mass of Per-emb 40 is assumed to be the dust mass of Per-emb 40 A
-                   as the dust mass of Per-emb 40 B is an upper limit.}
+    \tablerefs{C16$=${\citet{2016AA...586A..44C}}; H18$=${\citet{2018ApJS..236...52H}}; 
+               S18$=${\citet{2018ApJS..237...22S}}; S19$=${\citet{2019ApJS..245...21S}}.}
 \end{deluxetable*}
